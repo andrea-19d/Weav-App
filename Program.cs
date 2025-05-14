@@ -1,7 +1,21 @@
+using Google.Protobuf.WellKnownTypes;
+using Weav_App.Config;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSession(options =>
+    {
+        options.IdleTimeout = TimeSpan.FromSeconds(60);
+        options.Cookie.HttpOnly = true;
+        options.Cookie.IsEssential = true;
+    }
+);
+
+builder.Services.Configure<FirebaseSettings>(
+    builder.Configuration.GetSection("Firebase"));
 
 var app = builder.Build();
 
@@ -13,6 +27,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseSession();
 app.UseHttpsRedirection();
 app.UseRouting();
 

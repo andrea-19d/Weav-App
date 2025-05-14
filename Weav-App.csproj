@@ -7,4 +7,10 @@
         <RootNamespace>Weav_App</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="FirebaseAdmin" Version="3.2.0" />
+      <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+      <PackageReference Include="Google.Cloud.Firestore" Version="3.10.0" />
+    </ItemGroup>
+
 </Project>
