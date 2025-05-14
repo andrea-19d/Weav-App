@@ -1,4 +1,4 @@
-1. a social media website like Instagram for ppl
+1. a e-commerce app 
 2. develop it how you can using patterns
 3. work with braches 
 4. utilizati Chat GPT (*optional dar util)
