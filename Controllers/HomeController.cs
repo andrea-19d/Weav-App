@@ -2,7 +2,6 @@ using System.Diagnostics;
 using Firebase.Auth;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Weav_App.Config;
 using Weav_App.Models;
 
 namespace Weav_App.Controllers;
@@ -10,13 +9,10 @@ namespace Weav_App.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly FirebaseAuthProvider _authProvider;
 
-    public HomeController(ILogger<HomeController> logger, IOptions<FirebaseSettings> options)
+    public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-        string apiKey = options.Value.ApiKey;
-        _authProvider = new FirebaseAuthProvider(new FirebaseConfig(apiKey));
     }
 
     public IActionResult Index()
@@ -25,11 +21,6 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    public IActionResult About()
     {
         return View();
     }
