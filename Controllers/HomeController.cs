@@ -1,5 +1,4 @@
 using System.Diagnostics;
-using Firebase.Auth;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Weav_App.Models;
