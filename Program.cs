@@ -1,23 +1,33 @@
-using Google.Protobuf.WellKnownTypes;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Weav_App.Data;
+using Weav_App.Helpers;
+using Weav_App.Services.Interface;
+using Weav_App.Services.UserServices;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor();
 
-builder.Services.AddSession(options =>
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
     {
-        options.IdleTimeout = TimeSpan.FromSeconds(60);
-        options.Cookie.HttpOnly = true;
-        options.Cookie.IsEssential = true;
-    }
-);
+        options.LoginPath = "/Login"; // Redirect to login page for unauthorized users
+        options.AccessDeniedPath = "/AccessDenied"; // Redirect to access denied page for unauthorized actions
+        options.ExpireTimeSpan = TimeSpan.FromDays(30); // Cookie expiration time
+        options.SlidingExpiration = true; // Extends the cookie's expiration time with user activity
+    });
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDbContext<UserDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Weav-App")));
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 
 var app = builder.Build();
 
@@ -29,7 +39,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseSession();
 app.UseHttpsRedirection();
 app.UseRouting();
 

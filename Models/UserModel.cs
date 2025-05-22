@@ -1,35 +1,46 @@
-﻿namespace Weav_App.Models;
+﻿    using Weav_App.DTOs;
 
-public class UserModel
-{
-    public string UserName { get; set; }
-    public string Name { get; set; }
-    public List<string> Roles { get; set; }
-    public bool IsActive { get; set; }
-    public string? Token { get; set; }
-    public string Password { get; set; }
-
-    public UserModel(string userName, string name, List<string> roles, bool isActive, string? token, string password)
-    {   
-        UserName = userName;
-        Name = name;
-        Roles = roles;
-        IsActive = isActive;
-        Token = token;
-        Password = password;
-    }
-
-    public class LogInUser
+    namespace Weav_App.Models
     {
-        public string UserName { get; set; } = "";
-        public string Password { get; set; } = "";
-    }
+        public class UserModel
+        {
+            public string UserName { get; set; }
+            public string Email { get; set; }
+            public string Password { get; set; }
+            public string UserIP { get; set; }
+            public DateTime RegisterDate { get; set; }
+            public DateTime LastLogin { get; set; }
+            public byte[] UserPhoto { get; set; }
+            public UserLevel Level {get; set;} 
+            public UserModel(string userName, string email, string userIP, DateTime registerDate, DateTime lastLogin, string password, byte[] userPhoto, UserLevel level)
+            {   
+                UserName = userName;
+                Email = email;
+                UserIP = userIP;
+                RegisterDate = registerDate;
+                LastLogin = lastLogin;
+                Password = password;
+                UserPhoto = userPhoto;
+                Level = level;
+            }
+        }
 
-    public class RegisterUser
-    {
-        public string Name { get; set; } = "";
-        public string UserName { get; set; } = "";
-        public string Password { get; set; } = "";
-        public List<string> Roles { get; set; }
+        public class LogInUser
+        {
+            public string UserName { get; set; } = "";
+            public string Password { get; set; } = "";
+            public bool RememberMe { get; set; } = false;
+        }
+
+        public class RegisterUser
+        {
+            public string UserName { get; set; } = "";
+            public string Password { get; set; } = "";
+            public string Email { get; set; } = "";
+            public string? UserIP { get; set; }
+            public byte[]? UserPhoto { get; set; }
+            public UserLevel Level  { get; set; } 
+            public string RePassword {get; set;} = "";
+            public bool AgreeToTerms { get; set; } =  false;
+        }
     }
-}

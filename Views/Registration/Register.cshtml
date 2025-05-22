@@ -1,0 +1,78 @@
+﻿@model Weav_App.Models.RegisterUser
+
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "_MinimalLayout";
+}
+
+<!-- Sign up form -->
+<section class="signup">
+    <div class="container">
+        <div class="signup-content">
+            <div class="signup-form">
+                <h2 class="form-title">Sign Up</h2>
+
+                <!-- Display Validation Errors -->
+                <form asp-action="Register" method="post" class="register-form" id="register-form">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <!-- Username -->
+                    <div class="form-group">
+                        <label asp-for="UserName" class="form-label">
+                            <i class="zmdi zmdi-account material-icons-name"></i>
+                        </label>
+                        <input asp-for="UserName" class="form-control" placeholder="Your Name" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label asp-for="Email" class="form-label">
+                            <i class="zmdi zmdi-email"></i>
+                        </label>
+                        <input asp-for="Email" class="form-control" placeholder="Your Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+                        <label asp-for="Password" class="form-label">
+                            <i class="zmdi zmdi-lock"></i>
+                        </label>
+                        <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <!-- Confirm Password -->
+                    <div class="form-group">
+                        <label asp-for="RePassword" class="form-label">
+                            <i class="zmdi zmdi-lock-outline"></i>
+                        </label>
+                        <input asp-for="RePassword" type="password" class="form-control" placeholder="Repeat Your Password" />
+                        <span asp-validation-for="RePassword" class="text-danger"></span>
+                    </div>
+
+                    <!-- Terms Checkbox -->
+                    <div class="form-group">
+                        <input type="checkbox" asp-for="AgreeToTerms" id="agree-term" class="agree-term" />
+                        <label for="agree-term" class="label-agree-term">
+                            <span><span></span></span>I agree to all statements in
+                            <a href="#" class="term-service">Terms of Service</a>
+                        </label>
+                        <span asp-validation-for="AgreeToTerms" class="text-danger"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group form-button">
+                        <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="signup-image">
+                <figure><img src="~/images/signup-image.jpg" alt="Sign Up Image"></figure>
+                <a asp-controller="Login" asp-action="Login" class="signup-image-link">I am already a member</a>
+            </div>
+        </div>
+    </div>
+</section>
