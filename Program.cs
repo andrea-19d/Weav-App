@@ -27,6 +27,7 @@ builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Weav-App")));
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddSingleton<CartService>();
 
 
 var app = builder.Build();

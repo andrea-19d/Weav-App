@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Weav_App.DTOs;
 using Weav_App.DTOs.Entities.User;
 using Weav_App.Models;
@@ -31,10 +32,17 @@ namespace Weav_App.Helpers
                 .ForCtorParam("level", opt => opt.MapFrom(src => src.Level != null ? src.Level : UserLevel.User));
             
             // Mapping between LoginUserDTO and LogInUser
-            CreateMap<LogInUser,LoginUserDTO>()
+            CreateMap<LogInUser, LoginUserDTO>()
                 .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.UserName))
                 .ForMember(dest => dest.Password, opt => opt.MapFrom(src => src.Password))
-                .ForMember(dest => dest.RememberMe, opt => opt.MapFrom(src => true));
+                .ForMember(dest => dest.RememberMe, opt => opt.MapFrom(src => true))
+                .ForMember(dest => dest.Level, opt => opt.MapFrom(src => src.Level));
+
+            CreateMap<UserDbTable, LoginUserDTO>()
+                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.Username))
+                .ForMember(dest => dest.Password, opt => opt.MapFrom(src => src.PasswordHash))
+                .ForMember(dest => dest.Level, opt => opt.MapFrom(src => src.Level));
+
         }
     }
 }

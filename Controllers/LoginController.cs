@@ -39,23 +39,32 @@ public class LoginController : Controller
         }
 
         var newUser = _mapper.Map<LoginUserDTO>(model);
-        var user = await _userService.LoginUserAsync(newUser, model.Password);
+        var user = await _userService.LoginUserAsync(newUser, newUser.Password);
+        var userLevel = user.level.ToString();
+        Console.WriteLine($"{userLevel}");
+        Console.WriteLine($"Logged user: {model.UserName}");
         
-        if (user != null)
+        if (user.succes != null)
         {
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, model.UserName),
-                // Add other claims as needed
+                new Claim("UserLevel", user.level.ToString()) 
             };
+            Console.WriteLine($"Logging in user with level: {user.level}");
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            
+            var identity = new ClaimsIdentity(claims, "login");
+            await HttpContext.SignInAsync(new ClaimsPrincipal(identity));
 
             var authProperties = new AuthenticationProperties
             {
                 IsPersistent = model.RememberMe,
                 ExpiresUtc = model.RememberMe ? DateTimeOffset.UtcNow.AddDays(30) : (DateTimeOffset?)null
             };
+            
+            
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(claimsIdentity), authProperties);
@@ -73,7 +82,4 @@ public class LoginController : Controller
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
         return RedirectToAction("Login", "Login");
     }
-
-
-
 }

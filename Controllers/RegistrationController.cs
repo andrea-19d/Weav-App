@@ -44,7 +44,7 @@ public class RegistrationController : Controller
             // Perform registration via the user service
             var result = await _userService.RegisterUserAsync(registerUserDto);
 
-            if (result)
+            if (result.success)
             {
                 // Redirect to a confirmation page or login page
                 return RedirectToAction("Login", "Login");
@@ -52,7 +52,7 @@ public class RegistrationController : Controller
             else
             {
                 // Add an error message to the model state
-                ModelState.AddModelError("", "Registration failed. Please try again.");
+                ModelState.AddModelError("", $"Registration failed: {result.error}");
                 return View(model);
             }
         }

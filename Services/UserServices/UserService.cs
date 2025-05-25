@@ -20,44 +20,55 @@ public class UserService : IUserService
         _httpContextAccessor = httpContextAccessor;
     }
 
-    public async Task<bool> RegisterUserAsync(RegisterUserDTO registerUserDto)
+    public async Task<(bool success, string? error)> RegisterUserAsync(RegisterUserDTO registerUserDto)
     {
         var userEntity = _mapper.Map<UserDbTable>(registerUserDto);
-
-        if (registerUserDto.Username == userEntity.Username)
+        var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == registerUserDto.Username);
+        
+        if (existingUser != null && existingUser.Username == userEntity.Username)
         {
-            return false;
+            return (false, "Already exists such username");
         }
         
         var ip = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString();
         userEntity.UserIP = ip ?? "Unknown";
-        userEntity.Level = UserLevel.User;
+        userEntity.Level = UserLevel.Admin;
         
         try
         {
             _context.Users.Add(userEntity);
             await _context.SaveChangesAsync();
-            return true;
+            return (true, null);
         }
-        catch
+        catch  (Exception ex)
         {
-            return false;
+            return (false, ex.Message);
         }
     }
 
-    public async Task<bool> LoginUserAsync(LoginUserDTO loginUserDto, string password)
+    public async Task<(bool succes, UserLevel level)> LoginUserAsync(LoginUserDTO loginUserDto, string password)
     {
-        var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == loginUserDto.UserName);
+        var user = await _context.Users
+            .Where(u => u.Username == loginUserDto.UserName)
+            .Select(u => new { u.Username, u.PasswordHash, u.Level })
+            .FirstOrDefaultAsync();
         
         if (user == null)
         {
-            return false;
+            Console.WriteLine("user not found ");
+            return (false, UserLevel.Guest);
         }
 
         // TO DO: 
         // Verify password (assuming stored password is hashed)
         var isPasswordValid = VerifyPassword(password, user.PasswordHash);
-        return isPasswordValid;
+        if (!isPasswordValid)
+            return (false, UserLevel.Guest);
+        
+        
+        Console.WriteLine($"LoginUserAsync: {user.Level}");
+        
+        return (isPasswordValid, user.Level);
     }
 
     public bool VerifyPassword(string password, string userPasswordHash)
