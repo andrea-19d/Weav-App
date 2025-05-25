@@ -1,0 +1,15 @@
+﻿@model Product
+
+<div class="card">
+    <img src="@Model.ImageUrl" class="card-img-top" alt="@Model.Name">
+    <div class="card-body text-center">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">$@Model.Price</p>
+        <form method="post" asp-controller="Cart" asp-action="AddToCart">
+            <input type="hidden" name="productId" value="@Model.Id" />
+            <input type="hidden" name="productName" value="@Model.Name" />
+            <input type="hidden" name="productPrice" value="@Model.Price" />
+            <button class="btn btn-primary">Add to Cart</button>
+        </form>
+    </div>
+</div>

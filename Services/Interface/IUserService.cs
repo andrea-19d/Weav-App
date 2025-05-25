@@ -1,10 +1,11 @@
-﻿using Weav_App.DTOs.Entities.User;
+﻿using Weav_App.DTOs;
+using Weav_App.DTOs.Entities.User;
 
 namespace Weav_App.Services.Interface;
 
 public interface IUserService
 {
-    Task<bool> RegisterUserAsync(RegisterUserDTO registerUserDto);
+    Task<(bool success, string? error)> RegisterUserAsync(RegisterUserDTO registerUserDto);
     
-    Task<bool> LoginUserAsync(LoginUserDTO loginUserDto, string password);
+    Task<(bool succes, UserLevel level)> LoginUserAsync(LoginUserDTO loginUserDto, string password);
 }
