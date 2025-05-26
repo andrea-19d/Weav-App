@@ -25,7 +25,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Weav-App")));
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserService, AuthService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddSingleton<CartService>();
 

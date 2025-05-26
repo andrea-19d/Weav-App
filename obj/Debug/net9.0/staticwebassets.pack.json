@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\Weav-App.zvm2juqxo1.bundle.scp.css"
     },
     {
+      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\products.js",
+      "PackagePath": "staticwebassets\\Admin\\products.js"
+    },
+    {
+      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\script.js",
+      "PackagePath": "staticwebassets\\Admin\\script.js"
+    },
+    {
+      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\style.css"
+    },
+    {
       "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\account-style.css",
       "PackagePath": "staticwebassets\\css\\account-style.css"
     },

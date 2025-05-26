@@ -247,7 +247,6 @@ A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\j2jf5o2h
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\uzxg9bq0pw-od80b6cznv.gz
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\9lsitz781z-ik9q8jes66.gz
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\cpn256yw83-59cqnfnpsu.gz
-A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\0tyhegzk5i-82vtklac52.gz
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\2mdfu14xok-od80b6cznv.gz
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\3tlu46o6nk-ouwampjgc7.gz
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\af14v78sne-61n19gt1b8.gz
@@ -375,3 +374,7 @@ A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\bin\Debug\net9.0\runtimes\unix\lib\n
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
 A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\0tyhegzk5i-7c6f1z4axi.gz
+A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\62hl5qurdm-lkwvqefdzp.gz
+A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\3jec9hjl06-nchd7p5dw1.gz
+A:\PC\ANDRE\RiderProjects\Weav-App\Weav-App\obj\Debug\net9.0\compressed\rrjrx6yelk-9fc5gt0kiu.gz

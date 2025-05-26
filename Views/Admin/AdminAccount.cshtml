@@ -1,0 +1,307 @@
+﻿@{
+    ViewData["Title"] = "Account Page";
+    Layout = "Admin/_AdminLayout";
+}
+<!-- Main Content -->
+<div class="col-md-9 col-lg-10">
+    <div class="main-content p-4">
+        <div class="row">
+            <!-- Profile Overview -->
+            <div class="col-lg-4 mb-4">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <iconify-icon icon="mdi:account"></iconify-icon>
+                            <div class="avatar-upload">
+                                <iconify-icon icon="mdi:camera"
+                                              style="font-size: 16px; color: #fff;"></iconify-icon>
+                                <input type="file" class="d-none" accept="image/*">
+                            </div>
+                        </div>
+                        <div class="profile-name">John Anderson</div>
+                        <div class="profile-role">Super Administrator</div>
+
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">1,284</span>
+                                <span class="stat-label">Orders</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">156</span>
+                                <span class="stat-label">Products</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">892</span>
+                                <span class="stat-label">Customers</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <h6 class="mb-3">Recent Activity</h6>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <iconify-icon icon="mdi:package-variant"></iconify-icon>
+                            </div>
+                            <div class="activity-content">
+                                <div class="activity-title">Added new product</div>
+                                <div class="activity-time">2 hours ago</div>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <iconify-icon icon="mdi:cart-outline"></iconify-icon>
+                            </div>
+                            <div class="activity-content">
+                                <div class="activity-title">Processed 15 orders</div>
+                                <div class="activity-time">5 hours ago</div>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <iconify-icon icon="mdi:account-plus"></iconify-icon>
+                            </div>
+                            <div class="activity-content">
+                                <div class="activity-title">New customer registered</div>
+                                <div class="activity-time">1 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile Forms -->
+            <div class="col-lg-8">
+                <!-- Personal Information -->
+                <div class="profile-card">
+                    <div class="form-section">
+                        <h3 class="section-title">Personal Information</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="firstName" value="John"
+                                               required>
+                                        <label for="firstName">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="lastName" value="Anderson"
+                                               required>
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email"
+                                               value="john.anderson@foodmart.com" required>
+                                        <label for="email">Email Address</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="phone"
+                                               value="+1 (555) 123-4567">
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-floating">
+                                            <textarea class="form-control" id="bio" style="height: 100px;"
+                                                      placeholder="Tell us about yourself...">Experienced e-commerce administrator with over 5 years in retail management and customer service excellence.</textarea>
+                                    <label for="bio">Bio</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="timezone">
+                                            <option selected>UTC-5 (Eastern Time)</option>
+                                            <option>UTC-8 (Pacific Time)</option>
+                                            <option>UTC+0 (GMT)</option>
+                                        </select>
+                                        <label for="timezone">Timezone</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="language">
+                                            <option selected>English</option>
+                                            <option>Spanish</option>
+                                            <option>French</option>
+                                        </select>
+                                        <label for="language">Language</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <iconify-icon icon="mdi:content-save" class="me-2"></iconify-icon>
+                                Save Changes
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Security Settings -->
+                <div class="profile-card">
+                    <div class="form-section">
+                        <h3 class="section-title">Security Settings</h3>
+
+                        <div class="security-setting">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-1">Change Password</h6>
+                                    <small class="text-muted">Update your account password</small>
+                                </div>
+                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#passwordModal">
+                                    Change
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="security-setting">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-1">Two-Factor Authentication</h6>
+                                    <small class="text-muted">Add an extra layer of security</small>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="twoFactor" checked>
+                                    <label class="form-check-label" for="twoFactor"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="security-setting">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-1">Login Notifications</h6>
+                                    <small class="text-muted">Get notified of new login attempts</small>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="loginNotif" checked>
+                                    <label class="form-check-label" for="loginNotif"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="security-setting">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="mb-1">Session Timeout</h6>
+                                    <small class="text-muted">Automatically logout after inactivity</small>
+                                </div>
+                                <select class="form-select" style="width: auto;">
+                                    <option>30 minutes</option>
+                                    <option selected>1 hour</option>
+                                    <option>2 hours</option>
+                                    <option>Never</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notification Preferences -->
+                <div class="profile-card">
+                    <div class="form-section">
+                        <h3 class="section-title">Notification Preferences</h3>
+
+                        <div class="notification-item">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">New Orders</h6>
+                                <small class="text-muted">Get notified when new orders are placed</small>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="newOrders" checked>
+                            </div>
+                        </div>
+
+                        <div class="notification-item">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">Low Stock Alerts</h6>
+                                <small class="text-muted">Alert when products are running low</small>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="lowStock" checked>
+                            </div>
+                        </div>
+
+                        <div class="notification-item">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">Customer Messages</h6>
+                                <small class="text-muted">Notifications for customer inquiries</small>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="customerMsg" checked>
+                            </div>
+                        </div>
+
+                        <div class="notification-item">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">Weekly Reports</h6>
+                                <small class="text-muted">Receive weekly sales and performance reports</small>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="weeklyReports">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-success mt-3">
+                            <iconify-icon icon="mdi:bell-check" class="me-2"></iconify-icon>
+                            Save Preferences
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Password Change Modal -->
+<div class="modal fade" id="passwordModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border-radius: 16px; border: none; box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);">
+            <div class="modal-header" style="border-bottom: 1px solid #FBFBFB;">
+                <h5 class="modal-title">Change Password</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-4">
+                <form>
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="currentPassword" required>
+                            <label for="currentPassword">Current Password</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="newPassword" required>
+                            <label for="newPassword">New Password</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="confirmPassword" required>
+                            <label for="confirmPassword">Confirm New Password</label>
+                        </div>
+                    </div>
+                    <div class="password-strength mb-3">
+                        <small class="text-muted">Password must be at least 8 characters with uppercase, lowercase, and
+                            numbers.</small>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer" style="border-top: 1px solid #FBFBFB;">
+                <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Update Password</button>
+            </div>
+        </div>
+    </div>
+</div>
+    

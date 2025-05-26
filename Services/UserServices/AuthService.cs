@@ -7,13 +7,13 @@ using Weav_App.Services.Interface;
 
 namespace Weav_App.Services.UserServices;
 
-public class UserService : IUserService
+public class AuthService : IUserService
 {
     private readonly UserDbContext _context;
     private readonly IMapper _mapper;
     private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public UserService(UserDbContext context, IMapper mapper, IHttpContextAccessor httpContextAccessor)
+    public AuthService(UserDbContext context, IMapper mapper, IHttpContextAccessor httpContextAccessor)
     {
         _context = context;
         _mapper = mapper;
