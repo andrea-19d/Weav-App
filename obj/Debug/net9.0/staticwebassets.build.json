@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Pja1v7wCU6eAvGs16ejYFzWESVKIMzj8DxNWig3DifM=",
+  "Hash": "jeJbUp+nLJcxS7K2CVFaRyHqQCPeE6lOiDWOU4OBi5Q=",
   "Source": "Weav-App",
   "BasePath": "_content/Weav-App",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-82vtklac52.gz",
+      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-7c6f1z4axi.gz",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
       "ContentRoot": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Weav-App",
-      "RelativePath": "css/style#[.{fingerprint=82vtklac52}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=7c6f1z4axi}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vofhw6i1xh",
-      "Integrity": "UT79a2tGQ0yY53PeinyhXyKhMsNcVvn5bOxg0FsCMIU=",
+      "Fingerprint": "bqcrcomben",
+      "Integrity": "M4UoNVdF9ct7juVV4Ct60Hj4NH2FItgQHRmbkdKRTMA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\style.css"
@@ -248,6 +248,27 @@
       "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-nchd7p5dw1.gz",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/script#[.{fingerprint=nchd7p5dw1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wb1cybw28v",
+      "Integrity": "vH9H5JoW9ZI/5QWFHyWCDn33Jahv1jG+B17Ba7UPL9k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\script.js"
+    },
+    {
       "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3tlu46o6nk-ouwampjgc7.gz",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
@@ -351,6 +372,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\62hl5qurdm-lkwvqefdzp.gz",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/products#[.{fingerprint=lkwvqefdzp}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\products.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jvnwr5ahwz",
+      "Integrity": "IbC6p/WF2BaRaBh4Ij19bLHCAsQvstVAHT+ziGlrxgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\products.js"
     },
     {
       "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\64gbg8wapd-o7rimcw34h.gz",
@@ -1487,6 +1529,27 @@
       "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\rrjrx6yelk-9fc5gt0kiu.gz",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/style#[.{fingerprint=9fc5gt0kiu}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7c9hpo5bqq",
+      "Integrity": "eY3p4Bo+u4WytadMNKcLhYNW/YTrewpDMSZAngkTcok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\style.css"
+    },
+    {
       "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\saq33n6quf-0tdudt64d1.gz",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
@@ -2096,6 +2159,69 @@
       "OriginalItemSpec": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Weav-App.bundle.scp.css"
     },
     {
+      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\products.js",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/products#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lkwvqefdzp",
+      "Integrity": "W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\products.js"
+    },
+    {
+      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\script.js",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nchd7p5dw1",
+      "Integrity": "F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\script.js"
+    },
+    {
+      "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\style.css",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9fc5gt0kiu",
+      "Integrity": "JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\style.css"
+    },
+    {
       "Identity": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\account-style.css",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
@@ -2194,8 +2320,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "82vtklac52",
-      "Integrity": "gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs=",
+      "Fingerprint": "7c6f1z4axi",
+      "Integrity": "KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -6991,6 +7117,900 @@
   ],
   "Endpoints": [
     {
+      "Route": "Admin/products.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\62hl5qurdm-lkwvqefdzp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000336134454"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2974"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IbC6p/WF2BaRaBh4Ij19bLHCAsQvstVAHT+ziGlrxgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/products.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\products.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13377"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/products.js.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\62hl5qurdm-lkwvqefdzp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IbC6p/WF2BaRaBh4Ij19bLHCAsQvstVAHT+ziGlrxgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IbC6p/WF2BaRaBh4Ij19bLHCAsQvstVAHT+ziGlrxgM="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/products.lkwvqefdzp.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\62hl5qurdm-lkwvqefdzp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000336134454"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2974"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IbC6p/WF2BaRaBh4Ij19bLHCAsQvstVAHT+ziGlrxgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkwvqefdzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/products.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/products.lkwvqefdzp.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\products.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13377"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkwvqefdzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/products.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8eHxGAtDIX2eYoD01gVHmOydsZmokKR1K9GeDww/uc="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/products.lkwvqefdzp.js.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\62hl5qurdm-lkwvqefdzp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IbC6p/WF2BaRaBh4Ij19bLHCAsQvstVAHT+ziGlrxgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 21:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkwvqefdzp"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/products.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IbC6p/WF2BaRaBh4Ij19bLHCAsQvstVAHT+ziGlrxgM="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-nchd7p5dw1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001531393568"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "652"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vH9H5JoW9ZI/5QWFHyWCDn33Jahv1jG+B17Ba7UPL9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 22:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 22:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.js.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-nchd7p5dw1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vH9H5JoW9ZI/5QWFHyWCDn33Jahv1jG+B17Ba7UPL9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 22:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vH9H5JoW9ZI/5QWFHyWCDn33Jahv1jG+B17Ba7UPL9k="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.nchd7p5dw1.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-nchd7p5dw1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001531393568"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "652"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vH9H5JoW9ZI/5QWFHyWCDn33Jahv1jG+B17Ba7UPL9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 22:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nchd7p5dw1"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.nchd7p5dw1.js",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 22:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nchd7p5dw1"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.nchd7p5dw1.js.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-nchd7p5dw1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vH9H5JoW9ZI/5QWFHyWCDn33Jahv1jG+B17Ba7UPL9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 22:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nchd7p5dw1"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vH9H5JoW9ZI/5QWFHyWCDn33Jahv1jG+B17Ba7UPL9k="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/style.9fc5gt0kiu.css",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\rrjrx6yelk-9fc5gt0kiu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000373692078"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2675"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eY3p4Bo+u4WytadMNKcLhYNW/YTrewpDMSZAngkTcok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fc5gt0kiu"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/style.9fc5gt0kiu.css",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fc5gt0kiu"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/style.9fc5gt0kiu.css.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\rrjrx6yelk-9fc5gt0kiu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eY3p4Bo+u4WytadMNKcLhYNW/YTrewpDMSZAngkTcok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fc5gt0kiu"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eY3p4Bo+u4WytadMNKcLhYNW/YTrewpDMSZAngkTcok="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/style.css",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\rrjrx6yelk-9fc5gt0kiu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000373692078"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2675"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eY3p4Bo+u4WytadMNKcLhYNW/YTrewpDMSZAngkTcok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/style.css",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/style.css.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\rrjrx6yelk-9fc5gt0kiu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eY3p4Bo+u4WytadMNKcLhYNW/YTrewpDMSZAngkTcok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 23:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eY3p4Bo+u4WytadMNKcLhYNW/YTrewpDMSZAngkTcok="
+        }
+      ]
+    },
+    {
       "Route": "css/account-style.1m9gd1ivfa.css",
       "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\j2jf5o2hpw-1m9gd1ivfa.gz",
       "Selectors": [
@@ -7015,7 +8035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 20:03:43 GMT"
+          "Value": "Sun, 25 May 2025 21:04:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7076,7 +8096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 20:03:43 GMT"
+          "Value": "Sun, 25 May 2025 21:04:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7121,7 +8141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 20:03:43 GMT"
+          "Value": "Sun, 25 May 2025 21:04:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7176,7 +8196,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 20:03:43 GMT"
+          "Value": "Sun, 25 May 2025 21:04:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7229,7 +8249,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 20:03:43 GMT"
+          "Value": "Sun, 25 May 2025 21:04:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7266,7 +8286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 20:03:43 GMT"
+          "Value": "Sun, 25 May 2025 21:04:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8183,13 +9203,13 @@
       ]
     },
     {
-      "Route": "css/style.82vtklac52.css",
-      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-82vtklac52.gz",
+      "Route": "css/style.7c6f1z4axi.css",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-7c6f1z4axi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000241312741"
+          "Quality": "0.000241896468"
         }
       ],
       "ResponseHeaders": [
@@ -8199,15 +9219,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4143"
+          "Value": "4133"
         },
         {
           "Name": "ETag",
-          "Value": "\"UT79a2tGQ0yY53PeinyhXyKhMsNcVvn5bOxg0FsCMIU=\""
+          "Value": "\"M4UoNVdF9ct7juVV4Ct60Hj4NH2FItgQHRmbkdKRTMA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:56:59 GMT"
+          "Value": "Sun, 25 May 2025 20:00:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8227,13 +9247,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs=\""
+          "Value": "W/\"KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "82vtklac52"
+          "Value": "7c6f1z4axi"
         },
         {
           "Name": "label",
@@ -8241,12 +9261,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs="
+          "Value": "sha256-KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM="
         }
       ]
     },
     {
-      "Route": "css/style.82vtklac52.css",
+      "Route": "css/style.7c6f1z4axi.css",
       "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8256,7 +9276,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16775"
+          "Value": "17716"
         },
         {
           "Name": "Content-Type",
@@ -8264,11 +9284,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs=\""
+          "Value": "\"KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:56:59 GMT"
+          "Value": "Sun, 25 May 2025 20:00:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8278,7 +9298,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "82vtklac52"
+          "Value": "7c6f1z4axi"
         },
         {
           "Name": "label",
@@ -8286,13 +9306,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs="
+          "Value": "sha256-KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM="
         }
       ]
     },
     {
-      "Route": "css/style.82vtklac52.css.gz",
-      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-82vtklac52.gz",
+      "Route": "css/style.7c6f1z4axi.css.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-7c6f1z4axi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8301,7 +9321,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4143"
+          "Value": "4133"
         },
         {
           "Name": "Content-Type",
@@ -8309,11 +9329,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UT79a2tGQ0yY53PeinyhXyKhMsNcVvn5bOxg0FsCMIU=\""
+          "Value": "\"M4UoNVdF9ct7juVV4Ct60Hj4NH2FItgQHRmbkdKRTMA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:56:59 GMT"
+          "Value": "Sun, 25 May 2025 20:00:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8331,7 +9351,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "82vtklac52"
+          "Value": "7c6f1z4axi"
         },
         {
           "Name": "label",
@@ -8339,18 +9359,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UT79a2tGQ0yY53PeinyhXyKhMsNcVvn5bOxg0FsCMIU="
+          "Value": "sha256-M4UoNVdF9ct7juVV4Ct60Hj4NH2FItgQHRmbkdKRTMA="
         }
       ]
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-82vtklac52.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-7c6f1z4axi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000241312741"
+          "Quality": "0.000241896468"
         }
       ],
       "ResponseHeaders": [
@@ -8360,15 +9380,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4143"
+          "Value": "4133"
         },
         {
           "Name": "ETag",
-          "Value": "\"UT79a2tGQ0yY53PeinyhXyKhMsNcVvn5bOxg0FsCMIU=\""
+          "Value": "\"M4UoNVdF9ct7juVV4Ct60Hj4NH2FItgQHRmbkdKRTMA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:56:59 GMT"
+          "Value": "Sun, 25 May 2025 20:00:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8388,13 +9408,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs=\""
+          "Value": "W/\"KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs="
+          "Value": "sha256-KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM="
         }
       ]
     },
@@ -8409,7 +9429,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16775"
+          "Value": "17716"
         },
         {
           "Name": "Content-Type",
@@ -8417,11 +9437,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs=\""
+          "Value": "\"KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:56:59 GMT"
+          "Value": "Sun, 25 May 2025 20:00:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8431,13 +9451,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gBXsq5zXvWCVraA+8rdGkNQpGbPo6A3b5sIf7VECIFs="
+          "Value": "sha256-KWWjrYnzz7Cjp+Mbocxi7P60pdYD69VenZWhHLASUfM="
         }
       ]
     },
     {
       "Route": "css/style.css.gz",
-      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-82vtklac52.gz",
+      "AssetFile": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\compressed\\0tyhegzk5i-7c6f1z4axi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8446,7 +9466,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4143"
+          "Value": "4133"
         },
         {
           "Name": "Content-Type",
@@ -8454,11 +9474,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UT79a2tGQ0yY53PeinyhXyKhMsNcVvn5bOxg0FsCMIU=\""
+          "Value": "\"M4UoNVdF9ct7juVV4Ct60Hj4NH2FItgQHRmbkdKRTMA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 17:56:59 GMT"
+          "Value": "Sun, 25 May 2025 20:00:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8476,7 +9496,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UT79a2tGQ0yY53PeinyhXyKhMsNcVvn5bOxg0FsCMIU="
+          "Value": "sha256-M4UoNVdF9ct7juVV4Ct60Hj4NH2FItgQHRmbkdKRTMA="
         }
       ]
     },

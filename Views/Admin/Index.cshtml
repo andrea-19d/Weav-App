@@ -1,6 +1,227 @@
 ﻿@{
-    Layout = "_MinimalLayout";
+    ViewData["Title"] = "Admin Page";
+    Layout = "Admin/_AdminLayout";
 }
-<h1>
-    this is the admin page, only admin should see
-</h1>
+
+<!-- Main Content -->
+<div class="col-md-9 col-lg-10">
+    <div class="main-content p-4">
+        <!-- Stats Cards -->
+        <div class="row mb-4">
+            <div class="col-md-3 mb-3">
+                <div class="stats-card text-center">
+                    <iconify-icon icon="mdi:cart-outline" class="text-primary mb-2"
+                                  style="font-size: 2rem;"></iconify-icon>
+                    <div class="stats-number">1,284</div>
+                    <div class="stats-label">Total Orders</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="stats-card text-center">
+                    <iconify-icon icon="mdi:currency-usd" class="text-success mb-2"
+                                  style="font-size: 2rem;"></iconify-icon>
+                    <div class="stats-number">$45,680</div>
+                    <div class="stats-label">Revenue</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="stats-card text-center">
+                    <iconify-icon icon="mdi:account-group" class="text-info mb-2"
+                                  style="font-size: 2rem;"></iconify-icon>
+                    <div class="stats-number">892</div>
+                    <div class="stats-label">Customers</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="stats-card text-center">
+                    <iconify-icon icon="mdi:package-variant" class="text-warning mb-2"
+                                  style="font-size: 2rem;"></iconify-icon>
+                    <div class="stats-number">156</div>
+                    <div class="stats-label">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="row mb-4">
+            <div class="col-md-8 mb-3">
+                <div class="chart-container">
+                    <h5 class="mb-4">Sales Overview</h5>
+                    <canvas id="salesChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="chart-container">
+                    <h5 class="mb-4">Top Categories</h5>
+                    <canvas id="categoryChart" width="200" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tables Row -->
+        <div class="row">
+            <div class="col-md-8 mb-4">
+                <div class="table-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Recent Orders</h5>
+                        <button class="btn btn-primary btn-sm">View All</button>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                                <th>Actions</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>#ORD-001</td>
+                                <td>John Smith</td>
+                                <td>$89.99</td>
+                                <td><span class="status-badge status-active">Completed</span></td>
+                                <td>May 25, 2025</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary me-1">
+                                        <iconify-icon icon="mdi:eye"></iconify-icon>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary">
+                                        <iconify-icon icon="mdi:pencil"></iconify-icon>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#ORD-002</td>
+                                <td>Sarah Johnson</td>
+                                <td>$156.50</td>
+                                <td><span class="status-badge status-pending">Processing</span></td>
+                                <td>May 24, 2025</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary me-1">
+                                        <iconify-icon icon="mdi:eye"></iconify-icon>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary">
+                                        <iconify-icon icon="mdi:pencil"></iconify-icon>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#ORD-003</td>
+                                <td>Mike Davis</td>
+                                <td>$234.75</td>
+                                <td><span class="status-badge status-active">Shipped</span></td>
+                                <td>May 23, 2025</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary me-1">
+                                        <iconify-icon icon="mdi:eye"></iconify-icon>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary">
+                                        <iconify-icon icon="mdi:pencil"></iconify-icon>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#ORD-004</td>
+                                <td>Lisa Wilson</td>
+                                <td>$67.25</td>
+                                <td><span class="status-badge status-cancelled">Cancelled</span></td>
+                                <td>May 22, 2025</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary me-1">
+                                        <iconify-icon icon="mdi:eye"></iconify-icon>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary">
+                                        <iconify-icon icon="mdi:pencil"></iconify-icon>
+                                    </button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="table-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Top Products</h5>
+                        <button class="btn btn-primary btn-sm">View All</button>
+                    </div>
+                    <div class="p-3">
+                        <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='%23f9f9f9' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23f9f9f9'/%3E%3Cpath d='M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z' fill='%23ddd'/%3E%3C/svg%3E"
+                                 alt="Product" class="product-image me-3">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">Organic Bananas</h6>
+                                <small class="text-muted">234 sold</small>
+                            </div>
+                            <div class="fw-bold">$4.99</div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='%23f9f9f9' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23f9f9f9'/%3E%3Cpath d='M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z' fill='%23ddd'/%3E%3C/svg%3E"
+                                 alt="Product" class="product-image me-3">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">Fresh Milk</h6>
+                                <small class="text-muted">189 sold</small>
+                            </div>
+                            <div class="fw-bold">$3.50</div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='%23f9f9f9' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23f9f9f9'/%3E%3Cpath d='M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z' fill='%23ddd'/%3E%3C/svg%3E"
+                                 alt="Product" class="product-image me-3">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">Whole Grain Bread</h6>
+                                <small class="text-muted">156 sold</small>
+                            </div>
+                            <div class="fw-bold">$2.99</div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='%23f9f9f9' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23f9f9f9'/%3E%3Cpath d='M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z' fill='%23ddd'/%3E%3C/svg%3E"
+                                 alt="Product" class="product-image me-3">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">Greek Yogurt</h6>
+                                <small class="text-muted">142 sold</small>
+                            </div>
+                            <div class="fw-bold">$5.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="stats-card">
+                    <h5 class="mb-4">Quick Actions</h5>
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="btn btn-primary">
+                            <iconify-icon icon="mdi:plus" class="me-2"></iconify-icon>
+                            Add Product
+                        </button>
+                        <button class="btn btn-success">
+                            <iconify-icon icon="mdi:cart-plus" class="me-2"></iconify-icon>
+                            New Order
+                        </button>
+                        <button class="btn btn-warning">
+                            <iconify-icon icon="mdi:account-plus" class="me-2"></iconify-icon>
+                            Add Customer
+                        </button>
+                        <button class="btn btn-danger">
+                            <iconify-icon icon="mdi:tag-plus" class="me-2"></iconify-icon>
+                            Create Discount
+                        </button>
+                        <button class="btn btn-outline-primary">
+                            <iconify-icon icon="mdi:file-export" class="me-2"></iconify-icon>
+                            Export Data
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

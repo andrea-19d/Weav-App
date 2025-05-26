@@ -1,0 +1,305 @@
+﻿@{
+    ViewData["Title"] = "Product Management";
+    Layout = "Admin/_AdminLayout";
+}
+
+<!-- Stats Cards -->
+<div class="col-md-9 col-lg-10">
+    <div class="main-content p-4 fade-in">
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="stats-card">
+                    <h5 class="mb-4">Quick Actions</h5>
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="btn btn-primary">
+                            <iconify-icon icon="mdi:plus" class="me-2"></iconify-icon>
+                            Add Product
+                        </button>
+                        <button class="btn btn-success">
+                            <iconify-icon icon="mdi:cart-plus" class="me-2"></iconify-icon>
+                            New Order
+                        </button>
+                        <button class="btn btn-warning">
+                            <iconify-icon icon="mdi:account-plus" class="me-2"></iconify-icon>
+                            Add Customer
+                        </button>
+                        <button class="btn btn-danger">
+                            <iconify-icon icon="mdi:tag-plus" class="me-2"></iconify-icon>
+                            Create Discount
+                        </button>
+                        <button class="btn btn-outline-primary">
+                            <iconify-icon icon="mdi:file-export" class="me-2"></iconify-icon>
+                            Export Data
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stats Cards -->
+        <div class="row mb-4">
+            <div class="col-xl-3 col-md-6 mb-3">
+                <div class="stats-card">
+                    <div class="stats-icon icon-products">
+                        <iconify-icon icon="mdi:package-variant"></iconify-icon>
+                    </div>
+                    <h6 class="text-muted mb-1">Total Products</h6>
+                    <h3 class="mb-0 fw-bold">1,234</h3>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3">
+                <div class="stats-card">
+                    <div class="stats-icon icon-categories">
+                        <iconify-icon icon="mdi:tag-multiple"></iconify-icon>
+                    </div>
+                    <h6 class="text-muted mb-1">Categories</h6>
+                    <h3 class="mb-0 fw-bold">24</h3>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3">
+                <div class="stats-card">
+                    <div class="stats-icon icon-orders">
+                        <iconify-icon icon="mdi:alert-circle"></iconify-icon>
+                    </div>
+                    <h6 class="text-muted mb-1">Low Stock</h6>
+                    <h3 class="mb-0 fw-bold">8</h3>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3">
+                <div class="stats-card">
+                    <div class="stats-icon icon-revenue">
+                        <iconify-icon icon="mdi:eye-off"></iconify-icon>
+                    </div>
+                    <h6 class="text-muted mb-1">Inactive</h6>
+                    <h3 class="mb-0 fw-bold">12</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="search-input">
+                        <iconify-icon icon="mdi:magnify"></iconify-icon>
+                        <input type="text" class="form-control" placeholder="Search products..." id="searchInput">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-select" id="categoryFilter">
+                        <option value="">All Categories</option>
+                        <option value="fruits">Fruits</option>
+                        <option value="vegetables">Vegetables</option>
+                        <option value="dairy">Dairy</option>
+                        <option value="meat">Meat</option>
+                        <option value="bakery">Bakery</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-select" id="statusFilter">
+                        <option value="">All Status</option>
+                        <option value="active">Active</option>
+                        <option value="inactive">Inactive</option>
+                        <option value="low-stock">Low Stock</option>
+                    </select>
+                </div>
+                <div class="col-md-4 text-end">
+                    <button class="btn btn-outline-primary me-2">
+                        <iconify-icon icon="mdi:export" class="me-1"></iconify-icon>
+                        Export
+                    </button>
+                    <button class="btn btn-outline-primary">
+                        <iconify-icon icon="mdi:import" class="me-1"></iconify-icon>
+                        Import
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products Table -->
+        <div class="product-card">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="selectAll">
+                            </div>
+                        </th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Stock</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Rating</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody id="productsTableBody">
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="product-image me-3">
+                                    <iconify-icon icon="mdi:apple"
+                                                  style="font-size: 24px; color: #ff6b6b;"></iconify-icon>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Fresh Apples</h6>
+                                    <small class="text-muted">Organic Red Apples</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td><span class="badge bg-light text-dark">Fruits</span></td>
+                        <td class="fw-bold">$4.99</td>
+                        <td>125</td>
+                        <td><span class="status-badge status-active">Active</span></td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <iconify-icon icon="mdi:star" style="color: #ffc107;"></iconify-icon>
+                                <span class="ms-1 fw-bold">4.5</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn btn-view me-1" title="View">
+                                <iconify-icon icon="mdi:eye"></iconify-icon>
+                            </button>
+                            <button class="action-btn btn-edit me-1" title="Edit">
+                                <iconify-icon icon="mdi:pencil"></iconify-icon>
+                            </button>
+                            <button class="action-btn btn-delete" title="Delete">
+                                <iconify-icon icon="mdi:delete"></iconify-icon>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="product-image me-3">
+                                    <iconify-icon icon="mdi:carrot"
+                                                  style="font-size: 24px; color: #ff8c42;"></iconify-icon>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Organic Carrots</h6>
+                                    <small class="text-muted">Fresh Garden Carrots</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td><span class="badge bg-light text-dark">Vegetables</span></td>
+                        <td class="fw-bold">$2.49</td>
+                        <td>8</td>
+                        <td><span class="status-badge status-low-stock">Low Stock</span></td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <iconify-icon icon="mdi:star" style="color: #ffc107;"></iconify-icon>
+                                <span class="ms-1 fw-bold">4.2</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn btn-view me-1" title="View">
+                                <iconify-icon icon="mdi:eye"></iconify-icon>
+                            </button>
+                            <button class="action-btn btn-edit me-1" title="Edit">
+                                <iconify-icon icon="mdi:pencil"></iconify-icon>
+                            </button>
+                            <button class="action-btn btn-delete" title="Delete">
+                                <iconify-icon icon="mdi:delete"></iconify-icon>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="product-image me-3">
+                                    <iconify-icon icon="mdi:bottle-soda"
+                                                  style="font-size: 24px; color: #4dabf7;"></iconify-icon>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Whole Milk</h6>
+                                    <small class="text-muted">Fresh Dairy Milk 1L</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td><span class="badge bg-light text-dark">Dairy</span></td>
+                        <td class="fw-bold">$3.99</td>
+                        <td>0</td>
+                        <td><span class="status-badge status-inactive">Inactive</span></td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <iconify-icon icon="mdi:star" style="color: #ffc107;"></iconify-icon>
+                                <span class="ms-1 fw-bold">4.8</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn btn-view me-1" title="View">
+                                <iconify-icon icon="mdi:eye"></iconify-icon>
+                            </button>
+                            <button class="action-btn btn-edit me-1" title="Edit">
+                                <iconify-icon icon="mdi:pencil"></iconify-icon>
+                            </button>
+                            <button class="action-btn btn-delete" title="Delete">
+                                <iconify-icon icon="mdi:delete"></iconify-icon>
+                            </button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+            <!-- Pagination -->
+            <nav aria-label="Products pagination" class="mt-4 p-3">
+                <ul class="pagination pagination-sm justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </div>
+</div>
+        
+
+<!-- Edit Product Modal (similar structure) -->
+<div class="modal fade" id="editProductModal" tabindex="-1" aria-labelledby="editProductModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editProductModalLabel">Edit Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="text-center py-4">
+                    <iconify-icon icon="mdi:package-variant"
+                                  style="font-size: 48px; color: var(--accent-color);"></iconify-icon>
+                    <p class="mt-2">Edit form will be populated with selected product data</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

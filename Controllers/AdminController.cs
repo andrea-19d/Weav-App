@@ -5,10 +5,25 @@ using Weav_App.DTOs;
 
 namespace Weav_App.Controllers;
 
+[UserLevelAuthorize(UserLevel.Admin)]
 public class AdminController : Controller
 {
-    [UserLevelAuthorize(UserLevel.Admin)]
     public IActionResult Index()
+    {
+        return View();
+    }
+
+    public IActionResult Dashboard()
+    {
+        return View();
+    }
+
+    public IActionResult AdminAccount()
+    {
+        return View();
+    }
+
+    public IActionResult ProductManagement()
     {
         return View();
     }
