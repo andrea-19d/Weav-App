@@ -11,13 +11,13 @@ namespace Weav_App.Controllers;
 
 public class LoginController : Controller
 {
-    private readonly IUserService _userService;
+    private readonly IAuthService _authService;
     private readonly IMapper _mapper;
 
 
-    public LoginController(IUserService userService, IMapper mapper)
+    public LoginController(IAuthService authService, IMapper mapper)
     {
-        _userService = userService;
+        _authService = authService;
         _mapper = mapper;
     }
     
@@ -39,7 +39,7 @@ public class LoginController : Controller
         }
 
         var newUser = _mapper.Map<LoginUserDTO>(model);
-        var user = await _userService.LoginUserAsync(newUser, newUser.Password);
+        var user = await _authService.LoginUserAsync(newUser, newUser.Password);
         var userLevel = user.level.ToString();
         Console.WriteLine($"{userLevel}");
         Console.WriteLine($"Logged user: {model.UserName}");

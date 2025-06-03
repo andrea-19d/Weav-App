@@ -1,21 +1,18 @@
 ﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-using Weav_App.Data;
+using Supabase;
 using Weav_App.DTOs;
 using Weav_App.DTOs.Entities.User;
 using Weav_App.Services.Interface;
 
-namespace Weav_App.Services.UserServices;
-
-public class AuthService : IUserService
+public class AuthService : IAuthService
 {
-    private readonly UserDbContext _context;
+    private readonly Client _supabase;
     private readonly IMapper _mapper;
     private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public AuthService(UserDbContext context, IMapper mapper, IHttpContextAccessor httpContextAccessor)
+    public AuthService(Client supabase, IMapper mapper, IHttpContextAccessor httpContextAccessor)
     {
-        _context = context;
+        _supabase = supabase;
         _mapper = mapper;
         _httpContextAccessor = httpContextAccessor;
     }
@@ -23,24 +20,27 @@ public class AuthService : IUserService
     public async Task<(bool success, string? error)> RegisterUserAsync(RegisterUserDTO registerUserDto)
     {
         var userEntity = _mapper.Map<UserDbTable>(registerUserDto);
-        var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == registerUserDto.Username);
-        
-        if (existingUser != null && existingUser.Username == userEntity.Username)
-        {
+
+        var existing = await _supabase
+            .From<UserDbTable>()
+            .Filter("UserName", Postgrest.Constants.Operator.Equals, registerUserDto.Username)
+            .Get();
+
+        if (existing.Models.Any())
             return (false, "Already exists such username");
-        }
-        
+
         var ip = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString();
         userEntity.UserIP = ip ?? "Unknown";
-        userEntity.Level = UserLevel.Admin;
-        
+        userEntity.Level = UserLevel.User;
+        userEntity.RegisterDate = DateTime.UtcNow;
+        userEntity.LastLogin = DateTime.UtcNow;
+
         try
         {
-            _context.Users.Add(userEntity);
-            await _context.SaveChangesAsync();
+            await _supabase.From<UserDbTable>().Insert(userEntity);
             return (true, null);
         }
-        catch  (Exception ex)
+        catch (Exception ex)
         {
             return (false, ex.Message);
         }
@@ -48,36 +48,28 @@ public class AuthService : IUserService
 
     public async Task<(bool succes, UserLevel level)> LoginUserAsync(LoginUserDTO loginUserDto, string password)
     {
-        var user = await _context.Users
-            .Where(u => u.Username == loginUserDto.UserName)
-            .Select(u => new { u.Username, u.PasswordHash, u.Level })
-            .FirstOrDefaultAsync();
-        
+        var result = await _supabase
+            .From<UserDbTable>()
+            .Filter("UserName", Postgrest.Constants.Operator.Equals, loginUserDto.UserName)
+            .Get();
+
+        var user = result.Models.FirstOrDefault();
         if (user == null)
         {
-            Console.WriteLine("user not found ");
+            Console.WriteLine("user not found");
             return (false, UserLevel.Guest);
         }
 
-        // TO DO: 
-        // Verify password (assuming stored password is hashed)
         var isPasswordValid = VerifyPassword(password, user.PasswordHash);
         if (!isPasswordValid)
             return (false, UserLevel.Guest);
-        
-        
+
         Console.WriteLine($"LoginUserAsync: {user.Level}");
-        
-        return (isPasswordValid, user.Level);
+        return (true, user.Level);
     }
 
     public bool VerifyPassword(string password, string userPasswordHash)
     {
-        if (password == userPasswordHash)
-        {
-            return true;
-        }
-        
-        return false;
+        return password == userPasswordHash;
     }
 }

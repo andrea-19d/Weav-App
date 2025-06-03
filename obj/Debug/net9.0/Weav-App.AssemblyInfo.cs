@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Weav-App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c8b80c2c79a57468dc150ca6535916a183ab851")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d89af80e25be1d3651cf9d8afd30ca054744970")]
 [assembly: System.Reflection.AssemblyProductAttribute("Weav-App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Weav-App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

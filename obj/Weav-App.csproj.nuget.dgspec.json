@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\Weav-App.csproj": {}
+    "A:\\Git\\Weav-App\\Weav-App.csproj": {}
   },
   "projects": {
-    "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\Weav-App.csproj": {
+    "A:\\Git\\Weav-App\\Weav-App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\Weav-App.csproj",
+        "projectUniqueName": "A:\\Git\\Weav-App\\Weav-App.csproj",
         "projectName": "Weav-App",
-        "projectPath": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\Weav-App.csproj",
+        "projectPath": "A:\\Git\\Weav-App\\Weav-App.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\",
+        "outputPath": "A:\\Git\\Weav-App\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "A:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +51,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "FluentAssertions": {
               "target": "Package",
@@ -92,6 +90,10 @@
               "target": "Package",
               "version": "[5.1.0-alpha.1, )"
             },
+            "supabase-csharp": {
+              "target": "Package",
+              "version": "[0.16.2, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.9.3, )"
@@ -116,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\andre\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

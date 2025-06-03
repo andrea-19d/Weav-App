@@ -26,13 +26,14 @@ public class CartController : Controller
     public IActionResult AddToCart(int productId, string productName, decimal productPrice)
     {
         _cartService.AddToCart(productId, productName, productPrice);
-        return RedirectToAction("Index");
+        return Redirect(Request.Headers["Referer"].ToString());
     }
 
     [HttpPost]
     public IActionResult RemoveFromCart(int productId)
     {
         _cartService.RemoveFromCart(productId);
-        return RedirectToAction("Index");
+        return Redirect(Request.Headers["Referer"].ToString());
     }
+
 }

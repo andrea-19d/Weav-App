@@ -1,951 +1,951 @@
 {
   "Files": [
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Weav-App.bundle.scp.css",
+      "Id": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Weav-App.bundle.scp.css",
       "PackagePath": "staticwebassets\\Weav-App.zvm2juqxo1.bundle.scp.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\products.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\products.js",
       "PackagePath": "staticwebassets\\Admin\\products.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\script.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
       "PackagePath": "staticwebassets\\Admin\\script.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\Admin\\style.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\style.css",
       "PackagePath": "staticwebassets\\Admin\\style.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\account-style.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\css\\account-style.css",
       "PackagePath": "staticwebassets\\css\\account-style.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\account-style.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\css\\account-style.css.map",
       "PackagePath": "staticwebassets\\css\\account-style.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\normalize.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\site.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\style.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\style.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\css\\style.css.map",
       "PackagePath": "staticwebassets\\css\\style.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\css\\vendor.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\css\\vendor.css",
       "PackagePath": "staticwebassets\\css\\vendor.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\favicon.ico",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\material-icon\\css\\material-design-iconic-font.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\material-icon\\css\\material-design-iconic-font.css",
       "PackagePath": "staticwebassets\\fonts\\material-icon\\css\\material-design-iconic-font.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\material-icon\\css\\material-design-iconic-font.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\material-icon\\css\\material-design-iconic-font.min.css",
       "PackagePath": "staticwebassets\\fonts\\material-icon\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot",
       "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg",
       "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf",
       "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff",
       "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2",
       "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-300italic.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-500italic.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-600.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-600.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-700italic.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-800italic.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-900.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-900.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-italic.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\poppins-v5-latin-regular.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\ad-bg-pattern.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\ad-bg-pattern.png",
       "PackagePath": "staticwebassets\\images\\ad-bg-pattern.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\ad-image-1.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\ad-image-1.png",
       "PackagePath": "staticwebassets\\images\\ad-image-1.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\ad-image-2.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\ad-image-2.png",
       "PackagePath": "staticwebassets\\images\\ad-image-2.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\ad-image-3.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\ad-image-3.png",
       "PackagePath": "staticwebassets\\images\\ad-image-3.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\ad-image-4.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\ad-image-4.png",
       "PackagePath": "staticwebassets\\images\\ad-image-4.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\app-store.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\app-store.jpg",
       "PackagePath": "staticwebassets\\images\\app-store.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\background-pattern.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\background-pattern.jpg",
       "PackagePath": "staticwebassets\\images\\background-pattern.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\banner-image-1.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\banner-image-1.jpg",
       "PackagePath": "staticwebassets\\images\\banner-image-1.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\banner-image-2.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\banner-image-2.jpg",
       "PackagePath": "staticwebassets\\images\\banner-image-2.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\bg-dot-pattern.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bg-dot-pattern.png",
       "PackagePath": "staticwebassets\\images\\bg-dot-pattern.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\bg-leaves-img-pattern.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bg-leaves-img-pattern.png",
       "PackagePath": "staticwebassets\\images\\bg-leaves-img-pattern.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\bg-leaves-pattern.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bg-leaves-pattern.png",
       "PackagePath": "staticwebassets\\images\\bg-leaves-pattern.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\bg-light.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bg-light.jpg",
       "PackagePath": "staticwebassets\\images\\bg-light.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\bg-pattern-2.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bg-pattern-2.png",
       "PackagePath": "staticwebassets\\images\\bg-pattern-2.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\chocolat\\close.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolat\\close.png",
       "PackagePath": "staticwebassets\\images\\chocolat\\close.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\chocolat\\fullscreen-black.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolat\\fullscreen-black.png",
       "PackagePath": "staticwebassets\\images\\chocolat\\fullscreen-black.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\chocolat\\fullscreen.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolat\\fullscreen.png",
       "PackagePath": "staticwebassets\\images\\chocolat\\fullscreen.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\chocolat\\left.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolat\\left.png",
       "PackagePath": "staticwebassets\\images\\chocolat\\left.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\chocolat\\loader.gif",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolat\\loader.gif",
       "PackagePath": "staticwebassets\\images\\chocolat\\loader.gif"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\chocolat\\right.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolat\\right.png",
       "PackagePath": "staticwebassets\\images\\chocolat\\right.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\gift.svg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\gift.svg",
       "PackagePath": "staticwebassets\\images\\gift.svg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\google-play.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\google-play.jpg",
       "PackagePath": "staticwebassets\\images\\google-play.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\icon-animal-products-drumsticks.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\icon-animal-products-drumsticks.png",
       "PackagePath": "staticwebassets\\images\\icon-animal-products-drumsticks.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\icon-bread-baguette.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\icon-bread-baguette.png",
       "PackagePath": "staticwebassets\\images\\icon-bread-baguette.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\icon-bread-herb-flour.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\icon-bread-herb-flour.png",
       "PackagePath": "staticwebassets\\images\\icon-bread-herb-flour.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\icon-soft-drinks-bottle.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\icon-soft-drinks-bottle.png",
       "PackagePath": "staticwebassets\\images\\icon-soft-drinks-bottle.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\icon-vegetables-broccoli.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\icon-vegetables-broccoli.png",
       "PackagePath": "staticwebassets\\images\\icon-vegetables-broccoli.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\icon-wine-glass-bottle.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\icon-wine-glass-bottle.png",
       "PackagePath": "staticwebassets\\images\\icon-wine-glass-bottle.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\logo.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\phone.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\phone.png",
       "PackagePath": "staticwebassets\\images\\phone.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\post-thumb-1.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\post-thumb-1.jpg",
       "PackagePath": "staticwebassets\\images\\post-thumb-1.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\post-thumb-2.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\post-thumb-2.jpg",
       "PackagePath": "staticwebassets\\images\\post-thumb-2.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\post-thumb-3.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\post-thumb-3.jpg",
       "PackagePath": "staticwebassets\\images\\post-thumb-3.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\product-thumb-1.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\product-thumb-1.png",
       "PackagePath": "staticwebassets\\images\\product-thumb-1.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\product-thumb-11.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\product-thumb-11.jpg",
       "PackagePath": "staticwebassets\\images\\product-thumb-11.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\product-thumb-12.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\product-thumb-12.jpg",
       "PackagePath": "staticwebassets\\images\\product-thumb-12.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\product-thumb-13.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\product-thumb-13.jpg",
       "PackagePath": "staticwebassets\\images\\product-thumb-13.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\product-thumb-14.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\product-thumb-14.jpg",
       "PackagePath": "staticwebassets\\images\\product-thumb-14.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\product-thumb-2.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\product-thumb-2.png",
       "PackagePath": "staticwebassets\\images\\product-thumb-2.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\reviewer-1.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\reviewer-1.jpg",
       "PackagePath": "staticwebassets\\images\\reviewer-1.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\reviewer-2.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\reviewer-2.jpg",
       "PackagePath": "staticwebassets\\images\\reviewer-2.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\reviewer-3.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\reviewer-3.jpg",
       "PackagePath": "staticwebassets\\images\\reviewer-3.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\signin-image.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\signin-image.jpg",
       "PackagePath": "staticwebassets\\images\\signin-image.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\signup-image.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\signup-image.jpg",
       "PackagePath": "staticwebassets\\images\\signup-image.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\singel-product-item.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\singel-product-item.jpg",
       "PackagePath": "staticwebassets\\images\\singel-product-item.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\slide-1.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\slide-1.jpg",
       "PackagePath": "staticwebassets\\images\\slide-1.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\slide-2.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\slide-2.jpg",
       "PackagePath": "staticwebassets\\images\\slide-2.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\slide-3.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\slide-3.jpg",
       "PackagePath": "staticwebassets\\images\\slide-3.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\slide-4.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\slide-4.jpg",
       "PackagePath": "staticwebassets\\images\\slide-4.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-avocado.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-avocado.png",
       "PackagePath": "staticwebassets\\images\\thumb-avocado.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-bananas.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-bananas.png",
       "PackagePath": "staticwebassets\\images\\thumb-bananas.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-biscuits.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-biscuits.png",
       "PackagePath": "staticwebassets\\images\\thumb-biscuits.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-cucumber.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-cucumber.png",
       "PackagePath": "staticwebassets\\images\\thumb-cucumber.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-herb.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-herb.jpg",
       "PackagePath": "staticwebassets\\images\\thumb-herb.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-honey.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-honey.jpg",
       "PackagePath": "staticwebassets\\images\\thumb-honey.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-junk.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-junk.jpg",
       "PackagePath": "staticwebassets\\images\\thumb-junk.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-milk.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-milk.png",
       "PackagePath": "staticwebassets\\images\\thumb-milk.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-orange-juice.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-orange-juice.png",
       "PackagePath": "staticwebassets\\images\\thumb-orange-juice.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-raspberries.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-raspberries.png",
       "PackagePath": "staticwebassets\\images\\thumb-raspberries.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-tomatoes.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-tomatoes.png",
       "PackagePath": "staticwebassets\\images\\thumb-tomatoes.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-tomatoketchup.png",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-tomatoketchup.png",
       "PackagePath": "staticwebassets\\images\\thumb-tomatoketchup.png"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\images\\thumb-tuna.jpg",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-tuna.jpg",
       "PackagePath": "staticwebassets\\images\\thumb-tuna.jpg"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\js\\jquery-1.11.0.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\js\\main.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\js\\modernizr.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\js\\modernizr.js",
       "PackagePath": "staticwebassets\\js\\modernizr.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\js\\plugins.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\js\\script.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\js\\site.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\common\\extend.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\common\\extend.scss",
       "PackagePath": "staticwebassets\\scss\\common\\extend.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\common\\fonts.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\common\\fonts.scss",
       "PackagePath": "staticwebassets\\scss\\common\\fonts.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\common\\global.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\common\\global.scss",
       "PackagePath": "staticwebassets\\scss\\common\\global.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\common\\minxi.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\common\\minxi.scss",
       "PackagePath": "staticwebassets\\scss\\common\\minxi.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\common\\variables.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\common\\variables.scss",
       "PackagePath": "staticwebassets\\scss\\common\\variables.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\layouts\\main.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\layouts\\main.scss",
       "PackagePath": "staticwebassets\\scss\\layouts\\main.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\layouts\\responsive.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\layouts\\responsive.scss",
       "PackagePath": "staticwebassets\\scss\\layouts\\responsive.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\scss\\style.scss",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\vendor\\jquery\\jquery-ui.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\vendor\\jquery\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-ui.min.js"
     },
     {
-      "Id": "A:\\PC\\ANDRE\\RiderProjects\\Weav-App\\Weav-App\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\vendor\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
     },
     {
