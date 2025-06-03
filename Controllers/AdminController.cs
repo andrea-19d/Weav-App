@@ -8,10 +8,10 @@ namespace Weav_App.Controllers;
 [UserLevelAuthorize(UserLevel.Admin)]
 public class AdminController : Controller
 {
-    public IActionResult Index()
-    {
-        return View();
-    }
+    // public IActionResult Index()
+    // {
+    //     return View();
+    // }
 
     public IActionResult Dashboard()
     {
@@ -24,6 +24,11 @@ public class AdminController : Controller
     }
 
     public IActionResult ProductManagement()
+    {
+        return View();
+    }
+
+    public IActionResult OrderPage()
     {
         return View();
     }

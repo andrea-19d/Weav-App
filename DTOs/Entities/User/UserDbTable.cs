@@ -1,41 +1,37 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using Postgrest.Attributes;
+using Postgrest.Models;
 
 namespace Weav_App.DTOs.Entities.User
 {
-    public class UserDbTable
+    [Table("Users")]
+    public class UserDbTable : BaseModel
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [PrimaryKey("id", false)]
         public int UserId { get; set; }
 
-        [Required]
-        [MaxLength(50)]
-        [Display(Name = "Username")]
+        [Column("UserName")]
         public string Username { get; set; }
 
-        [Required]
-        [MaxLength(100)]
-        [EmailAddress]
-        [Display(Name = "Email")]
+        [Column("Email")]
         public string Email { get; set; }
 
-        [Required]
-        [Display(Name = "Password Hash")]
-        [MaxLength(200)] // store the hashed password
+        [Column("Password")]
         public string PasswordHash { get; set; }
 
-        [MaxLength(45)] // IP address (IPv6 max length is 45)
+        [Column("UserIP")]
         public string UserIP { get; set; }
 
-        [DataType(DataType.DateTime)]
+        [Column("CreatedAt")]
         public DateTime RegisterDate { get; set; } = DateTime.UtcNow;
 
-        [DataType(DataType.DateTime)]
+        [Column("LastLogin")]
         public DateTime? LastLogin { get; set; }
 
+        [Column("UserPhoto")]
         public byte[]? UserPhoto { get; set; } 
         
+        [Column("Level")]
         public UserLevel Level { get; set; }
     }
 }

@@ -9,12 +9,12 @@ namespace Weav_App.Controllers;
 
 public class RegistrationController : Controller
 {
-    private readonly IUserService _userService;
+    private readonly IAuthService _authService;
     private readonly IMapper _mapper;
 
-    public RegistrationController(IUserService userService, IMapper mapper)
+    public RegistrationController(IAuthService authService, IMapper mapper)
     {
-        _userService = userService;
+        _authService = authService;
         _mapper = mapper;
     }
     
@@ -42,7 +42,7 @@ public class RegistrationController : Controller
             var registerUserDto = _mapper.Map<RegisterUserDTO>(model);
 
             // Perform registration via the user service
-            var result = await _userService.RegisterUserAsync(registerUserDto);
+            var result = await _authService.RegisterUserAsync(registerUserDto);
 
             if (result.success)
             {

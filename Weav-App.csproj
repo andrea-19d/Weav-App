@@ -10,6 +10,7 @@
     <ItemGroup>
       <PackageReference Include="AutoMapper" Version="12.0.1" />
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+      <PackageReference Include="DotNetEnv" Version="3.1.1" />
       <PackageReference Include="FluentAssertions" Version="8.2.0" />
       <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
@@ -21,10 +22,12 @@
       <PackageReference Include="Moq" Version="4.20.72" />
       <PackageReference Include="NUnit" Version="4.3.2" />
       <PackageReference Include="NUnit3TestAdapter" Version="5.1.0-alpha.1" />
+      <PackageReference Include="supabase-csharp" Version="0.16.2" />
       <PackageReference Include="xunit" Version="2.9.3" />
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="DTOs\Entities\Products\" />
       <Folder Include="Middleware\" />
       <Folder Include="Repositories\" />
     </ItemGroup>

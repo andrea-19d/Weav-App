@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9fc5gt0kiu</Fingerprint>
-      <Integrity>JXK5jLqVQMpmkuRSO5vBJlF+nGiryt6Q3PKDWR+qX8I=</Integrity>
+      <Fingerprint>assw0psvu9</Fingerprint>
+      <Integrity>RiIN9gBsi5GaS65sqcWKheZ5/YVqR1K2etN7Va++h5A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\style.css'))</OriginalItemSpec>
@@ -174,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ouwampjgc7</Fingerprint>
-      <Integrity>0M4vwIEPNLg4wYNK46i5xqjBORtn0AkFGukGqvGomys=</Integrity>
+      <Fingerprint>s8071oab4l</Fingerprint>
+      <Integrity>BKIW2OcPE231O7e+4lwBMzm/VuNMOjDuVcdCOPX80VM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\vendor.css'))</OriginalItemSpec>
@@ -354,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cct3jh06x3</Fingerprint>
-      <Integrity>tPFudz/C6Eql6frG2vxai6NTgZfaiGJZBjIXnp9zNP8=</Integrity>
+      <Fingerprint>vu0tkqazls</Fingerprint>
+      <Integrity>l0VoYHqkwM19ed1Ew9PQwG5EYZ7CypvzMcf0oHl1UrA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-300.svg'))</OriginalItemSpec>
@@ -444,8 +444,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qf9rxqwxti</Fingerprint>
-      <Integrity>hhFTbTRJau4wzLWtGVvJLu2nMscHAUkdpdPSXmS+qrI=</Integrity>
+      <Fingerprint>lmeegel9c0</Fingerprint>
+      <Integrity>cybuqcIuTaHcrqMcDmRNGon5EXvA6D8KOuDY+/GNvhI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-300italic.svg'))</OriginalItemSpec>
@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ipz484y5q9</Fingerprint>
-      <Integrity>OnpPPkhxsXSrkmDlgCgVGZsc1U21JAdL+/wthJskvTw=</Integrity>
+      <Fingerprint>mhu6bdo5it</Fingerprint>
+      <Integrity>JiEgRcj+NtDJ+YdMooYzD+usV9LidBLUEmeo/nooCTE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-500.svg'))</OriginalItemSpec>
@@ -624,8 +624,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kq1e7npb73</Fingerprint>
-      <Integrity>THO63sWBESkeyw6jM0Kxkw7aS8zODiN5kKikzkALbRc=</Integrity>
+      <Fingerprint>0r4vj4qnp7</Fingerprint>
+      <Integrity>NPPjkI8HZers8+OVY+auhJMYVI3ZaUKy+obG1mDtVVc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-500italic.svg'))</OriginalItemSpec>
@@ -714,8 +714,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7i3luw6j13</Fingerprint>
-      <Integrity>AX0VPdjwJobczoajJdZBhU4HXAdituAdqJBh9JnNnGc=</Integrity>
+      <Fingerprint>z7soxu6s9h</Fingerprint>
+      <Integrity>3/2UOLSW56wCJwtoCdkYBoDOJgd44uwLWtmgJsuPbf4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-600.svg'))</OriginalItemSpec>
@@ -804,8 +804,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uvnp4f3hna</Fingerprint>
-      <Integrity>KtWWFM7ZI7MwwlOo8WklHRbOmm/GEicCIcOp+ygOkME=</Integrity>
+      <Fingerprint>5hg38syy1g</Fingerprint>
+      <Integrity>KQ5fPihxPQpegBsXnpUspLLlGS5l1Ty9nw9jfVPkcHg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-700.svg'))</OriginalItemSpec>
@@ -894,8 +894,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o7rimcw34h</Fingerprint>
-      <Integrity>vF96OvPVpJvFksI+WUs4zhT0NrTgeX/YErnoiwzrL/A=</Integrity>
+      <Fingerprint>wzz0kvvd4b</Fingerprint>
+      <Integrity>xKmIUE3abKPrVSJbjl5Y10B0rMfYofWFQbJo0R0zpfQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-700italic.svg'))</OriginalItemSpec>
@@ -984,8 +984,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0tdudt64d1</Fingerprint>
-      <Integrity>ZMJLtlCEFdppa12wRq4PeZsB8Vi17kYgDKvH2BgCEkc=</Integrity>
+      <Fingerprint>h477gvy8vl</Fingerprint>
+      <Integrity>0StOYjvwqZ4Whv4BSCIwzpe9wFvt/6ItVOphCkYuQds=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-800.svg'))</OriginalItemSpec>
@@ -1074,8 +1074,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dj7v4sme1c</Fingerprint>
-      <Integrity>6Ys6bOu3m+BeFfRYm6qWcX9JCxCQWusCSOW/Fb9Jutw=</Integrity>
+      <Fingerprint>n9n6pzc1p4</Fingerprint>
+      <Integrity>S+CFTnRN34EttztCtunMDQlqc7mP1e4NiaRM80ckrjQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-800italic.svg'))</OriginalItemSpec>
@@ -1164,8 +1164,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pgdb3otaa9</Fingerprint>
-      <Integrity>6atV5h3wPt04+vydCwVyFjOoPuoghyz+HgV0mnVfkyA=</Integrity>
+      <Fingerprint>i1jy43zbsc</Fingerprint>
+      <Integrity>GgsJfB/oYUuPp/mApkSmrI9QniiLuZYTIEEdtBc5soU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-900.svg'))</OriginalItemSpec>
@@ -1254,8 +1254,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kitngk1r1o</Fingerprint>
-      <Integrity>LKUAtQ0+mpoMuLAftgI+S624CloYDaTRTc+lyx7Od7w=</Integrity>
+      <Fingerprint>ptqplrw7ca</Fingerprint>
+      <Integrity>82p6RNbt7ifRD3UJbaC7Z7sxeeQaKXWexmGpShVmRsc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-italic.svg'))</OriginalItemSpec>
@@ -1344,8 +1344,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fqmzip0kdt</Fingerprint>
-      <Integrity>KUwh2Qqcz7OilihHKCmsUy8C0z/ai9y38TbBb+Yt3iE=</Integrity>
+      <Fingerprint>xwa7bbxdh5</Fingerprint>
+      <Integrity>/4Vcj+aSU8mzLX4+McqShAU7aF+JWkch1HIK5JBSNlQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\poppins-v5-latin-regular.svg'))</OriginalItemSpec>
@@ -1434,8 +1434,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5ly2cvjs3c</Fingerprint>
-      <Integrity>mbPfnE+G2a910rcFL1VZ0maKSOHNelriNZjRxvTUz1A=</Integrity>
+      <Fingerprint>cdwwsnljy6</Fingerprint>
+      <Integrity>4NPOc5aUMWdO226fF4rvXGnTvlWce080OWSeWc8iYFI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\roboto-condensed-v16-latin-700.svg'))</OriginalItemSpec>
@@ -1524,8 +1524,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0lr2a2ttzv</Fingerprint>
-      <Integrity>3GWXanambnqkCfSOkrrYUDAxFsX9Bn4t3TewXTA8Vaw=</Integrity>
+      <Fingerprint>qb9ec1b52f</Fingerprint>
+      <Integrity>tkbjG6XmbvoZK/zuZRB9bkHHurUqiXMB/lM01W8IA3I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\roboto-condensed-v16-latin-700italic.svg'))</OriginalItemSpec>
@@ -1614,8 +1614,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>owtoc4303x</Fingerprint>
-      <Integrity>aPljVJNe0Go9Fp91fuMznTWJGGm4B3EpGnbPxtISkmQ=</Integrity>
+      <Fingerprint>w4b8iksok3</Fingerprint>
+      <Integrity>oDPcqtNvvHX3f+o0eZE4vUUG5pNywY09j1cijgufq5Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\roboto-condensed-v16-latin-italic.svg'))</OriginalItemSpec>
@@ -1704,8 +1704,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wmiprl6mhi</Fingerprint>
-      <Integrity>aIY92yskw/SOeVhBrx/cV2YnkAz4jt6TQiTBwBqu6V8=</Integrity>
+      <Fingerprint>1x717mes23</Fingerprint>
+      <Integrity>q8IB7XnOri/xhKXZ5kSNjv/8bxT9DkQ+FlQUEdAV1+s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\poppins\roboto-condensed-v16-latin-regular.svg'))</OriginalItemSpec>
@@ -2136,8 +2136,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ak37etxku3</Fingerprint>
-      <Integrity>NoBnts2+59adQyyHhWQ+Oc7j3O7wG5G3oz7N3t/eYk4=</Integrity>
+      <Fingerprint>a0z32orgnp</Fingerprint>
+      <Integrity>Btp0Ha1d5x+BsNo8tMW4sWJ3ltfwaYwmxFBLboPYTkc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\gift.svg'))</OriginalItemSpec>

@@ -22,6 +22,10 @@ public class UserLevelAuthorizeAttribute : AuthorizeAttribute, IAuthorizationFil
             context.Result = new ForbidResult();
             return;
         }
+        else if (user == null)
+        {
+            
+        }
 
         var userLevelClaim = user.Claims.FirstOrDefault(c => c.Type == "UserLevel")?.Value;
         if (userLevelClaim == null || !Enum.TryParse(userLevelClaim, out UserLevel userLevel))
