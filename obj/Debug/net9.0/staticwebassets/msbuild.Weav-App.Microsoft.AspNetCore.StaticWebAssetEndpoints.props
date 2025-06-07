@@ -88,13 +88,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7c6f1z4axi"},{"Name":"integrity","Value":"sha256-KWWjrYnzz7Cjp\u002BMbocxi7P60pdYD69VenZWhHLASUfM="},{"Name":"label","Value":"_content/Weav-App/css/style.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17716"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KWWjrYnzz7Cjp\u002BMbocxi7P60pdYD69VenZWhHLASUfM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Jun 2025 22:40:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17716"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KWWjrYnzz7Cjp\u002BMbocxi7P60pdYD69VenZWhHLASUfM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 13:16:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Weav-App/css/style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KWWjrYnzz7Cjp\u002BMbocxi7P60pdYD69VenZWhHLASUfM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17716"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KWWjrYnzz7Cjp\u002BMbocxi7P60pdYD69VenZWhHLASUfM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Jun 2025 22:40:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17716"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KWWjrYnzz7Cjp\u002BMbocxi7P60pdYD69VenZWhHLASUfM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Jun 2025 13:16:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Weav-App/css/style.css.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css.map'))</AssetFile>

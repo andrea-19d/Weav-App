@@ -30,6 +30,7 @@
       <Folder Include="DTOs\Entities\Products\" />
       <Folder Include="Middleware\" />
       <Folder Include="Repositories\" />
+      <Folder Include="Repository\" />
     </ItemGroup>
 
 </Project>
