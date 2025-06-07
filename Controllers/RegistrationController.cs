@@ -26,7 +26,6 @@ public class RegistrationController : Controller
         return View(new RegisterUser());
     }
 
-    // POST: Register
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Register(RegisterUser model)
