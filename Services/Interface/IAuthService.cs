@@ -5,8 +5,6 @@ namespace Weav_App.Services.Interface;
 
 public interface IAuthService
 {
-    Task<(bool success, string? error)> RegisterUserAsync(RegisterUserDTO registerUserDto);
-    
-    Task<(bool succes, UserLevel level)> LoginUserAsync(LoginUserDTO loginUserDto, string password);
-    
+    Task<(bool succes, UserLevel level )> LoginUser(LoginUserDto user, string password);
+    Task<(bool succes, string? error)> RegisterUser(RegisterUserDto user);
 }

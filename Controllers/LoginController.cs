@@ -38,43 +38,35 @@ public class LoginController : Controller
             return View(model);
         }
 
-        var newUser = _mapper.Map<LoginUserDTO>(model);
-        var user = await _authService.LoginUserAsync(newUser, newUser.Password);
-        var userLevel = user.level.ToString();
-        Console.WriteLine($"{userLevel}");
-        Console.WriteLine($"Logged user: {model.UserName}");
-        
-        if (user.succes != null)
+        var loginDto = _mapper.Map<LoginUserDto>(model);
+        var user = await _authService.LoginUser(loginDto, loginDto.Password);
+
+        if (user.succes == null)
         {
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, model.UserName),
-                new Claim("UserLevel", user.level.ToString()) 
-            };
-            Console.WriteLine($"Logging in user with level: {user.level}");
-
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            
-            var identity = new ClaimsIdentity(claims, "login");
-            await HttpContext.SignInAsync(new ClaimsPrincipal(identity));
-
-            var authProperties = new AuthenticationProperties
-            {
-                IsPersistent = model.RememberMe,
-                ExpiresUtc = model.RememberMe ? DateTimeOffset.UtcNow.AddDays(30) : (DateTimeOffset?)null
-            };
-            
-            
-
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(claimsIdentity), authProperties);
-
-            return RedirectToAction("Index", "Home");
+            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            return View(model);
         }
 
-        ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-        return View(model);
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, model.UserName),
+            new Claim("UserLevel", user.level.ToString())
+        };
+
+        var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+        var authProperties = new AuthenticationProperties
+        {
+            IsPersistent = model.RememberMe,
+            ExpiresUtc = model.RememberMe ? DateTimeOffset.UtcNow.AddDays(30) : (DateTimeOffset?)null
+        };
+
+        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+            new ClaimsPrincipal(claimsIdentity), authProperties);
+
+        return RedirectToAction("Index", "Home");
     }
+
     
     [HttpPost]
     public async Task<IActionResult> Logout()

@@ -1,14 +1,14 @@
-﻿@model Product
+﻿@model ProductModel
 
 <div class="card">
-    <img src="@Model.ImageUrl" class="card-img-top" alt="@Model.Name">
+    <img src="@Model.ImageUrl" class="card-img-top" alt="@Model.ProductName">
     <div class="card-body text-center">
-        <h5 class="card-title">@Model.Name</h5>
-        <p class="card-text">$@Model.Price</p>
+        <h5 class="card-title">@Model.ProductName</h5>
+        <p class="card-text">$@Model.ProductPrice</p>
         <form method="post" asp-controller="Cart" asp-action="AddToCart">
-            <input type="hidden" name="productId" value="@Model.Id" />
-            <input type="hidden" name="productName" value="@Model.Name" />
-            <input type="hidden" name="productPrice" value="@Model.Price" />
+            <input type="hidden" name="productId" value="@Model.ProductId" />
+            <input type="hidden" name="productName" value="@Model.ProductName" />
+            <input type="hidden" name="productPrice" value="@Model.ProductPrice" />
             <button class="btn btn-primary">Add to Cart</button>
         </form>
     </div>

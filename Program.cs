@@ -1,27 +1,31 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Weav_App.Services.Interface;
+using Weav_App.Helpers;
 using DotNetEnv;
+using Supabase;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Load environment variables
-Env.Load();
-
-var url = Environment.GetEnvironmentVariable("SUPABASE_URL");
-var key = Environment.GetEnvironmentVariable("SUPABASE_KEY");
-var options = new Supabase.SupabaseOptions { AutoConnectRealtime = true };
-var supabase = new Supabase.Client(url, key, options);
-await supabase.InitializeAsync();
-
-// Dependency Injection
+// --------------------------------------------------
+// Supabase Client Initialization
+// --------------------------------------------------
+var supabase = await SupabaseInitializer.InitializeSupabaseAsync();
 builder.Services.AddSingleton(supabase);
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddAutoMapper(typeof(Program));
+
+// --------------------------------------------------
+// Dependency Injection
+// --------------------------------------------------
+builder.Services.RegisterApplicationServices();
+
+// --------------------------------------------------
+// MVC, Razor & HttpContext
+// --------------------------------------------------
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor();
 
-// Auth setup
+// --------------------------------------------------
+// Cookie Authentication Setup
+// --------------------------------------------------
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -31,6 +35,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.SlidingExpiration = true;
     });
 
+// --------------------------------------------------
+// Build & Middleware
+// --------------------------------------------------
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
@@ -40,15 +47,16 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapStaticAssets();
 app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
+
 app.MapRazorPages();
 
 app.Run();

@@ -1,0 +1,44 @@
+﻿@* @model Weav_App.Models.ProductFilterModel *@
+@* *@
+@* <!-- Filter Bar --> *@
+@* <div class="filter-bar mb-4"> *@
+@*     <div class="row align-items-center"> *@
+@*         <div class="col-md-4"> *@
+@*             <div class="search-input"> *@
+@*                 <iconify-icon icon="mdi:magnify"></iconify-icon> *@
+@*                 <input type="text" name="searchQuery" class="form-control" placeholder="Search products..." value="@Model.SearchQuery"> *@
+@*             </div> *@
+@*         </div> *@
+@*         <div class="col-md-2"> *@
+@*             <select class="form-select" name="selectedCategory" onchange="this.form.submit()"> *@
+@*                 <option value="">All Categories</option> *@
+@*                 @foreach (var category in Model.Category) *@
+@*                 { *@
+@*                     <option value="@category" selected="@(Model.SelectedCategory == category.ProductCategory)"> *@
+@*                         @category *@
+@*                     </option> *@
+@*                 } *@
+@* *@
+@* *@
+@*             </select> *@
+@*         </div> *@
+@*         <div class="col-md-2"> *@
+@*             <select class="form-select" id="statusFilter"> *@
+@*                     <option value="">All Status</option> *@
+@*                     <option value="active">Active</option> *@
+@*                     <option value="inactive">Inactive</option> *@
+@*                     <option value="low-stock">Low Stock</option> *@
+@*                 </select> *@
+@*         </div> *@
+@*         <div class="col-md-4 text-end"> *@
+@*             <button class="btn btn-outline-primary me-2"> *@
+@*                 <iconify-icon icon="mdi:export" class="me-1"></iconify-icon> *@
+@*                 Export *@
+@*             </button> *@
+@*             <button class="btn btn-outline-primary"> *@
+@*                 <iconify-icon icon="mdi:import" class="me-1"></iconify-icon> *@
+@*                 Import *@
+@*             </button> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
