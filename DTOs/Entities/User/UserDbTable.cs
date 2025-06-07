@@ -20,7 +20,7 @@ namespace Weav_App.DTOs.Entities.User
         public string PasswordHash { get; set; }
 
         [Column("UserIP")]
-        public string UserIP { get; set; }
+        public string UserIp { get; set; }
 
         [Column("CreatedAt")]
         public DateTime RegisterDate { get; set; } = DateTime.UtcNow;

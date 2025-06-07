@@ -397,6 +397,10 @@
       "PackagePath": "staticwebassets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\Products_rows.sql",
+      "PackagePath": "staticwebassets\\images\\Products_rows.sql"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\ad-bg-pattern.png",
       "PackagePath": "staticwebassets\\images\\ad-bg-pattern.png"
     },
@@ -417,6 +421,10 @@
       "PackagePath": "staticwebassets\\images\\ad-image-4.png"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\almonds.jpg",
+      "PackagePath": "staticwebassets\\images\\almonds.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\app-store.jpg",
       "PackagePath": "staticwebassets\\images\\app-store.jpg"
     },
@@ -425,12 +433,28 @@
       "PackagePath": "staticwebassets\\images\\background-pattern.jpg"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bananas.png",
+      "PackagePath": "staticwebassets\\images\\bananas.png"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\banner-image-1.jpg",
       "PackagePath": "staticwebassets\\images\\banner-image-1.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\banner-image-2.jpg",
       "PackagePath": "staticwebassets\\images\\banner-image-2.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\basmati-rice.jpg",
+      "PackagePath": "staticwebassets\\images\\basmati-rice.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\beef-mince.jpg",
+      "PackagePath": "staticwebassets\\images\\beef-mince.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bell-papers.jpg",
+      "PackagePath": "staticwebassets\\images\\bell-papers.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bg-dot-pattern.png",
@@ -451,6 +475,38 @@
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\bg-pattern-2.png",
       "PackagePath": "staticwebassets\\images\\bg-pattern-2.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\black-tea.jpg",
+      "PackagePath": "staticwebassets\\images\\black-tea.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\broccoli.jpg",
+      "PackagePath": "staticwebassets\\images\\broccoli.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\brown-bread.jpg",
+      "PackagePath": "staticwebassets\\images\\brown-bread.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\canned-tuna.jpg",
+      "PackagePath": "staticwebassets\\images\\canned-tuna.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\carrots.jpg",
+      "PackagePath": "staticwebassets\\images\\carrots.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\cauliflower.jpg",
+      "PackagePath": "staticwebassets\\images\\cauliflower.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\cheddar-cheese.jpg",
+      "PackagePath": "staticwebassets\\images\\cheddar-cheese.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chicken-breast.jpg",
+      "PackagePath": "staticwebassets\\images\\chicken-breast.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolat\\close.png",
@@ -477,12 +533,76 @@
       "PackagePath": "staticwebassets\\images\\chocolat\\right.png"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\chocolatechocolate-chip-cookies.jpg",
+      "PackagePath": "staticwebassets\\images\\chocolatechocolate-chip-cookies.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\corn-flakes.jpg",
+      "PackagePath": "staticwebassets\\images\\corn-flakes.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\cucumber.jpg",
+      "PackagePath": "staticwebassets\\images\\cucumber.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\dish-soap.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-soap.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\eggs.jpg",
+      "PackagePath": "staticwebassets\\images\\eggs.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\energy-drink.png",
+      "PackagePath": "staticwebassets\\images\\energy-drink.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\flour-pack.jpg",
+      "PackagePath": "staticwebassets\\images\\flour-pack.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\fresh-squeezed-orange-juice-2.jpg",
+      "PackagePath": "staticwebassets\\images\\fresh-squeezed-orange-juice-2.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\frozen-fries.png",
+      "PackagePath": "staticwebassets\\images\\frozen-fries.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\frozen-peas.png",
+      "PackagePath": "staticwebassets\\images\\frozen-peas.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\garlic-bulb.jpg",
+      "PackagePath": "staticwebassets\\images\\garlic-bulb.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\gift.svg",
       "PackagePath": "staticwebassets\\images\\gift.svg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\google-play.jpg",
       "PackagePath": "staticwebassets\\images\\google-play.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\greek-yogurt.jpg",
+      "PackagePath": "staticwebassets\\images\\greek-yogurt.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\green-grapes.png",
+      "PackagePath": "staticwebassets\\images\\green-grapes.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\hand-sanitizer.jpg",
+      "PackagePath": "staticwebassets\\images\\hand-sanitizer.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\honey-jar.jpg",
+      "PackagePath": "staticwebassets\\images\\honey-jar.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\ice_cream.jpg",
+      "PackagePath": "staticwebassets\\images\\ice_cream.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\icon-animal-products-drumsticks.png",
@@ -509,12 +629,52 @@
       "PackagePath": "staticwebassets\\images\\icon-wine-glass-bottle.png"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\instant-coffee.jpg",
+      "PackagePath": "staticwebassets\\images\\instant-coffee.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\istockphoto-183422512-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-183422512-612x612.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\laundry-detergent.png",
+      "PackagePath": "staticwebassets\\images\\laundry-detergent.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\lemonade.jpg",
+      "PackagePath": "staticwebassets\\images\\lemonade.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\mango-juice.jpg",
+      "PackagePath": "staticwebassets\\images\\mango-juice.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\olive-oil.jpg",
+      "PackagePath": "staticwebassets\\images\\olive-oil.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\onions.jpg",
+      "PackagePath": "staticwebassets\\images\\onions.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\oranges.png",
+      "PackagePath": "staticwebassets\\images\\oranges.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\peanut-butter.jpg",
+      "PackagePath": "staticwebassets\\images\\peanut-butter.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\phone.png",
       "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\pizza-pack.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza-pack.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\post-thumb-1.jpg",
@@ -527,6 +687,10 @@
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\post-thumb-3.jpg",
       "PackagePath": "staticwebassets\\images\\post-thumb-3.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\potatoes.jpg",
+      "PackagePath": "staticwebassets\\images\\potatoes.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\product-thumb-1.png",
@@ -565,6 +729,14 @@
       "PackagePath": "staticwebassets\\images\\reviewer-3.jpg"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\salted-butter.jpg",
+      "PackagePath": "staticwebassets\\images\\salted-butter.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\shampoo.jpg",
+      "PackagePath": "staticwebassets\\images\\shampoo.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\signin-image.jpg",
       "PackagePath": "staticwebassets\\images\\signin-image.jpg"
     },
@@ -575,6 +747,10 @@
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\singel-product-item.jpg",
       "PackagePath": "staticwebassets\\images\\singel-product-item.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\sliced-ham.png",
+      "PackagePath": "staticwebassets\\images\\sliced-ham.png"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\slide-1.jpg",
@@ -591,6 +767,10 @@
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\slide-4.jpg",
       "PackagePath": "staticwebassets\\images\\slide-4.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\spinach-bunch.jpg",
+      "PackagePath": "staticwebassets\\images\\spinach-bunch.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-avocado.png",
@@ -643,6 +823,30 @@
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\thumb-tuna.jpg",
       "PackagePath": "staticwebassets\\images\\thumb-tuna.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\toilet-paper.jpg",
+      "PackagePath": "staticwebassets\\images\\toilet-paper.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\tomato-ketchup.jpg",
+      "PackagePath": "staticwebassets\\images\\tomato-ketchup.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\toohpaste.jpg",
+      "PackagePath": "staticwebassets\\images\\toohpaste.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\watermelon.jpg",
+      "PackagePath": "staticwebassets\\images\\watermelon.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\white-sugar.jpg",
+      "PackagePath": "staticwebassets\\images\\white-sugar.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\whole-milk.png",
+      "PackagePath": "staticwebassets\\images\\whole-milk.png"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\js\\jquery-1.11.0.min.js",

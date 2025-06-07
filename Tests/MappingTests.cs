@@ -20,12 +20,12 @@ public class MappingProfileTests
     public void RegisterUserDto_To_UserDbTable_Mapping_IsValid()
     {
         // Arrange
-        var registerUserDto = new RegisterUserDTO
+        var registerUserDto = new RegisterUserDto
         {
             Username = "testuser",
             Email = "test@example.com",
             Password = "Password123",
-            UserIP = "127.0.0.1",
+            UserIp = "127.0.0.1",
             RegisterDate = DateTime.UtcNow,
             LastLogin = DateTime.UtcNow,
             UserPhoto = new byte[] { 1, 2, 3 }

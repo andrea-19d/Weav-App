@@ -39,12 +39,12 @@ public class RegistrationController : Controller
         try
         {
             // Map RegisterUser model to RegisterUserDTO
-            var registerUserDto = _mapper.Map<RegisterUserDTO>(model);
+            var registerUserDto = _mapper.Map<RegisterUserDto>(model);
 
             // Perform registration via the user service
-            var result = await _authService.RegisterUserAsync(registerUserDto);
+            var result = await _authService.RegisterUser(registerUserDto);
 
-            if (result.success)
+            if (result.succes)
             {
                 // Redirect to a confirmation page or login page
                 return RedirectToAction("Login", "Login");

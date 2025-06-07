@@ -27,10 +27,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="DTOs\Entities\Products\" />
       <Folder Include="Middleware\" />
-      <Folder Include="Repositories\" />
-      <Folder Include="Repository\" />
+      <Folder Include="Services\General\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\images\istockphoto-183422512-612x612.jpg" />
     </ItemGroup>
 
 </Project>
