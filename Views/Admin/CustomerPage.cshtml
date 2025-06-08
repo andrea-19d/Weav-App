@@ -1,0 +1,217 @@
+﻿@{
+    ViewData["Title"] = "Customer Page";
+    Layout = "Admin/_AdminLayout";
+}
+<!-- Statistics Cards -->
+<div class="col-md-9 col-lg-10">
+<div class="main-content p-4 fade-in">
+    <div class="row mb-4">
+        <div class="col-md-3 mb-3">    
+            <div class="stats-card text-center">
+                <div class="stats-icon icon-customers mx-auto">
+                    <iconify-icon icon="material-symbols:people-outline"></iconify-icon>
+                </div>
+                <div class="stats-number">2,847</div>
+                <div class="stats-label">Total Customers</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="stats-card text-center">
+                <div class="stats-icon icon-premium mx-auto">
+                    <iconify-icon icon="material-symbols:star-outline"></iconify-icon>
+                </div>
+                <div class="stats-number">384</div>
+                <div class="stats-label">Premium Members</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="stats-card text-center">
+                <div class="stats-icon icon-orders mx-auto">
+                    <iconify-icon icon="material-symbols:shopping-cart-outline"></iconify-icon>
+                </div>
+                <div class="stats-number">156</div>
+                <div class="stats-label">New This Month</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="stats-card text-center">
+                <div class="stats-icon icon-revenue mx-auto">
+                    <iconify-icon icon="material-symbols:trending-up"></iconify-icon>
+                </div>
+                <div class="stats-number">94.2%</div>
+                <div class="stats-label">Retention Rate</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <div class="search-input">
+                    <iconify-icon icon="material-symbols:search"></iconify-icon>
+                    <input type="text" class="form-control" placeholder="Search by name or email..." id="customerSearch">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="statusFilter">
+                    <option value="">All Status</option>
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="tierFilter">
+                    <option value="">All Tiers</option>
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                    <option value="vip">VIP</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="sortBy">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                    <option value="name">Name A-Z</option>
+                    <option value="orders">Most Orders</option>
+                </select>
+            </div>
+            <div class="col-md-3 text-end">
+                <button class="btn btn-outline-primary me-2">
+                    <iconify-icon icon="material-symbols:file-export-outline" class="me-1"></iconify-icon>
+                    Export
+                </button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addCustomerModal">
+                    <iconify-icon icon="material-symbols:add" class="me-1"></iconify-icon>
+                    Add Customer
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customer Table -->
+    <div class="table-card">
+        <div class="card-header">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h5 class="mb-0" style="font-family: var(--heading-font);">Customer List</h5>
+                </div>
+                <div class="col-auto">
+                    <span class="text-muted">Showing 1-10 of 2,847 customers</span>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead>
+                <tr>
+                    <th>Customer</th>
+                    <th>Email</th>
+                    <th>Tier</th>
+                    <th>Orders</th>
+                    <th>Total Spent</th>
+                    <th>Last Order</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                
+                <tbody id="customerTableBody">
+                @foreach (var product in Model.Products.Take(10))
+                    {
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox"/>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <div class="product-image me-3">
+                                        <img src="@product.ProductImage" alt="Product" class="img-cover" />
+                                    </div>
+
+                                    <div>
+                                        <h6 class="mb-0 fw-bold">@product.ProductName</h6>
+                                        <small class="text-muted">@product.Brand</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="badge bg-light text-dark">@product.ProductCategory</span></td>
+                            <td class="fw-bold">@product.ProductPrice</td>
+                            <td>@product.Quantity</td>
+                            <td>
+                                @{
+                                    var status = product.Quantity == 0 ? "Inactive" :
+                                        product.Quantity < 10 ? "Low Stock" : "Active";
+                                    var statusClass = status == "Inactive" ? "status-inactive" :
+                                        status == "Low Stock" ? "status-low-stock" : "status-active";
+                                }
+                                <span class="status-badge @statusClass">@status</span>
+                            </td>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <iconify-icon icon="mdi:star" style="color: #ffc107;"></iconify-icon>
+                                    <span class="ms-1 fw-bold">4.5</span>
+                                    <!-- Replace with actual rating if you have -->
+                                </div>
+                            </td>
+                            <td>
+                                <button class="action-btn btn-view me-1" title="View">
+                                    <iconify-icon icon="mdi:eye"></iconify-icon>
+                                </button>
+                                <button class="action-btn btn-edit me-1" title="Edit">
+                                    <iconify-icon icon="mdi:pencil"></iconify-icon>
+                                </button>
+                                <button class="action-btn btn-delete" title="Delete">
+                                    <iconify-icon icon="mdi:delete"></iconify-icon>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                        <button class="action-btn btn-view" title="View Details">
+                            <iconify-icon icon="material-symbols:visibility-outline"></iconify-icon>
+                        </button>
+                        <button class="action-btn btn-edit" title="Edit Customer">
+                            <iconify-icon icon="material-symbols:edit-outline"></iconify-icon>
+                        </button>
+                        <button class="action-btn btn-delete" title="Delete Customer">
+                            <iconify-icon icon="material-symbols:delete-outline"></iconify-icon>
+                        </button>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="row align-items-center">
+                <div class="col">
+                    <nav aria-label="Products pagination" class="mt-4 p-3">
+                        <ul class="pagination pagination-sm justify-content-center">
+                            <li class="page-item @(Model.Pagination.CurrentPage == 1 ? "disabled" : "")">
+                                <a class="page-link" href="?page=@(Model.Pagination.CurrentPage- 1)">Previous</a>
+                            </li>
+
+                            @for (int i = 1; i <= Model.Pagination.TotalPages; i++)
+                            {
+                                <li class="page-item @(i == Model.Pagination.CurrentPage ? "active" : "")">
+                                    <a class="page-link" href="?page=@i">@i</a>
+                                </li>
+                            }
+
+                            <li class="page-item @(Model.Pagination.CurrentPage == Model.Pagination.TotalPages ? "disabled" : "")">
+                                <a class="page-link" href="?page=@(Model.Pagination.CurrentPage + 1)">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-auto">
+                    <select class="form-select form-select-sm" style="width: auto;">
+                        <option>10 per page</option>
+                        <option>25 per page</option>
+                        <option>50 per page</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

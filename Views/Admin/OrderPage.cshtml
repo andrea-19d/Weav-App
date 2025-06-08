@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Weav_App.Models.ViewsModel.OrdersPageViewModel
+@{
     ViewData["Title"] = "Order Page";
     Layout = "Admin/_AdminLayout";
 }
@@ -44,7 +45,7 @@
                     <iconify-icon icon="mdi:shopping"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Total Orders</h6>
-                <h3 class="mb-0">2,847</h3>
+                <h3 class="mb-0">@Model.Stats.TotalOrders</h3>
             </div>
         </div>
         <div class="col-xl-3 col-md-6 mb-3">
@@ -53,7 +54,7 @@
                     <iconify-icon icon="mdi:clock-outline"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Pending Orders</h6>
-                <h3 class="mb-0">156</h3>
+                <h3 class="mb-0">@Model.Stats.PendingOrders</h3>
             </div>
         </div>
         <div class="col-xl-3 col-md-6 mb-3">
@@ -62,7 +63,7 @@
                     <iconify-icon icon="mdi:truck-delivery"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Delivered Today</h6>
-                <h3 class="mb-0">89</h3>
+                <h3 class="mb-0">@Model.Stats.ShippedOrders</h3>
             </div>
         </div>
         <div class="col-xl-3 col-md-6 mb-3">
@@ -71,7 +72,7 @@
                     <iconify-icon icon="mdi:currency-usd"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Today's Revenue</h6>
-                <h3 class="mb-0">$12,450</h3>
+                <h3 class="mb-0">$@Model.Stats.TodayTotals</h3>
             </div>
         </div>
  

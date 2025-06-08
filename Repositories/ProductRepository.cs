@@ -2,16 +2,21 @@
 using Supabase;
 using Weav_App.DTOs.Entities.Categories;
 using Weav_App.DTOs.Entities.Products;
+using Weav_App.Helpers;
 using Weav_App.Repositories.Interface;
 
 public class ProductRepository : IProductRepository
 {
-    private readonly Client _supabase;
-    public readonly Mapper _mapper;
+    private readonly Client _supabase;  
+    private readonly IMapper _mapper;
+    private readonly UsefulChecks _checks;
+    private readonly NanoidGenerator _nanoidGenerator;
     
-    public ProductRepository(Client supabase)
+    public ProductRepository(Client supabase, IMapper mapper, UsefulChecks checks)
     {
         _supabase = supabase;
+        _mapper = mapper;
+        _checks = checks;
     }
     
     public async Task<List<ProductDbTable>> GetAllAsync()
@@ -63,6 +68,41 @@ public class ProductRepository : IProductRepository
         Console.WriteLine(products);
 
         return products;
+    }
+
+    public async Task<(bool succes, string? error)> CreateNewProduct(ProductDto productDto, string selectedCategory)
+    {
+        var categoryId = await _checks.GetCategoryByName(selectedCategory);
+
+        var productDb = _mapper.Map<ProductDbTable>(productDto);
+        var productExists = await _checks.RecordExistsAsync<ProductDbTable>("ProductName", productDb.ProductName);
+
+        if (productExists != null)
+        {
+            return (false, "The product name already exist!");
+        }
+        
+        productDb.CreatedAt = DateTime.Now;
+        productDb.UpdatedAt = DateTime.Now;
+        productDb.Barcode = NanoidGenerator.Generate(12);
+        productDb.CategoryId = categoryId.CategoryId;
+
+        if (productDb.ImageUrl == null)
+        {
+            productDb.ImageUrl = null;
+        }
+        
+        try
+        {
+            Console.WriteLine(productDb.ProductId);
+            await _supabase.From<ProductDbTable>().Insert(productDb);
+            return (true, "Success");
+        }
+        catch (Exception ex)
+        {
+            return (false, ex.Message);
+        }
+        
     }
 
 

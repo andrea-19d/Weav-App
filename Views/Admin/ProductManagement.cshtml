@@ -12,10 +12,10 @@
                 <div class="stats-card">
                     <h5 class="mb-4">Quick Actions</h5>
                     <div class="d-flex flex-wrap gap-3">
-                        <button class="btn btn-primary">
+                        <a asp-controller="Admin" asp-action="Create" class="btn btn-primary">
                             <iconify-icon icon="mdi:plus" class="me-2"></iconify-icon>
                             Add Product
-                        </button>
+                        </a>
                         <button class="btn btn-success">
                             <iconify-icon icon="mdi:cart-plus" class="me-2"></iconify-icon>
                             New Order
@@ -45,7 +45,7 @@
                         <iconify-icon icon="mdi:package-variant"></iconify-icon>
                     </div>
                     <h6 class="text-muted mb-1">Total Products</h6>
-                    <h3 class="mb-0 fw-bold">@ViewBag.Products</h3>
+                    <h3 class="mb-0 fw-bold">@Model.Stats.TotalProducts</h3>
                 </div>
             </div>
             <div class="col-xl-3 col-md-6 mb-3">
@@ -54,7 +54,7 @@
                         <iconify-icon icon="mdi:tag-multiple"></iconify-icon>
                     </div>
                     <h6 class="text-muted mb-1">Categories</h6>
-                    <h3 class="mb-0 fw-bold">@ViewBag.Category</h3>
+                    <h3 class="mb-0 fw-bold">@Model.Stats.TotalCategory</h3>
                 </div>
             </div>
             <div class="col-xl-3 col-md-6 mb-3">
@@ -63,7 +63,7 @@
                         <iconify-icon icon="mdi:alert-circle"></iconify-icon>
                     </div>
                     <h6 class="text-muted mb-1">Low Stock</h6>
-                    <h3 class="mb-0 fw-bold">@ViewBag.LowStock</h3>
+                    <h3 class="mb-0 fw-bold">@Model.Stats.LowStock</h3>
                 </div>
             </div>
             <div class="col-xl-3 col-md-6 mb-3">
@@ -72,7 +72,7 @@
                         <iconify-icon icon="mdi:eye-off"></iconify-icon>
                     </div>
                     <h6 class="text-muted mb-1">Inactive</h6>
-                    <h3 class="mb-0 fw-bold">@ViewBag.Inactive</h3>
+                    <h3 class="mb-0 fw-bold">@Model.Stats.Inactive</h3>
                 </div>
             </div>
         </div>
@@ -154,7 +154,7 @@
                             <td>
                                 <div class="d-flex align-items-center">
                                     <div class="product-image me-3">
-                                        <img src="@product.ProductImage" alt="Product" class="img-cover" />
+                                        <img src="@product.ImageUrl" alt="Product" class="img-cover" />
                                     </div>
 
                                     <div>
@@ -204,19 +204,19 @@
             <!-- Pagination -->
             <nav aria-label="Products pagination" class="mt-4 p-3">
                 <ul class="pagination pagination-sm justify-content-center">
-                    <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
-                        <a class="page-link" href="?page=@(ViewBag.CurrentPage - 1)">Previous</a>
+                    <li class="page-item @(Model.Pagination.CurrentPage == 1 ? "disabled" : "")">
+                        <a class="page-link" href="?page=@(Model.Pagination.CurrentPage- 1)">Previous</a>
                     </li>
 
-                    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                    @for (int i = 1; i <= Model.Pagination.TotalPages; i++)
                     {
-                        <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                        <li class="page-item @(i == Model.Pagination.CurrentPage ? "active" : "")">
                             <a class="page-link" href="?page=@i">@i</a>
                         </li>
                     }
 
-                    <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
-                        <a class="page-link" href="?page=@(ViewBag.CurrentPage + 1)">Next</a>
+                    <li class="page-item @(Model.Pagination.CurrentPage == Model.Pagination.TotalPages ? "disabled" : "")">
+                        <a class="page-link" href="?page=@(Model.Pagination.CurrentPage + 1)">Next</a>
                     </li>
                 </ul>
             </nav>

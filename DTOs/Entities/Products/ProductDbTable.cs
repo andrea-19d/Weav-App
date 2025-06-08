@@ -1,4 +1,5 @@
-﻿using Postgrest.Attributes;
+﻿using Newtonsoft.Json;
+using Postgrest.Attributes;
 using Postgrest.Models;
 using Weav_App.DTOs.Entities.Categories;
 
@@ -7,7 +8,8 @@ namespace Weav_App.DTOs.Entities.Products;
 [Table("Products")] 
 public class ProductDbTable : BaseModel
 {
-    [PrimaryKey("ProductId", false)] 
+    [PrimaryKey("ProductId", true)] 
+    [JsonIgnore]
     public int ProductId { get; set; }
     
     [Column("ProductName")] 
@@ -45,5 +47,8 @@ public class ProductDbTable : BaseModel
     
     [Column("CategoryId")]
     public int CategoryId { get; set; }
+    
+    
+    [JsonIgnore]
     public CategoryDbTable? Category { get; set; }
 }

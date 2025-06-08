@@ -18,7 +18,9 @@ public class CategoryRepository : ICategoryRepository
             throw new System.ArgumentNullException(nameof(_supabase));
         }
         
-        var result = await _supabase.From<CategoryDbTable>().Get();
+        var result = await _supabase.From<CategoryDbTable>()
+            .Select("CategoryName").Get();
+        
         return result.Models;
     }
 }

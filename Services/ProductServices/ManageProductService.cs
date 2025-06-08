@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Weav_App.DTOs.Entities.Products;
+using Weav_App.Models;
+using Weav_App.Models.ViewsModel;
 using Weav_App.Repositories.Interface;
 using Weav_App.Services.General;
 using Weav_App.Services.Interface;
@@ -44,14 +46,25 @@ public class ManageProductService : IProductServices
     public async Task<ServiceResult<List<ProductDto>>> SearchProductsByCategory(string categoryName)
     {
         var dbProducts = await _repository.GetProductByCategory(categoryName);
-
-        // Map to DTO
         var dtoProducts = dbProducts.Select(p => _mapper.Map<ProductDto>(p)).ToList();
 
         return new ServiceResult<List<ProductDto>>
         {
             Success = true,
             Data = dtoProducts
+        };
+    }
+
+    public async Task<ServiceResult<CreateProductViewModel>> CreateProduct(CreateProductModel productModel, string selectedCategory)
+    {
+        var createProduct = _mapper.Map<ProductDto>(productModel);
+        var result = await _repository.CreateNewProduct(createProduct, selectedCategory);
+        
+        return new ServiceResult<CreateProductViewModel>
+        {
+            Success = true, 
+            Data = null,
+            ErrorMessage = result.error
         };
     }
 }
