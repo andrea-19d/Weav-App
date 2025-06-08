@@ -9,7 +9,7 @@ namespace Weav_App.Repositories;
 
 public class AuthRepository :  PasswordHasher<string>, IAuthRepository
 {
-     private readonly Client _supabase;
+    private readonly Client _supabase;
     private readonly IMapper _mapper;
     private readonly IHttpContextAccessor _httpContextAccessor;
 
@@ -68,6 +68,8 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
         if (isPasswordValid == PasswordVerificationResult.Failed)
             return (false, UserLevel.Guest);
 
+        user.LastLogin = DateTime.UtcNow;
+        
         Console.WriteLine($"LoginUserAsync: {user.Level}");
         return (true, user.Level);
     }

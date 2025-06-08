@@ -11,4 +11,5 @@ public interface IProductRepository
     Task<List<ProductDbTable>> GetInactiveStokData();
     
     Task<List<ProductDbTable>> GetProductByCategory(string category);
+    Task<(bool succes, string? error)> CreateNewProduct(ProductDto productDto, string selectedCategory);
 }

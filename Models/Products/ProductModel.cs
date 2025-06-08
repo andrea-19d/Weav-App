@@ -44,15 +44,5 @@ public class ProductModel
         public decimal ProductPrice { get; set; }
         public int Quantity { get; set; }
     }
-
-    public class ProductsList
-    {
-        public string ProductImage { get; set; }
-        public string ProductName { get; set; }
-        public string Brand { get; set; }
-        public string ProductCategory { get; set; }
-        public string ProductPrice { get; set; }
-        public int Quantity { get; set; } 
-    }
     
 }

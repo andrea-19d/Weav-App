@@ -29,6 +29,7 @@
     <ItemGroup>
       <Folder Include="Middleware\" />
       <Folder Include="Services\General\" />
+      <Folder Include="Views\Forms\" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,0 +1,120 @@
+﻿    @model Weav_App.Models.CreateProductModel
+
+    @{
+        ViewData["Title"] = "Product Form";
+        Layout = "Admin/_AdminLayout";
+    }
+
+    <!-- Notification Message -->
+    @if (TempData["SuccessMessage"] != null || TempData["ErrorMessage"] != null)
+    {
+        <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+            <div class="toast align-items-center text-white @((TempData["SuccessMessage"] != null ? "bg-success" : "bg-danger")) show" role="alert">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        @(TempData["SuccessMessage"] ?? TempData["ErrorMessage"])
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="col-md-9 col-lg-10">
+        <div class="main-content p-4 fade-in">
+            <form asp-action="Create" method="post" enctype="multipart/form-data" class="row g-3 flex-column">
+                <div class="col-12">
+                    <label asp-for="ProductName" class="form-label">Product Name</label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Brand" class="form-label">Brand</label>
+                    <input asp-for="Brand" class="form-control" />
+                    <span asp-validation-for="Brand" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="SelectedCategory" class="form-label">Category</label>
+                    <select asp-for="SelectedCategory" class="form-select">
+                        <option value="">Select Category</option>
+                        @foreach (var category in Model.Categories)
+                        {
+                            <option value="@category" selected="@(Model.SelectedCategory == category)">
+                                @category
+                            </option>
+                        }
+                    </select>
+                    <span asp-validation-for="SelectedCategory" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="ProductPrice" class="form-label">Price</label>
+                    <input asp-for="ProductPrice" class="form-control" />
+                    <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Quantity" class="form-label">Quantity</label>
+                    <input asp-for="Quantity" type="number" class="form-control" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="ExpiryDate" class="form-label">Expiry Date</label>
+                    <input asp-for="ExpiryDate" type="date" class="form-control" />
+                    <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="ProductDescription" class="form-label">Description</label>
+                    <textarea asp-for="ProductDescription" rows="4" class="form-control"></textarea>
+                    <span asp-validation-for="ProductDescription" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="ImageUrl" class="form-label">Product Image</label>
+                    <div class="image-upload-area" onclick="document.getElementById('fileInput').click();"
+                         ondragover="event.preventDefault();" ondrop="handleFileDrop(event)">
+                        <p>Drag & drop image here or click to upload</p>
+                        <img id="preview" class="img-thumbnail mb-2" style="max-height: 150px;" />
+                        
+                    </div>
+                    <input asp-for="ProductImage" type="file" id="fileInput" class="form-control d-none" />
+                    <span asp-validation-for="ProductImage" class="text-danger"></span>
+
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Save Product</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script>
+        document.getElementById("fileInput")?.addEventListener("change", function () {
+            const file = this.files?.[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById("preview").src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        function handleFileDrop(event) {
+            event.preventDefault();
+            const files = event.dataTransfer.files;
+            const fileInput = document.getElementById('fileInput');
+            fileInput.files = files;
+
+            // Trigger the change event manually
+            const changeEvent = new Event('change');
+            fileInput.dispatchEvent(changeEvent);
+        }
+    </script>
+    }

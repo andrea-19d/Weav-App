@@ -1,0 +1,75 @@
+﻿using AutoMapper;
+using Weav_App.DTOs.Entities.Orders;
+using Weav_App.Repositories.Interface;
+using Weav_App.Services.General;
+using Weav_App.Services.Interface;
+
+namespace Weav_App.Services.OrderServices;
+
+public class ManageOrderService : IOrderService
+{
+    private readonly IOrderRepository _orderRepository;
+    private readonly IMapper _mapper;
+    
+    public ManageOrderService(IOrderRepository orderRepository, IMapper mapper)
+    {
+        _orderRepository = orderRepository;
+        _mapper = mapper;
+    }
+
+    public async Task<ServiceResult<List<OrdersListDTO>>> GetAllOrders()
+    {
+        var ordersDb = await _orderRepository.GetAllOrdersAsync();
+        var dtoOrders = _mapper.Map<List<OrdersListDTO>>(ordersDb).ToList();
+        return new ServiceResult<List<OrdersListDTO>>
+        {
+            Success = true,
+            Data = dtoOrders,
+            ErrorMessage = "Task ended successfully"
+        };
+    }
+
+    public async Task<ServiceResult<List<OrdersListDTO>>> GetAllPendingOrders()
+    {
+        var ordersDb = await _orderRepository.GetAllPendingAsync();
+        var dtoOrders = _mapper.Map<List<OrdersListDTO>>(ordersDb).ToList();
+
+        return new ServiceResult<List<OrdersListDTO>>
+        {
+            Success = true,
+            Data = dtoOrders,
+            ErrorMessage = "Task ended successfully"
+        };
+    }
+
+    public async Task<ServiceResult<List<OrdersListDTO>>> GetAllShippedOrders()
+    {
+        var ordersDb = await _orderRepository.GetAllShippedAsync();
+        var dtoOrders = _mapper.Map<List<OrdersListDTO>>(ordersDb).ToList();
+
+        return new ServiceResult<List<OrdersListDTO>>
+        {
+            Success = true,
+            Data = dtoOrders,
+            ErrorMessage = "Task ended successfully"
+        };
+    }
+
+    public async Task<ServiceResult<decimal>> GetTodayRevenue()
+    {
+        var todayRevenue = await _orderRepository.TodayRevenueAsync();
+        var todayRevenueDecimal = 0.0m;
+
+        foreach (var revenue in todayRevenue)
+        {
+            todayRevenueDecimal += revenue.TotalAmount;
+        }
+
+        return new ServiceResult<decimal>
+        {
+            Success = true,
+            Data = todayRevenueDecimal,
+            ErrorMessage = "Task ended successfully"
+        };
+    }
+}

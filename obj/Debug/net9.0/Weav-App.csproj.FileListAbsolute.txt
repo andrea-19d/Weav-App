@@ -643,7 +643,6 @@ A:\Git\Weav-App\obj\Debug\net9.0\Weav-App.sourcelink.json
 A:\Git\Weav-App\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 A:\Git\Weav-App\obj\Debug\net9.0\scopedcss\bundle\Weav-App.styles.css
 A:\Git\Weav-App\obj\Debug\net9.0\scopedcss\projectbundle\Weav-App.bundle.scp.css
-A:\Git\Weav-App\obj\Debug\net9.0\compressed\62hl5qurdm-lkwvqefdzp.gz
 A:\Git\Weav-App\obj\Debug\net9.0\compressed\3jec9hjl06-nchd7p5dw1.gz
 A:\Git\Weav-App\obj\Debug\net9.0\compressed\j2jf5o2hpw-1m9gd1ivfa.gz
 A:\Git\Weav-App\obj\Debug\net9.0\compressed\uzxg9bq0pw-od80b6cznv.gz
