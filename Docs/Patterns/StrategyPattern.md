@@ -24,7 +24,7 @@ in a decoupled and extensible way.
 
 ### 🎯 Core Components in This Project
 #### IStrategy.cs
-```
+```csharp
 using Weav_App.Models;
 
 namespace Weav_App.Services.General.InsertStrategies;
@@ -35,7 +35,7 @@ public interface IStrategy<T>
 }
 ```
 #### AddAdminStrategy.cs
-```
+```csharp
 public class AddAdminStrategy : IStrategy<RegisterUserModel>
 {
     private readonly IAuthService _authenticationService;
@@ -72,7 +72,7 @@ public class AddAdminStrategy : IStrategy<RegisterUserModel>
 ```
 
 #### InsertProductStrategy.cs
-```
+```csharp
 using AutoMapper;
 using Weav_App.DTOs.Entities.Products;
 using Weav_App.Models;
@@ -106,7 +106,7 @@ public class InsertProductStrategy : IStrategy<CreateProductModel>
 
 ```
 #### InsertDispatcher.cs
-```
+```csharp
 namespace Weav_App.Services.General.InsertStrategies;
 
 public class InsertDispatcher
@@ -126,18 +126,19 @@ public class InsertDispatcher
 
 ```
 ### 🧪 Example Usage
-```
+```csharp
 var result = await _insertProductStrategy.CreateItem(model);
 ```
 OR
 
-```
+```csharp
 var newAdmin = await _insertProductStrategy.CreateItem(model);
 ```
 ## 💉 Register Strategies via DI in ASP.NET Core
-        services.AddScoped<IStrategy<RegisterUserModel>, AddAdminStrategy>();
-        services.AddScoped<IStrategy<CreateProductModel>, InsertProductStrategy>();
-
+```csharp
+services.AddScoped<IStrategy<RegisterUserModel>, AddAdminStrategy>();
+services.AddScoped<IStrategy<CreateProductModel>, InsertProductStrategy>();
+```
 ## ✅ This is a textbook Strategy Pattern in practice:
 Multiple algorithms → Implement same interface → 
 Context selects which one to use at runtime → Swap behavior without changing the core code.

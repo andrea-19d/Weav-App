@@ -35,7 +35,7 @@ these actions without modifying the actual business logic.
 
 ## 🧪 How is the Interceptor Pattern Used in this project?
 
-
+```csharp
     public class UserLevelAuthorizeAttribute : AuthorizeAttribute, IAuthorizationFilter
     {
         private readonly UserLevel _requiredLevel;
@@ -55,7 +55,7 @@ these actions without modifying the actual business logic.
             Console.WriteLine($"User level claim: {userLevelClaim}, parsed enum: {userLevel}");
         }
     }
-
+```
 
 ### 🧩 Explanation:
 - This code implements a custom interceptor using IAuthorizationFilter. 

@@ -1,9 +1,17 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Weav_App.Helpers;
-using DotNetEnv;
-using Supabase;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// --------------------------------------------------
+// Serilog Logging
+// --------------------------------------------------
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.File("Logs/weavapp-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 // --------------------------------------------------
 // Supabase Client Initialization

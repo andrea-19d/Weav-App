@@ -36,7 +36,7 @@ This code:
 - Registers it in the DI container using AddSingleton()
 
 ##  🔧 SupabaseInitializer
-```
+```csharp
 public static class SupabaseInitializer
 {
     public static async Task<Client> InitializeSupabaseAsync()
@@ -62,11 +62,11 @@ public static class SupabaseInitializer
 
 ## 🧩 Explanation
 Instead of creating a new Supabase.Client in every service or controller:
-``` 
+``` csharp
 var supabase = new Client(...);
 ```
 You inject the already-initialized singleton:
-```
+```csharp
 public ProductRepository(Client supabase) { ... }
 ```
 
