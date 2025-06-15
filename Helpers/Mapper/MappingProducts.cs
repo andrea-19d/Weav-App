@@ -19,7 +19,8 @@ public class MappingProducts : Profile
             .ForMember(dest => dest.ProductId, opt => opt.Ignore())
             .ForMember(dest => dest.Category, opt => opt.Ignore());
         // Mapping between ProductDbTable and ProductDto 
-        CreateMap<ProductDbTable, ProductDto>();
+        CreateMap<ProductDbTable, ProductDto>()
+            .ForMember(dest => dest.ProductCategory, opt => opt.MapFrom(src => src.Category.CategoryName));
         // Mapping between ProductsList and ProductDTO
         CreateMap<CreateProductModel, ProductDto>();
         CreateMap<ProductDto, CreateProductModel>();

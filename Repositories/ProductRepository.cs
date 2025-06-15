@@ -47,7 +47,6 @@ public class ProductRepository : IProductRepository
 
     public async Task<List<ProductDbTable>> GetProductByCategory(string categoryName)
     {
-        // Step 1: Get the matching category
         var categoryResult = await _supabase
             .From<CategoryDbTable>()
             .Select("CategoryId")
@@ -58,7 +57,6 @@ public class ProductRepository : IProductRepository
         if (category == null)
             return null;
 
-        // Step 2: Get products with matching CategoryId
         var productResult = await _supabase
             .From<ProductDbTable>()
             .Where(p => p.CategoryId == category.CategoryId)

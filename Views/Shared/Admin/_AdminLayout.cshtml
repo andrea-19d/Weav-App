@@ -26,15 +26,22 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        @Html.Partial("_Header")
-        @Html.Partial("_Sidebar")
-        @RenderBody()
+        @Html.Partial("~/Views/Admin/_Header.cshtml")
+        @Html.Partial("~/Views/Admin/_Sidebar.cshtml")
+        <div class="col-md-9 col-lg-10">
+            <div class="main-content p-4 fade-in">
+                @await Component.InvokeAsync("QuickActions")
+                @RenderBody()
+            </div>
+        </div>
+        
     </div>
 </div>
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="Admin/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -1,0 +1,92 @@
+﻿    @model Weav_App.Models.ViewsModel.OrdersPageViewModel
+    @{
+        ViewData["Title"] = "New Order Page";
+        Layout = "Admin/_AdminLayout";
+    }
+    <!-- Trip Cards -->
+    <div class="row" id="tripCardsContainer">
+        @foreach (var orders in Model.Orders)
+        {
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4 trip-card-wrapper">
+                <div class="trip-card">
+                    <!-- Card Header with Gradient Background -->
+                    <div class="trip-header">
+                        <div class="header-content">
+                            <div class="trip-id-section">
+                                <iconify-icon icon="mdi:receipt" class="order-icon"></iconify-icon>
+                                <div>
+                                    <div class="trip-id">@orders.PurchaseOrder</div>
+                                    <div class="order-label">Purchase Order</div>
+                                </div>
+                            </div>
+                            <div class="trip-total">$@orders.TotalAmount.ToString("F2")</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Trip Details -->
+                    <div class="trip-details">
+                        <div class="trip-info-row">
+                            <div class="info-icon">
+                                <iconify-icon icon="mdi:map-marker"></iconify-icon>
+                            </div>
+                            <div class="info-content">
+                                <div class="info-label">Location</div>
+                                <div class="info-value">@orders.City </div>
+                                <div class="info-value">@orders.StreetName @orders.StreetAddress </div>
+                            </div>
+                        </div>
+
+                        <div class="trip-info-row">
+                            <div class="info-icon">
+                                <iconify-icon icon="mdi:calendar-clock"></iconify-icon>
+                            </div>
+                            <div class="info-content">
+                                <div class="info-label">Order Date</div>
+                                <div class="info-value">@orders.OrderDate.ToString("MMM dd, yyyy")</div>
+                            </div>
+                        </div>
+
+                        <div class="trip-info-row">
+                            <div class="info-icon">
+                                <iconify-icon icon="mdi:email"></iconify-icon>
+                            </div>
+                            <div class="info-content">
+                                <div class="info-label">Contact</div>
+                                <div class="info-value">@orders.Email</div>
+                                <div class="info-value">@orders.PhoneNumber</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Footer with Action -->
+                    <form asp-controller="Order" asp-action="ConfirmOrder" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="orderId" value="@orders.OrderId"/>
+                        <button type="submit" class="btn-view-details">
+                            <iconify-icon icon="mdi:eye" class="me-2"></iconify-icon>
+                            Confirm Order
+                        </button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (TempData["SuccessMessage"] != null || TempData["ErrorMessage"] != null)
+    {
+        <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+            <div
+                class="toast align-items-center text-white @((TempData["SuccessMessage"] != null ? "bg-success" : "bg-danger")) show"
+                role="alert">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        @(TempData["SuccessMessage"] ?? TempData["ErrorMessage"])
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Success/Error Messages -->
+    <div id="messageContainer" class="position-fixed" style="top: 20px; right: 20px; z-index: 9999;"></div>

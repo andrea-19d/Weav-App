@@ -24,7 +24,13 @@ public class AuthService : IAuthService
 
    public async Task<(bool succes, string? error)> RegisterUser(RegisterUserDto user)
    {
-      var registerUser = await _authRepository.RegisterUserAsync(user);
+      var registerUser = await _authRepository.RegisterUserAsync(user, UserLevel.User);
+      return (registerUser.success, registerUser.error);
+   }
+
+   public async Task<(bool succes, string? error)> RegisterAdmin(RegisterUserDto user)
+   {
+      var registerUser = await _authRepository.RegisterUserAsync(user, UserLevel.Admin);
       return (registerUser.success, registerUser.error);
    }
    

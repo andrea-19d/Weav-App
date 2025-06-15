@@ -28,7 +28,7 @@ public class MappingProfileTests
             UserIp = "127.0.0.1",
             RegisterDate = DateTime.UtcNow,
             LastLogin = DateTime.UtcNow,
-            UserPhoto = new byte[] { 1, 2, 3 }
+            UserPhotoUrl = "/PATH/TO/IMAGE"
         };
 
         // Act

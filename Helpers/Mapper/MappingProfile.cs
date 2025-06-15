@@ -44,6 +44,8 @@ namespace Weav_App.Helpers
                 .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.Username))
                 .ForMember(dest => dest.Password, opt => opt.MapFrom(src => src.PasswordHash))
                 .ForMember(dest => dest.Level, opt => opt.MapFrom(src => src.Level));
+
+            CreateMap<RegisterUserModel, RegisterUserDto>();
         }
     }
 }

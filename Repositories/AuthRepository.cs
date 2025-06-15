@@ -1,9 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
-using Supabase;
+using Supabase.Postgrest;
 using Weav_App.DTOs;
 using Weav_App.DTOs.Entities.User;
 using Weav_App.Repositories.Interface;
+using Client = Supabase.Client;
 
 namespace Weav_App.Repositories;
 
@@ -20,13 +21,13 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
         _httpContextAccessor = httpContextAccessor;
     }
 
-    public async Task<(bool success, string? error)> RegisterUserAsync(RegisterUserDto registerUserDto)
+    public async Task<(bool success, string? error)> RegisterUserAsync(RegisterUserDto registerUserDto, UserLevel level)
     {
         var userEntity = _mapper.Map<UserDbTable>(registerUserDto);
 
         var existing = await _supabase
             .From<UserDbTable>()
-            .Filter("UserName", Postgrest.Constants.Operator.Equals, registerUserDto.Username)
+            .Filter("UserName", Constants.Operator.Equals, registerUserDto.Username)
             .Get();
 
         if (existing.Models.Any())
@@ -34,7 +35,7 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
 
         var ip = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString();
         userEntity.UserIp = ip ?? "Unknown";
-        userEntity.Level = UserLevel.User;
+        userEntity.Level = level;
         userEntity.RegisterDate = DateTime.UtcNow;
         userEntity.LastLogin = DateTime.UtcNow;
         userEntity.PasswordHash = HashPassword(userEntity.Username, registerUserDto.Password);
@@ -54,7 +55,7 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
     {
         var result = await _supabase
             .From<UserDbTable>()
-            .Filter("UserName", Postgrest.Constants.Operator.Equals, loginUserDto.UserName)
+            .Filter("UserName", Constants.Operator.Equals, loginUserDto.UserName)
             .Get();
 
         var user = result.Models.FirstOrDefault();

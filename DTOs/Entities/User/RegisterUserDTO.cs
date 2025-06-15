@@ -8,7 +8,7 @@ public class RegisterUserDto
     public string UserIp { get; set; }
     public DateTime RegisterDate { get; set; }
     public DateTime LastLogin { get; set; }
-    public byte[] UserPhoto { get; set; }
+    public string UserPhotoUrl { get; set; }
     
     public UserLevel Level { get; set; }
 }

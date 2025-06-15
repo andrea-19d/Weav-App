@@ -19,6 +19,6 @@ public class NanoidGenerator
             nanoid.Append(Alphabet[buffer[i] & 63]);
         }
 
-        return nanoid.ToString();
-    }
+        return "ORD-" + nanoid.ToString();
+    }   
 }

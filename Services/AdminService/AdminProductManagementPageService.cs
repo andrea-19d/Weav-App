@@ -2,6 +2,8 @@
 using Weav_App.Helpers.HelpersUI;
 using Weav_App.Models;
 using Weav_App.Models.ViewsModel;
+using Weav_App.Services.General;
+using Weav_App.Services.General.InsertStrategies;
 using Weav_App.Services.Interface;
 
 namespace Weav_App.Services.AdminService;
@@ -11,21 +13,23 @@ public class AdminProductManagementPageService : IAdminProductManagementPageServ
     private readonly IProductServices _productServices;
     private readonly ICategoryServices _categoryServices;
     private readonly IWebHostEnvironment _environment;
-
+    private readonly IStrategy<CreateProductModel> _insertProductStrategy;
     
     public AdminProductManagementPageService(IProductServices productServices, 
-        ICategoryServices categoryServices, UsefulChecks checks ,IWebHostEnvironment environment)
+        ICategoryServices categoryServices, UsefulChecks checks ,IWebHostEnvironment environment,
+        IStrategy<CreateProductModel> insertProductStrategy)
     {
         _productServices = productServices;
         _categoryServices = categoryServices;
         _environment = environment;
+        _insertProductStrategy = insertProductStrategy;
     }
-
+    
     public async Task<ProductManagementViewModel> GetProductManagementViewModel(string? searchQuery, string? selectedCategory, int page, int pageSize)
     {
-        var productResult = !string.IsNullOrEmpty(selectedCategory)
-            ? await _productServices.SearchProductsByCategory(selectedCategory)
-            : await _productServices.GetAllProducts();
+        var productResult = string.IsNullOrEmpty(selectedCategory)
+            ? await _productServices.GetAllProducts()
+            : await _productServices.SearchProductsByCategory(selectedCategory);
 
         if (!productResult.Success || productResult.Data == null)
             return new ProductManagementViewModel();
@@ -34,12 +38,12 @@ public class AdminProductManagementPageService : IAdminProductManagementPageServ
         var lowStock = await _productServices.GetLowStokData();
         var inactiveStock = await _productServices.GetInactiveStokData();
 
-        var filtered = SearchHelper.FilterByQuery(productResult.Data, searchQuery, p =>
-        [
+        var filtered = SearchHelper.FilterByQuery(productResult.Data, searchQuery, p => new[]
+        {
             p.ProductName,
             p.Brand,
             p.ProductCategory
-        ]);
+        });
 
         var paginated = PaginationHelper.Paginate(filtered, page, pageSize);
 
@@ -66,31 +70,34 @@ public class AdminProductManagementPageService : IAdminProductManagementPageServ
             }
         };
     }
-
-    public async Task<(bool Success, string? ErrorMessage, CreateProductModel model)> GetCreateProductViewModel(CreateProductModel model,
-        string selectedCategory)
+    
+    public async Task<ServiceResult<CreateProductModel>> GetCreateProductViewModel(CreateProductModel model)
     {
+        if (model == null)
+        {
+            return new ServiceResult<CreateProductModel>
+            {
+                Success = false,
+                Data = null,
+                ErrorMessage = "Invalid form submission."
+            };
+        }
+
         var categoryResult = await _categoryServices.GetAllCategories();
         model.Categories = categoryResult.Data?.Select(c => c.CategoryName).ToList();
         
         if (model.ProductImage != null)
         {
-            var imagePath = await ImageHelper.SaveProductImageAsync(model.ProductImage, _environment.WebRootPath);
-            model.ImageUrl = imagePath;
+            model.ImageUrl = await ImageHelper.SaveProductImageAsync(model.ProductImage, _environment.WebRootPath);
         }
 
-        if (model == null)
+        var result = await _insertProductStrategy.CreateItem(model);
+
+        return new ServiceResult<CreateProductModel>
         {
-            return (false, "Please correct the errors in the form.", model);
-        }
-        
-        var result = await _productServices.CreateProduct(model, selectedCategory);
-
-        if (!result.Success)
-        {
-            return (false, result.ErrorMessage ?? "There was a problem creating the product.", model);
-        }
-
-        return (true, result.ErrorMessage, model);
+            Success = result.Success,
+            Data = model,
+            ErrorMessage = result.ErrorMessage
+        };
     }
 }
