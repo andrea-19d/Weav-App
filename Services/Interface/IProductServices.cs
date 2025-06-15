@@ -14,5 +14,4 @@ public interface IProductServices
     Task<ServiceResult<List<ProductDto>>> GetInactiveStokData();
     
     Task<ServiceResult<List<ProductDto>>> SearchProductsByCategory(string categoryName);
-    Task<ServiceResult<CreateProductViewModel>> CreateProduct(CreateProductModel productModel, string selectedCategory);
 }

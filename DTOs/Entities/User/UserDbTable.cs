@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Postgrest.Attributes;
-using Postgrest.Models;
+﻿using Supabase.Postgrest.Attributes;
+using Supabase.Postgrest.Models;
 
 namespace Weav_App.DTOs.Entities.User
 {

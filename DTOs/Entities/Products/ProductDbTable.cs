@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
-using Postgrest.Attributes;
-using Postgrest.Models;
+using Supabase.Postgrest.Attributes;
+using Supabase.Postgrest.Models;
 using Weav_App.DTOs.Entities.Categories;
 
 namespace Weav_App.DTOs.Entities.Products;

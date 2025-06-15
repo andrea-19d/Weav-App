@@ -1,0 +1,90 @@
+﻿@model RegisterUserModel
+@{
+    ViewData["Title"] = "Add Admin Form";
+    Layout = "Admin/_AdminLayout";
+} 
+
+<div class="registration-container">
+    <form asp-action="AddAdmin" asp-controller="Admin" method="post" enctype="multipart/form-data" id="registrationForm" class="row g-3 flex-column"    >
+       
+        <!-- Username -->
+        <div class="col-12">
+            <label asp-for="UserName" class="form-label">
+                <i class="fas fa-user me-2"></i>Username
+            </label>
+            <input asp-for="UserName" class="form-control" required />
+            <span asp-validation-for="UserName" class="invalid-feedback"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="col-12">
+            <label asp-for="Email" class="form-label">
+                <i class="fas fa-envelope me-2"></i>Email Address
+            </label>
+            <input asp-for="Email" class="form-control" required />
+            <span asp-validation-for="Email" class="invalid-feedback"></span>
+        </div>
+
+        <!-- Password -->
+        <div class="col-12">
+            <label asp-for="Password" class="form-label">
+                <i class="fas fa-lock me-2"></i>Password
+            </label>
+            <div class="position-relative">
+                <input asp-for="Password" class="form-control" type="password" required />
+                <button type="button" class="btn btn-link position-absolute end-0 top-50 translate-middle-y" 
+                        style="border: none; color: #747474;" onclick="togglePassword()">
+                    <i class="fas fa-eye" id="passwordToggle"></i>
+                </button>
+            </div>
+            <span asp-validation-for="Password" class="invalid-feedback"></span>
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="col-12">
+            <label asp-for="RePassword" class="form-label">
+                <i class="fas fa-lock me-2"></i>Confirm Password
+            </label>
+            <input asp-for="RePassword" class="form-control" type="password" required />
+            <span asp-validation-for="RePassword" class="invalid-feedback"></span>
+        </div>
+        
+        <!-- Photo Upload -->
+        <div class="col-12">
+            <label asp-for="UserPhotoUrl" class="form-label">Product Image</label>
+            <div class="image-upload-area" onclick="document.getElementById('fileInput').click();"
+                 ondragover="event.preventDefault();" ondrop="handleFileDrop(event)">
+                <p>Drag & drop image here or click to upload</p>
+                <img id="preview" class="img-thumbnail mb-2" style="max-height: 150px;"/>
+
+            </div>
+            <input asp-for="UserPhotoUrl" type="file" id="fileInput" class="form-control d-none"/>
+            <span asp-validation-for="UserPhotoUrl" class="text-danger"></span>
+
+        </div>
+
+        
+        <!-- Submit Button -->
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Add Admin</button>
+        </div>
+        
+    </form>
+</div>
+
+
+@if (TempData["SuccessMessage"] != null || TempData["ErrorMessage"] != null)
+{
+    <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+        <div
+            class="toast align-items-center text-white @((TempData["SuccessMessage"] != null ? "bg-success" : "bg-danger")) show"
+            role="alert">
+            <div class="d-flex">
+                <div class="toast-body">
+                    @(TempData["SuccessMessage"] ?? TempData["ErrorMessage"])
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+}

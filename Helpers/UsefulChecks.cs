@@ -1,9 +1,8 @@
-﻿using Postgrest.Models;
-using Supabase;
+﻿using Supabase.Postgrest;
+using Supabase.Postgrest.Models;
 using Weav_App.DTOs.Entities.Categories;
-using Weav_App.DTOs.Entities.User;
 using Weav_App.Models;
-using Weav_App.Models.ViewsModel;
+using Client = Supabase.Client;
 
 namespace Weav_App.Helpers;
 
@@ -20,7 +19,7 @@ public class UsefulChecks
     {
         var result = await _supabase
             .From<T>()
-            .Filter(column, Postgrest.Constants.Operator.Equals, value)
+            .Filter(column, Constants.Operator.Equals, value)
             .Get();
 
         return result.Models.FirstOrDefault();
@@ -36,29 +35,25 @@ public class UsefulChecks
         return result.Models.FirstOrDefault();
     }
     
-    public bool ValidateModel(CreateProductViewModel model)
+    public bool ValidateModel(CreateProductModel model)
     {
-        if (model == null || model.Product == null)
+
+        if (string.IsNullOrWhiteSpace(model.ProductName))
             return false;
 
-        var product = model.Product;
-
-        if (string.IsNullOrWhiteSpace(product.ProductName))
+        if (string.IsNullOrWhiteSpace(model.Brand))
             return false;
 
-        if (string.IsNullOrWhiteSpace(product.Brand))
+        if (string.IsNullOrWhiteSpace(model.SelectedCategory))
             return false;
 
-        if (string.IsNullOrWhiteSpace(product.SelectedCategory))
+        if (model.ProductPrice <= 0.0m)
             return false;
 
-        if (product.ProductPrice <= 0.0m)
+        if (model.Quantity < 0)
             return false;
 
-        if (product.Quantity < 0)
-            return false;
-
-        if (model.Categories == null || !model.Categories.Contains(product.SelectedCategory))
+        if (model.Categories == null || !model.Categories.Contains(model.SelectedCategory))
             return false;
 
         return true;

@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Weav_App.DTOs;
 using Weav_App.DTOs.Entities.Orders;
+using Weav_App.Models;
 using Weav_App.Repositories.Interface;
 using Weav_App.Services.General;
 using Weav_App.Services.Interface;
@@ -55,6 +57,19 @@ public class ManageOrderService : IOrderService
         };
     }
 
+    public async Task<ServiceResult<List<OrdersListDTO>>> GetAllShippedTodayOrders()
+    {
+        var ordersDb = await _orderRepository.GetAllShippedTodayAsync();
+        var dtoOrders = _mapper.Map<List<OrdersListDTO>>(ordersDb).ToList();
+
+        return new ServiceResult<List<OrdersListDTO>>
+        {
+            Success = true,
+            Data = dtoOrders,
+            ErrorMessage = "Task ended successfully"
+        };
+    }
+
     public async Task<ServiceResult<decimal>> GetTodayRevenue()
     {
         var todayRevenue = await _orderRepository.TodayRevenueAsync();
@@ -70,6 +85,39 @@ public class ManageOrderService : IOrderService
             Success = true,
             Data = todayRevenueDecimal,
             ErrorMessage = "Task ended successfully"
+        };
+    }
+
+    public async Task<ServiceResult<List<OrdersListDTO>>> SearchOrderByStatus(OrderStatus status)
+    {
+        var dbOrders = await _orderRepository.GetOrderByStatus(status);
+        var dtoOrders = _mapper.Map<List<OrdersListDTO>>(dbOrders);
+        
+        return new ServiceResult<List<OrdersListDTO>>
+        {
+            Success = true,
+            Data = dtoOrders,
+            ErrorMessage = "Task ended successfully"
+        };
+    }
+
+    public async Task<ErrorModel> ChangeOrderStatus(int purchaseOrder)
+    {
+        var changedOrder =await  _orderRepository.ConfirmOrderById(purchaseOrder);
+
+        if (!changedOrder.Status)
+        {
+            return new ErrorModel
+            {
+                Status = false,
+                Message = "Order could not be confirmed"
+            };
+        }
+        
+        return new ErrorModel
+        {
+            Status = true,
+            Message = "Order confirmed successfully"
         };
     }
 }

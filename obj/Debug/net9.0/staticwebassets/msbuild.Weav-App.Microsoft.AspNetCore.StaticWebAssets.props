@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nchd7p5dw1</Fingerprint>
-      <Integrity>F5R/AwhOv0sV23b32uwKVWNE+F++WLZa+t+sDaMTAtE=</Integrity>
+      <Fingerprint>ngo5ua7tf1</Fingerprint>
+      <Integrity>FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\script.js'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>assw0psvu9</Fingerprint>
-      <Integrity>RiIN9gBsi5GaS65sqcWKheZ5/YVqR1K2etN7Va++h5A=</Integrity>
+      <Fingerprint>jlrsdzji2a</Fingerprint>
+      <Integrity>t8MuRMgis/Q6Wm9tODF6cvFEidwjubxuOisjsVW6NKw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\style.css'))</OriginalItemSpec>
@@ -3168,6 +3168,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product-thumb-2.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\61-mfTLNJdL._AC_UF1000,1000_QL80__9f8a8e59-c040-4ddb-9289-2d71c76720de.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/61-mfTLNJdL._AC_UF1000,1000_QL80__9f8a8e59-c040-4ddb-9289-2d71c76720de.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7xw3cl0yi4</Fingerprint>
+      <Integrity>a0kcksZx5QtHeXxgRDHqqprSmo8ViRgOB1iQAqRGraM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\61-mfTLNJdL._AC_UF1000,1000_QL80__9f8a8e59-c040-4ddb-9289-2d71c76720de.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\81d3XikUx+L._AC_UF350,350_QL80__e09c49ed-77ca-45e7-8e39-585d225ef484.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Weav-App</SourceId>
@@ -3204,6 +3222,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\81U9oYQJ68L._AC_UF894,1000_QL80__dd9fb650-b294-4b4b-8243-9a5da9374ff4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4piepryhoh</Fingerprint>
+      <Integrity>2ES3HbRUZDuhUUw7xrVbnbBP4Rrkmy5LP4r0WwqjpTo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\passionfruit-exoticfruitscouk-270048_0ad44c46-e348-4ef9-9530-ad85e68b0990.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/passionfruit-exoticfruitscouk-270048_0ad44c46-e348-4ef9-9530-ad85e68b0990.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3b6ineqgqj</Fingerprint>
+      <Integrity>kQBfZnXdlySaqFlZtlYJEmXf4j9gCr3I8c7RyX4dgKQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\passionfruit-exoticfruitscouk-270048_0ad44c46-e348-4ef9-9530-ad85e68b0990.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Pitaya_a177b180-83b7-40b4-b127-59e94ad5338d.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/Pitaya_a177b180-83b7-40b4-b127-59e94ad5338d.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1f4vkkwcyu</Fingerprint>
+      <Integrity>43NtL4AP1/vM1qbtaeDVoO0OlW7ywfG5K+QhO2uMr48=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Pitaya_a177b180-83b7-40b4-b127-59e94ad5338d.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Products_rows.sql'))">
       <SourceType>Package</SourceType>
       <SourceId>Weav-App</SourceId>
@@ -3216,8 +3288,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>69iewzu2g5</Fingerprint>
-      <Integrity>FsAoOBb+YTKrFE1rE56fL/Do6CW0VZA+tU7N2lbMtjE=</Integrity>
+      <Fingerprint>m3rs9a8l6e</Fingerprint>
+      <Integrity>MkmXofLrP21dFqNliWGq4Sm0rszZ44rsrGvJRAzZS5s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Products_rows.sql'))</OriginalItemSpec>

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Supabase;
 using Weav_App.DTOs.Entities.Products;
 using Weav_App.Models;
 using Weav_App.Models.ViewsModel;
@@ -12,20 +13,33 @@ public class ManageProductService : IProductServices
 {
     private readonly IProductRepository _repository;
     private readonly IMapper _mapper;
-    
-    public ManageProductService(IProductRepository repository, IMapper mapper)
+    private Client _supabase;
+
+    public ManageProductService(IProductRepository repository, IMapper mapper, Client supabase)
     {
         _repository = repository;
         _mapper = mapper;
+        _supabase = supabase;
     }
 
     public async Task<ServiceResult<List<ProductDto>>> GetAllProducts()
     {
-        var dbProducts = await _repository.GetAllAsync();
-        var dtoProducts = dbProducts.Select(p => _mapper.Map<ProductDto>(p)).ToList();
+        var result = await _supabase
+            .From<ProductDbTable>()
+            .Select("*, Category:CategoryId (CategoryName)")
+            .Get();
 
-        return new ServiceResult<List<ProductDto>> { Success = true, Data = dtoProducts };
+        var products = result.Models;
+    
+        var dtoList = _mapper.Map<List<ProductDto>>(products);
+
+        return new ServiceResult<List<ProductDto>>
+        {
+            Success = true,
+            Data = dtoList
+        };
     }
+
 
     public async Task<ServiceResult<List<ProductDto>>> GetLowStokData()
     {
@@ -52,19 +66,6 @@ public class ManageProductService : IProductServices
         {
             Success = true,
             Data = dtoProducts
-        };
-    }
-
-    public async Task<ServiceResult<CreateProductViewModel>> CreateProduct(CreateProductModel productModel, string selectedCategory)
-    {
-        var createProduct = _mapper.Map<ProductDto>(productModel);
-        var result = await _repository.CreateNewProduct(createProduct, selectedCategory);
-        
-        return new ServiceResult<CreateProductViewModel>
-        {
-            Success = true, 
-            Data = null,
-            ErrorMessage = result.error
         };
     }
 }

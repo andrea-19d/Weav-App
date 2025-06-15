@@ -5,38 +5,6 @@
 }
 
 <!-- Main Content -->
-<div class="col-md-9 col-lg-10">
-<div class="main-content p-4 fade-in">
-    <div class="row mb-4">
-        <div class="col-12">
-            <div class="stats-card">
-                <h5 class="mb-4">Quick Actions</h5>
-                <div class="d-flex flex-wrap gap-3">
-                    <button class="btn btn-primary">
-                        <iconify-icon icon="mdi:plus" class="me-2"></iconify-icon>
-                        Add Product
-                    </button>
-                    <button class="btn btn-success">
-                        <iconify-icon icon="mdi:cart-plus" class="me-2"></iconify-icon>
-                        New Order
-                    </button>
-                    <button class="btn btn-warning">
-                        <iconify-icon icon="mdi:account-plus" class="me-2"></iconify-icon>
-                        Add Customer
-                    </button>
-                    <button class="btn btn-danger">
-                        <iconify-icon icon="mdi:tag-plus" class="me-2"></iconify-icon>
-                        Create Discount
-                    </button>
-                    <button class="btn btn-outline-primary">
-                        <iconify-icon icon="mdi:file-export" class="me-2"></iconify-icon>
-                        Export Data
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Stats Cards -->
     <div class="row mb-4">
         <div class="col-xl-3 col-md-6 mb-3">
@@ -45,7 +13,7 @@
                     <iconify-icon icon="mdi:shopping"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Total Orders</h6>
-                <h3 class="mb-0">@Model.Stats.TotalOrders</h3>
+                <h3 class="mb-0">@(Model.Stats?.TotalOrders ?? 0)</h3>
             </div>
         </div>
         <div class="col-xl-3 col-md-6 mb-3">
@@ -54,7 +22,7 @@
                     <iconify-icon icon="mdi:clock-outline"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Pending Orders</h6>
-                <h3 class="mb-0">@Model.Stats.PendingOrders</h3>
+                <h3 class="mb-0">@(Model.Stats?.PendingOrders ?? 0)</h3>
             </div>
         </div>
         <div class="col-xl-3 col-md-6 mb-3">
@@ -63,7 +31,7 @@
                     <iconify-icon icon="mdi:truck-delivery"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Delivered Today</h6>
-                <h3 class="mb-0">@Model.Stats.ShippedOrders</h3>
+                <h3 class="mb-0">@(Model.Stats?.ShippedOrders ?? 0)</h3>
             </div>
         </div>
         <div class="col-xl-3 col-md-6 mb-3">
@@ -72,12 +40,13 @@
                     <iconify-icon icon="mdi:currency-usd"></iconify-icon>
                 </div>
                 <h6 class="text-muted mb-1">Today's Revenue</h6>
-                <h3 class="mb-0">$@Model.Stats.TodayTotals</h3>
+                <h3 class="mb-0">$@(Model.Stats?.TodayTotals ?? 0)</h3>
             </div>
         </div>
  
 
         <!-- Filter Bar -->
+        <form method="get" asp-controller="Admin" asp-action="OrderPage">
         <div class="filter-bar">
             <div class="row align-items-center">
                 <div class="col-md-4">
@@ -87,16 +56,16 @@
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <select class="form-select" id="statusFilter">
+                    <select class="form-select" name="selectedStatus" onchange="this.form.submit()">
                         <option value="">All Status</option>
-                        <option value="pending">Pending</option>
-                        <option value="confirmed">Confirmed</option>
-                        <option value="shipped">Shipped</option>
-                        <option value="delivered">Delivered</option>
-                        <option value="cancelled">Cancelled</option>
-                        <option value="returned">Returned</option>
+                        @foreach (var status in Model.Filter.Status)
+                        {
+                            <option value="@status">@status</option>
+                        }
                     </select>
                 </div>
+
+
                 <div class="col-md-2">
                     <select class="form-select" id="dateFilter">
                         <option value="">All Time</option>
@@ -122,9 +91,10 @@
                 </div>
             </div>
         </div>
+        </form>
 
         <!-- Orders Table -->
-        <div class="order-card">
+        <div class="product-card">
             <div class="table-responsive">
                 <table class="table table-hover">
                     <thead>
@@ -145,259 +115,103 @@
                     </tr>
                     </thead>
                     <tbody id="ordersTableBody">
-                    <tr>
-                        <td>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox">
-                            </div>
-                        </td>
-                        <td>
-                            <strong>#ORD-2024-001</strong>
-                        </td>
-                        <td>
-                            <div class="customer-info">
-                                <div class="customer-avatar">JD</div>
-                                <div>
-                                    <h6 class="mb-0">John Doe</h6>
-                                    <small class="text-muted">john.doe@email.com</small>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="order-items">
-                                3 items<br>
-                                <small class="text-muted">Apples, Carrots, Milk</small>
-                            </div>
-                        </td>
-                        <td class="order-total">$24.97</td>
-                        <td><span class="status-badge status-pending">Pending</span></td>
-                        <td>
-                            <small>Jun 02, 2025</small><br>
-                            <small class="text-muted">10:30 AM</small>
-                        </td>
-                        <td><span class="status-badge priority-high">High</span></td>
-                        <td>
-                            <button class="action-btn btn-view me-1" data-bs-toggle="modal"
-                                    data-bs-target="#orderDetailsModal">
-                                <iconify-icon icon="mdi:eye"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-edit me-1">
-                                <iconify-icon icon="mdi:pencil"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-print me-1">
-                                <iconify-icon icon="mdi:printer"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-delete">
-                                <iconify-icon icon="mdi:delete"></iconify-icon>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox">
-                            </div>
-                        </td>
-                        <td>
-                            <strong>#ORD-2024-002</strong>
-                        </td>
-                        <td>
-                            <div class="customer-info">
-                                <div class="customer-avatar">SM</div>
-                                <div>
-                                    <h6 class="mb-0">Sarah Miller</h6>
-                                    <small class="text-muted">sarah.m@email.com</small>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="order-items">
-                                5 items<br>
-                                <small class="text-muted">Bread, Eggs, Cheese...</small>
-                            </div>
-                        </td>
-                        <td class="order-total">$42.15</td>
-                        <td><span class="status-badge status-shipped">Shipped</span></td>
-                        <td>
-                            <small>Jun 01, 2025</small><br>
-                            <small class="text-muted">2:15 PM</small>
-                        </td>
-                        <td><span class="status-badge priority-medium">Medium</span></td>
-                        <td>
-                            <button class="action-btn btn-view me-1" data-bs-toggle="modal"
-                                    data-bs-target="#orderDetailsModal">
-                                <iconify-icon icon="mdi:eye"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-edit me-1">
-                                <iconify-icon icon="mdi:pencil"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-print me-1">
-                                <iconify-icon icon="mdi:printer"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-delete">
-                                <iconify-icon icon="mdi:delete"></iconify-icon>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox">
-                            </div>
-                        </td>
-                        <td>
-                            <strong>#ORD-2024-003</strong>
-                        </td>
-                        <td>
-                            <div class="customer-info">
-                                <div class="customer-avatar">MJ</div>
-                                <div>
-                                    <h6 class="mb-0">Mike Johnson</h6>
-                                    <small class="text-muted">mike.j@email.com</small>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="order-items">
-                                2 items<br>
-                                <small class="text-muted">Chicken, Rice</small>
-                            </div>
-                        </td>
-                        <td class="order-total">$18.50</td>
-                        <td><span class="status-badge status-delivered">Delivered</span></td>
-                        <td>
-                            <small>May 31, 2025</small><br>
-                            <small class="text-muted">9:45 AM</small>
-                        </td>
-                        <td><span class="status-badge priority-low">Low</span></td>
-                        <td>
-                            <button class="action-btn btn-view me-1" data-bs-toggle="modal"
-                                    data-bs-target="#orderDetailsModal">
-                                <iconify-icon icon="mdi:eye"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-edit me-1">
-                                <iconify-icon icon="mdi:pencil"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-print me-1">
-                                <iconify-icon icon="mdi:printer"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-delete">
-                                <iconify-icon icon="mdi:delete"></iconify-icon>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox">
-                            </div>
-                        </td>
-                        <td>
-                            <strong>#ORD-2024-004</strong>
-                        </td>
-                        <td>
-                            <div class="customer-info">
-                                <div class="customer-avatar">EB</div>
-                                <div>
-                                    <h6 class="mb-0">Emma Brown</h6>
-                                    <small class="text-muted">emma.b@email.com</small>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="order-items">
-                                4 items<br>
-                                <small class="text-muted">Yogurt, Berries, Honey...</small>
-                            </div>
-                        </td>
-                        <td class="order-total">$31.80</td>
-                        <td><span class="status-badge status-cancelled">Cancelled</span></td>
-                        <td>
-                            <small>May 30, 2025</small><br>
-                            <small class="text-muted">4:20 PM</small>
-                        </td>
-                        <td><span class="status-badge priority-medium">Medium</span></td>
-                        <td>
-                            <button class="action-btn btn-view me-1" data-bs-toggle="modal"
-                                    data-bs-target="#orderDetailsModal">
-                                <iconify-icon icon="mdi:eye"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-edit me-1">
-                                <iconify-icon icon="mdi:pencil"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-print me-1">
-                                <iconify-icon icon="mdi:printer"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-delete">
-                                <iconify-icon icon="mdi:delete"></iconify-icon>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox">
-                            </div>
-                        </td>
-                        <td>
-                            <strong>#ORD-2024-005</strong>
-                        </td>
-                        <td>
-                            <div class="customer-info">
-                                <div class="customer-avatar">RW</div>
-                                <div>
-                                    <h6 class="mb-0">Robert Wilson</h6>
-                                    <small class="text-muted">robert.w@email.com</small>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="order-items">
-                                6 items<br>
-                                <small class="text-muted">Fish, Vegetables, Oil...</small>
-                            </div>
-                        </td>
-                        <td class="order-total">$67.25</td>
-                        <td><span class="status-badge status-confirmed">Confirmed</span></td>
-                        <td>
-                            <small>May 29, 2025</small><br>
-                            <small class="text-muted">11:15 AM</small>
-                        </td>
-                        <td><span class="status-badge priority-high">High</span></td>
-                        <td>
-                            <button class="action-btn btn-view me-1" data-bs-toggle="modal"
-                                    data-bs-target="#orderDetailsModal">
-                                <iconify-icon icon="mdi:eye"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-edit me-1">
-                                <iconify-icon icon="mdi:pencil"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-print me-1">
-                                <iconify-icon icon="mdi:printer"></iconify-icon>
-                            </button>
-                            <button class="action-btn btn-delete">
-                                <iconify-icon icon="mdi:delete"></iconify-icon>
-                            </button>
-                        </td>
-                    </tr>
+                    @if (Model?.Orders != null)
+                    {
+                        @foreach (var order in Model.Orders)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                    </div>
+                                </td>
+                                <td>
+                                    <strong>@order.PurchaseOrder</strong>
+                                </td>
+                                <td>
+                                    <div class="customer-info">
+                                        <div class="customer-avatar">@order.UserId</div> <!-- Replace with actual initials if available -->
+                                        <div>
+                                            <h6 class="mb-0">@order.UserName.</h6>
+                                            <small class="text-muted">@order.Email</small> <!-- Replace with real email if available -->
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="order-items">
+                                        <!-- Optional: You can include item count if you link with OrderItemDTO -->
+                                        <small class="text-muted">Items info</small>
+                                    </div>
+                                </td>
+                                <td class="order-total">$@order.TotalAmount</td>
+                                <td>
+                                    <span class="status-badge status-@order.Status.ToString().ToLower()">
+                                        @order.Status
+                                    </span>
+                                </td>
+                                <td>
+                                    <small>@order.OrderDate.ToString("MMM dd, yyyy")</small><br/>
+                                    <small class="text-muted">@order.OrderDate.ToString("hh:mm tt")</small>
+                                </td>
+                                <td>
+                                    <span class="status-badge priority-medium">Medium</span> <!-- Replace if you have real priority -->
+                                </td>
+                                <td>
+                                    <button class="action-btn btn-view me-1" data-bs-toggle="modal" data-bs-target="#orderDetailsModal">
+                                        <iconify-icon icon="mdi:eye"></iconify-icon>
+                                    </button>
+                                    <button class="action-btn btn-edit me-1">
+                                        <iconify-icon icon="mdi:pencil"></iconify-icon>
+                                    </button>
+                                    <button class="action-btn btn-print me-1">
+                                        <iconify-icon icon="mdi:printer"></iconify-icon>
+                                    </button>
+                                    <button class="action-btn btn-delete">
+                                        <iconify-icon icon="mdi:delete"></iconify-icon>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="10" class="text-center text-danger">
+                                No orders available.
+                            </td>
+                        </tr>
+                    }
                     </tbody>
+
                 </table>
             </div>
 
             <!-- Pagination -->
-            <nav aria-label="Orders pagination">
-                <ul class="pagination">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1">Previous</a>
-                    </li>
-                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
+            @if (Model?.Pagination?.TotalPages > 1)
+            {
+                <nav aria-label="Orders pagination" class="mt-4 p-3">
+                    <ul class="pagination pagination-sm justify-content-center">
+
+                        <!-- Previous -->
+                        <li class="page-item @(Model.Pagination.CurrentPage == 1 ? "disabled" : "")">
+                            <a class="page-link" href="?page=@(Model.Pagination.CurrentPage - 1)">Previous</a>
+                        </li>
+
+                        <!-- Page numbers -->
+                        @for (int i = 1; i <= Model.Pagination.TotalPages; i++)
+                        {
+                            <li class="page-item @(Model.Pagination.CurrentPage == i ? "active" : "")">
+                                <a class="page-link" href="?page=@i">@i</a>
+                            </li>
+                        }
+
+                        <!-- Next -->
+                        <li class="page-item @(Model.Pagination.CurrentPage == Model.Pagination.TotalPages ? "disabled" : "")">
+                            <a class="page-link" href="?page=@(Model.Pagination.CurrentPage + 1)">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            }
         </div>
     </div>
 
@@ -478,5 +292,3 @@
             </div>
         </div>
     </div>
-</div>
-</div>

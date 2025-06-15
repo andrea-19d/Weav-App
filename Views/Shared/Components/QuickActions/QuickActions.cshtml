@@ -1,0 +1,33 @@
+﻿@model Weav_App.Models.ViewsModel.QuickActionsViewModel
+
+<!-- Stats Cards -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="stats-card">
+            <h5 class="mb-4">Quick Actions</h5>
+            <div class="d-flex flex-wrap gap-3">
+                <a asp-controller="Admin" asp-action="Create" class="btn btn-primary">
+                    <iconify-icon icon="mdi:plus" class="me-2"></iconify-icon>
+                    Add Product
+                </a>
+                <a asp-controller="Order" asp-action="NewOrderPage" class="btn btn-success" id="orderButton">
+                    <iconify-icon icon="mdi:cart-plus" class="me-2"></iconify-icon>
+                    New Order
+                    <span class="notification-badge pulse" id="notificationBadge">@(Model?.NumberOfPendingOrders ?? 0)</span>
+                </a>
+                <a asp-controller="Admin" asp-action="AddAdmin" class="btn btn-primary">
+                    <iconify-icon icon="mdi:account-plus" class="me-2"></iconify-icon>
+                    Add Admin
+                </a>
+                <a asp-controller="Admin" asp-action="Create" class="btn btn-primary">
+                    <iconify-icon icon="mdi:tag-plus" class="me-2"></iconify-icon>
+                    Create Discount
+                </a>
+                <a asp-controller="Admin" asp-action="Create" class="btn btn-primary">
+                    <iconify-icon icon="mdi:file-export" class="me-2"></iconify-icon>
+                    Export Data
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
