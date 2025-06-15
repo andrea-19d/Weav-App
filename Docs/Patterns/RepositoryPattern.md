@@ -32,14 +32,14 @@ It acts like an in-memory collection, hiding the actual data source
 In this project, each entity (e.g., Product) has:
 
 + A repository interface: IProductRepository
-
+```csharp
         public interface IProductRepository
         {
             Task<List<ProductDbTable>> GetAllAsync();
         }
-
+```
 + A concrete implementation: ProductRepository
-
+```csharp
       public class ProductRepository : IProductRepository
       {
       private readonly Client _supabase;
@@ -59,24 +59,24 @@ In this project, each entity (e.g., Product) has:
           var result = await _supabase.From<ProductDbTable>().Get();
           return result.Models;
       }
-
+```
 
 + A service: ProductService that uses the repository to perform business logic
-
+```csharp
       public interface IProductServices
       {
           Task<ServiceResult<List<ProductDto>>> GetAllProducts();
       }
-
+```
 The repository encapsulates **Supabase** data access, so the service only focuses on business-level operations
 (e.g., filtering, DTO mapping).
 
 ### 🧩 Explanation:
 
 For example, instead of having this in the service:
-
+```csharp
       var products = await supabase.From<ProductDbTable>().Get();
-
+```
 This allows your ProductService to:
 
 + Work only with domain models or DTOs

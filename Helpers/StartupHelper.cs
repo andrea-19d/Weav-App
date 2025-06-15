@@ -51,6 +51,7 @@ public static class StartupHelper
         //Other
         services.AddScoped<UsefulChecks>();
         services.AddScoped<InsertDispatcher>();
+        services.Decorate<IOrderService, LoggingOrderServiceDecorator>();
 
         
         services.AddHttpContextAccessor();
