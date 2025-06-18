@@ -3,6 +3,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Weav_App.DTOs;
 using Weav_App.DTOs.Entities.User;
 using Weav_App.Models;
 using Weav_App.Services.Interface;
@@ -64,7 +65,12 @@ public class LoginController : Controller
         await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
             new ClaimsPrincipal(claimsIdentity), authProperties);
 
-        return RedirectToAction("Index", "Home");
+        return user.level switch
+        {
+            UserLevel.Admin => RedirectToAction("Dashboard", "Admin"),
+            UserLevel.User => RedirectToAction("Index", "Home"),
+            _ => RedirectToAction("Unauthorized", "Home")
+        };
     }
 
     
