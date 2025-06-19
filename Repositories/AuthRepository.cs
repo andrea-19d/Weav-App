@@ -27,7 +27,7 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
 
         var existing = await _supabase
             .From<UserDbTable>()
-            .Filter("UserName", Constants.Operator.Equals, registerUserDto.Username)
+            .Filter("userName", Constants.Operator.Equals, registerUserDto.Username)
             .Get();
 
         if (existing.Models.Any())
@@ -55,7 +55,7 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
     {
         var result = await _supabase
             .From<UserDbTable>()
-            .Filter("UserName", Constants.Operator.Equals, loginUserDto.UserName)
+            .Filter("userName", Constants.Operator.Equals, loginUserDto.UserName)
             .Get();
 
         var user = result.Models.FirstOrDefault();

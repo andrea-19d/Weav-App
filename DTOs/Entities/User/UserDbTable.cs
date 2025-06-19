@@ -9,7 +9,7 @@ namespace Weav_App.DTOs.Entities.User
         [PrimaryKey("id", false)]
         public int UserId { get; set; }
 
-        [Column("UserName")]
+        [Column("userName")]
         public string Username { get; set; }
 
         [Column("Email")]
@@ -21,7 +21,7 @@ namespace Weav_App.DTOs.Entities.User
         [Column("UserIP")]
         public string UserIp { get; set; }
 
-        [Column("CreatedAt")]
+        [Column("createdAt")]
         public DateTime RegisterDate { get; set; } = DateTime.UtcNow;
 
         [Column("LastLogin")]
