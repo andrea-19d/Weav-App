@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
 using Weav_App.DTOs.Entities.Categories;
@@ -9,7 +10,7 @@ namespace Weav_App.DTOs.Entities.Products;
 public class ProductDbTable : BaseModel
 {
     [PrimaryKey("ProductId", true)] 
-    [JsonIgnore]
+    [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]
     public int ProductId { get; set; }
     
     [Column("ProductName")] 
@@ -49,6 +50,6 @@ public class ProductDbTable : BaseModel
     public int CategoryId { get; set; }
     
     
-    [JsonIgnore]
+    [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]
     public CategoryDbTable? Category { get; set; }
 }

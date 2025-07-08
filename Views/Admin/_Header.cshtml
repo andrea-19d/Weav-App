@@ -10,15 +10,11 @@
             <div class="col-md-6">
                 <div class="d-flex align-items-center justify-content-end gap-3">
                     <input type="search" class="form-control search-box" placeholder="Search..." style="max-width: 300px;">
-                    <button class="quick-action-btn">
-                        <iconify-icon icon="mdi:bell-outline"></iconify-icon>
-                    </button>
-                    <button class="quick-action-btn">
-                        <iconify-icon icon="mdi:email-outline"></iconify-icon>
-                    </button>
+                    <a class="quick-action-btn"  asp-controller="Admin" asp-action="AdminAccount">
+                        <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#account"></use></svg>
+                    </a>
                     <div class="dropdown">
                         <button class="btn btn-outline-light dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown">
-                            <iconify-icon icon="mdi:account-circle" class="me-2"></iconify-icon>
                             Admin
                         </button>
                         <ul class="dropdown-menu">

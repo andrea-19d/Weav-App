@@ -3,6 +3,7 @@ using Supabase;
 using Weav_App.DTOs.Entities.Categories;
 using Weav_App.DTOs.Entities.Products;
 using Weav_App.Helpers;
+using Weav_App.Models;
 using Weav_App.Repositories.Interface;
 
 public class ProductRepository : IProductRepository
@@ -18,6 +19,28 @@ public class ProductRepository : IProductRepository
         _mapper = mapper;
         _checks = checks;
     }
+
+    public async Task<ErrorModel> DeleteProduct(int productId)
+    {
+        try
+        {
+            await _supabase.From<ProductDbTable>().Where(x => x.ProductId == productId).Delete();
+
+            return new ErrorModel()
+            {
+                Message = "Product deleted",
+                Status = true
+            };
+        }
+        catch (Exception ex)
+        {
+            return new ErrorModel()
+            {
+                Message = ex.Message,
+                Status = false
+            }; 
+        }
+    }
     
     public async Task<List<ProductDbTable>> GetAllAsync()
     {
@@ -27,6 +50,57 @@ public class ProductRepository : IProductRepository
 
         var result = await _supabase.From<ProductDbTable>().Get();
         return result.Models;
+    }
+
+    public async Task<ProductDbTable> GetProductByIdAsync(int id)
+    {
+        var result = await _supabase.From<ProductDbTable>()
+            .Where(x => x.ProductId == id).Get();
+        
+        return result.Models.First();
+    }
+
+    
+    public async Task<ErrorModel> UpdateProductAsync(ProductDbTable product)
+    {
+        var existingProduct = await GetProductByIdAsync(product.ProductId);
+        if (existingProduct == null)
+        {
+            return new ErrorModel()
+            {
+                Message = "Product not found",
+                Status = false
+            };
+        }
+        
+        
+        try
+        {
+            _mapper.Map(product, existingProduct);
+            existingProduct.UpdatedAt = DateTime.Now;
+            
+            var response = await _supabase
+                .From<ProductDbTable>()
+                .Where(x => x.ProductId == product.ProductId)
+                .Update(existingProduct);
+
+            
+            Console.WriteLine("Product updated");
+            return new ErrorModel()
+            {
+                Message = "Product updated",
+                Status = true
+            };
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error model {ex.Message}");
+            return new ErrorModel()
+            {
+                Message = ex.Message,
+                Status = false
+            };
+        }
     }
 
     public async Task<List<ProductDbTable>> GetLowStokData()

@@ -8,16 +8,17 @@
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-products">
-                <iconify-icon icon="mdi:package-variant"></iconify-icon>
+                <img src="/Admin/icons/image 4.png" alt="Products Icon" style="width: 32px; height: 32px;" />
             </div>
             <h6 class="text-muted mb-1">Total Products</h6>
             <h3 class="mb-0 fw-bold">@Model.Stats.TotalProducts</h3>
         </div>
+
     </div>
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-categories">
-                <iconify-icon icon="mdi:tag-multiple"></iconify-icon>
+                <img src="/Admin/icons/categories.png" alt="Categories Icon" style="width: 32px; height: 32px;" />
             </div>
             <h6 class="text-muted mb-1">Categories</h6>
             <h3 class="mb-0 fw-bold">@Model.Stats.TotalCategory</h3>
@@ -26,7 +27,7 @@
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-orders">
-                <iconify-icon icon="mdi:alert-circle"></iconify-icon>
+                <img src="/Admin/icons/low-price.png" alt="LowStock Icon" style="width: 32px; height: 32px;" />
             </div>
             <h6 class="text-muted mb-1">Low Stock</h6>
             <h3 class="mb-0 fw-bold">@Model.Stats.LowStock</h3>
@@ -35,7 +36,7 @@
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-revenue">
-                <iconify-icon icon="mdi:eye-off"></iconify-icon>
+                <img src="/Admin/icons/deactivate.png" alt="Deactivated Icon" style="width: 32px; height: 32px;" />
             </div>
             <h6 class="text-muted mb-1">Inactive</h6>
             <h3 class="mb-0 fw-bold">@Model.Stats.Inactive</h3>
@@ -126,6 +127,7 @@
 
                             <div>
                                 <h6 class="mb-0 fw-bold">@product.ProductName</h6>
+                                <h6 class="mb-0 fw-bold">@product.CategoryId</h6>
                                 <small class="text-muted">@product.Brand</small>
                             </div>
                         </div>
@@ -151,15 +153,45 @@
                         </div>
                     </td>
                     <td>
-                        <button class="action-btn btn-view me-1" title="View">
-                            <iconify-icon icon="mdi:eye"></iconify-icon>
+                        <button class="action-btn btn-view me-1"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal"
+                                data-id="@product.ProductId"
+                                data-name="@product.ProductName"
+                                data-brand="@product.Brand"
+                                data-category="@product.ProductCategory"
+                                data-category-id="@product.CategoryId"
+                                data-price="@product.ProductPrice"
+                                data-stock="@product.Quantity"
+                                data-description="@product.ProductDescription"
+                                data-expiry="@product.ExpiryDate.ToString("MM/dd/yyyy")"
+                                data-barcode="@product.Barcode">
+                            <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#eye"></use></svg>
                         </button>
-                        <button class="action-btn btn-edit me-1" title="Edit">
-                            <iconify-icon icon="mdi:pencil"></iconify-icon>
+                        <button class="action-btn btn-edit me-1"
+                                title="Edit"
+                                data-bs-toggle="modal"
+                                data-bs-target="#editProductModal"
+                                data-id="@product.ProductId"
+                                data-name="@product.ProductName"
+                                data-brand="@product.Brand"
+                                data-category="@product.ProductCategory"
+                                data-category-id="@product.CategoryId"
+                                data-price="@product.ProductPrice"
+                                data-stock="@product.Quantity"
+                                data-description="@product.ProductDescription"
+                                data-expiry="@product.ExpiryDate.ToString("MM/dd/yyyy")"
+                                data-imageUrl="@product.ImageUrl"
+                                data-barcode="@product.Barcode">
+                            <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#edit"></use></svg>
                         </button>
-                        <button class="action-btn btn-delete" title="Delete">
-                            <iconify-icon icon="mdi:delete"></iconify-icon>
-                        </button>
+                        <form method="post" asp-controller="Product" asp-action="DeleteProducts" asp-route-id="@product.ProductId" class="d-inline">
+                            <button class="action-btn btn-delete" title="Delete" onclick="return confirm('Are you sure?')">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="#trash"></use>
+                                </svg>
+                            </button>
+                        </form>
                     </td>
                 </tr>
             }
@@ -168,6 +200,9 @@
         </table>
     </div>
 
+    @await Html.PartialAsync("Components/Modals/EditProductModal")
+    @await Html.PartialAsync("Components/Modals/ViewModalProducts")
+    @await Html.PartialAsync("Components/Notifications/Notification")
 
     <!-- Pagination -->
     <nav aria-label="Products pagination" class="mt-4 p-3">
@@ -188,26 +223,59 @@
             </li>
         </ul>
     </nav>
-
 </div>
 
 
-<!-- Edit Product Modal (similar structure) -->
-<div class="modal fade" id="editProductModal" tabindex="-1" aria-labelledby="editProductModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="editProductModalLabel">Edit Product</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="text-center py-4">
-                    <iconify-icon icon="mdi:package-variant"
-                                  style="font-size: 48px; color: var(--accent-color);"></iconify-icon>
-                    <p class="mt-2">Edit form will be populated with selected product data</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+@{
+    if (ViewBag.ShowDialog != null && ViewBag.ShowDialog == true)
+    {
+        <script type="text/javascript">
+                $(function () {
+                    $("#aModal").modal('show');
+                })
+            </script>
+    }
+}
+
+<script>
+    const productModal = document.getElementById('productModal');
+    const editProductModal = document.getElementById('editProductModal');
+    
+    productModal.addEventListener('show.bs.modal', function (event) {
+        const button = event.relatedTarget;
+        
+        document.getElementById('modal-product-id').textContent = button.getAttribute('data-id');
+        document.getElementById('modal-product-name').textContent = button.getAttribute('data-name') || 'No name data';
+        document.getElementById('modal-product-brand').textContent = button.getAttribute('data-brand') || 'No brand data';
+        document.getElementById('modal-product-category').textContent = button.getAttribute('data-category') || 'No category data';
+        document.getElementById('modal-product-price').textContent = button.getAttribute('data-price') || 'No price data';
+        document.getElementById('modal-product-stock').textContent = button.getAttribute('data-stock') || 'No stock data';
+        document.getElementById('modal-product-description').textContent = button.getAttribute('data-description') || 'No description';
+        document.getElementById('modal-product-expiry-date').textContent = button.getAttribute('data-expiry-date') || 'No expiry date';
+        document.getElementById('modal-product-barcode').textContent = button.getAttribute('data-barcode') || 'No barcode data';
+    });
+
+    editProductModal.addEventListener('show.bs.modal', function (event) {
+        const button = event.relatedTarget;
+
+        const expiry = button.getAttribute('data-expiry');
+        document.getElementById('edit-product-expiry-date').value = expiry || '';
+
+        // Fill in form values
+        document.getElementById('edit-product-id').value = button.getAttribute('data-id');
+        document.getElementById('edit-product-name').value = button.getAttribute('data-name') || 'No name data';
+        document.getElementById('edit-product-brand').value = button.getAttribute('data-brand')|| 'No brand data';
+        document.getElementById('edit-product-category').value = button.getAttribute('data-category') || 'No category data';
+        document.getElementById('edit-product-category-id').value = button.getAttribute('data-category-id') || 'No category id data';
+        document.getElementById('edit-product-price').value = button.getAttribute('data-price') || 'No price data';
+        document.getElementById('edit-product-stock').value = button.getAttribute('data-stock') || 'No stock data';
+        document.getElementById('edit-product-description').value = button.getAttribute('data-description') || 'No description';
+        document.getElementById('edit-product-expiry-date').value = button.getAttribute('data-expiry') || 'No expiry date';
+        document.getElementById('edit-product-barcode').value = button.getAttribute('data-barcode')|| 'No barcode data';
+
+        const imageUrl = button.getAttribute('data-imageUrl');
+        document.getElementById('preview').src = imageUrl || '';
+        document.getElementById('existingImageUrl').value = imageUrl || '';
+    });
+</script>

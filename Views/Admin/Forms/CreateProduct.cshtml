@@ -5,22 +5,8 @@
     Layout = "Admin/_AdminLayout";
 }
 
-<!-- Notification Message -->
-@if (TempData["SuccessMessage"] != null || TempData["ErrorMessage"] != null)
-{
-    <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999;">
-        <div
-            class="toast align-items-center text-white @((TempData["SuccessMessage"] != null ? "bg-success" : "bg-danger")) show"
-            role="alert">
-            <div class="d-flex">
-                <div class="toast-body">
-                    @(TempData["SuccessMessage"] ?? TempData["ErrorMessage"])
-                </div>
-                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
-            </div>
-        </div>
-    </div>
-}
+@Html.Partial("Components/Notifications/Notification")  
+
 <form asp-action="Create" method="post" enctype="multipart/form-data" class="row g-3 flex-column">
     <div class="col-12">
         <label asp-for="ProductName" class="form-label">Product Name</label>
@@ -34,19 +20,19 @@
         <span asp-validation-for="Brand" class="text-danger"></span>
     </div>
 
-    <div class="col-12">
-        <label asp-for="SelectedCategory" class="form-label">Category</label>
-        <select asp-for="SelectedCategory" class="form-select">
-            <option value="">Select Category</option>
-            @foreach (var category in Model.Categories)
-            {
-                <option value="@category" selected="@(Model.SelectedCategory == category)">
-                    @category
-                </option>
-            }
-        </select>
-        <span asp-validation-for="SelectedCategory" class="text-danger"></span>
-    </div>
+        <div class="col-12">
+            <label asp-for="SelectedCategory" class="form-label">Category</label>
+            <select asp-for="SelectedCategory" class="form-select">
+                <option value="">Select Category</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category" selected="@(Model.SelectedCategory == category)">
+                        @category
+                    </option>
+                }
+            </select>
+            <span asp-validation-for="SelectedCategory" class="text-danger"></span>
+        </div>
 
     <div class="col-12">
         <label asp-for="ProductPrice" class="form-label">Price</label>

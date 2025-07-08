@@ -9,10 +9,20 @@ public class LoggingOrderServiceDecorator : IOrderService
     private readonly IOrderService _inner;
     private readonly ILogger<LoggingOrderServiceDecorator> _logger;
 
+    
+    
     public LoggingOrderServiceDecorator(IOrderService inner, ILogger<LoggingOrderServiceDecorator> logger)
     {
         _inner = inner;
         _logger = logger;
+    }
+
+    public Task<ErrorModel> DeleteOrderByPo(string PoNumberId)
+    {
+        _logger.LogInformation("Delete orders by PO numbers...");
+        var result = _inner.DeleteOrderByPo(PoNumberId);
+        _logger.LogInformation($"Deleted order {PoNumberId}");
+        return result;
     }
 
     public async Task<ServiceResult<List<OrdersListDTO>>> GetAllOrders()

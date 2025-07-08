@@ -11,12 +11,25 @@ namespace Weav_App.Services.OrderServices;
 public class ManageOrderService : IOrderService
 {
     private readonly IOrderRepository _orderRepository;
+
     private readonly IMapper _mapper;
-    
+
     public ManageOrderService(IOrderRepository orderRepository, IMapper mapper)
     {
         _orderRepository = orderRepository;
         _mapper = mapper;
+    }
+
+    public async Task<ErrorModel> DeleteOrderByPo(string PoNumberId)
+    {
+        var deletedOrder = await _orderRepository.DeleteOrder(PoNumberId);
+        Console.WriteLine($"{deletedOrder.Message}");
+
+        return new ErrorModel()
+        {
+            Message = deletedOrder.Message,
+            Status = deletedOrder.Status
+        };
     }
 
     public async Task<ServiceResult<List<OrdersListDTO>>> GetAllOrders()

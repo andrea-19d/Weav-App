@@ -7,6 +7,7 @@ namespace Weav_App.Services.Interface;
 
 public interface IOrderService
 {
+    Task<ErrorModel> DeleteOrderByPo(string PoNumberId);
     Task<ServiceResult<List<OrdersListDTO>>> GetAllOrders();
     Task<ServiceResult<List<OrdersListDTO>>> GetAllPendingOrders();
     Task<ServiceResult<List<OrdersListDTO>>> GetAllShippedOrders();

@@ -1,10 +1,12 @@
-﻿    @model Weav_App.Models.ViewsModel.OrdersPageViewModel
-    @{
-        ViewData["Title"] = "New Order Page";
-        Layout = "Admin/_AdminLayout";
-    }
-    <!-- Trip Cards -->
-    <div class="row" id="tripCardsContainer">
+﻿@model Weav_App.Models.ViewsModel.OrdersPageViewModel
+@{
+    ViewData["Title"] = "New Order Page";
+    Layout = "Admin/_AdminLayout";
+}
+<!-- Trip Cards -->
+<div class="row" id="tripCardsContainer">
+    @if (Model?.Orders != null)
+    {
         @foreach (var orders in Model.Orders)
         {
             <div class="col-xl-4 col-lg-6 col-md-6 mb-4 trip-card-wrapper">
@@ -22,7 +24,7 @@
                             <div class="trip-total">$@orders.TotalAmount.ToString("F2")</div>
                         </div>
                     </div>
-                    
+
                     <!-- Trip Details -->
                     <div class="trip-details">
                         <div class="trip-info-row">
@@ -70,23 +72,13 @@
                 </div>
             </div>
         }
-    </div>
-
-    @if (TempData["SuccessMessage"] != null || TempData["ErrorMessage"] != null)
+    }
+    else
     {
-        <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999;">
-            <div
-                class="toast align-items-center text-white @((TempData["SuccessMessage"] != null ? "bg-success" : "bg-danger")) show"
-                role="alert">
-                <div class="d-flex">
-                    <div class="toast-body">
-                        @(TempData["SuccessMessage"] ?? TempData["ErrorMessage"])
-                    </div>
-                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
-                </div>
-            </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 mb-4 trip-card-wrapper">
+            <h1>No orders available.</h1>
         </div>
     }
+</div>
 
-    <!-- Success/Error Messages -->
-    <div id="messageContainer" class="position-fixed" style="top: 20px; right: 20px; z-index: 9999;"></div>
+@Html.Partial("Components/Notifications/Notification")

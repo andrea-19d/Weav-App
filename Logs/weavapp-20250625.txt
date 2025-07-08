@@ -1,0 +1,249 @@
+2025-06-25 19:52:37.537 +03:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-25 19:52:37.660 +03:00 [INF] Now listening on: http://localhost:5083
+2025-06-25 19:52:37.661 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 19:52:37.661 +03:00 [INF] Hosting environment: Development
+2025-06-25 19:52:37.662 +03:00 [INF] Content root path: A:\Git\Weav-App
+2025-06-25 19:52:38.514 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/ - null null
+2025-06-25 19:52:38.518 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-06-25 19:52:38.548 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-06-25 19:52:38.561 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Weav_App.Controllers.HomeController (Weav-App).
+2025-06-25 19:52:38.568 +03:00 [INF] Executing action method Weav_App.Controllers.HomeController.Index (Weav-App) - Validation state: "Valid"
+2025-06-25 19:52:38.571 +03:00 [INF] Executed action method Weav_App.Controllers.HomeController.Index (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6234ms.
+2025-06-25 19:52:38.584 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-25 19:52:38.693 +03:00 [INF] Executed ViewResult - view Index executed in 112.8737ms.
+2025-06-25 19:52:38.696 +03:00 [INF] Executed action Weav_App.Controllers.HomeController.Index (Weav-App) in 134.1887ms
+2025-06-25 19:52:38.696 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-06-25 19:52:38.699 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/ - 200 null text/html; charset=utf-8 186.4795ms
+2025-06-25 19:52:38.823 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-25 19:52:38.827 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/css/style.css?v=zj49xgnmzcGQ5jW-KCh2qKv1lcKniMAueSi83bvZRGM - null null
+2025-06-25 19:52:38.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/css/vendor.css?v=BKIW2OcPE231O7e-4lwBMzm_VuNMOjDuVcdCOPX80VM - null null
+2025-06-25 19:52:38.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/css/normalize.css?v=Djkm6FyGgvLiSeX8OymBbRzXrEbeLCtD-56svFyVkLM - null null
+2025-06-25 19:52:38.832 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/logo.png - null null
+2025-06-25 19:52:38.832 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/product-thumb-1.png - null null
+2025-06-25 19:52:38.842 +03:00 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'A:\Git\Weav-App\wwwroot\css\style.css'
+2025-06-25 19:52:38.842 +03:00 [INF] Sending file. Request path: '/images/product-thumb-1.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\product-thumb-1.png'
+2025-06-25 19:52:38.842 +03:00 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\logo.png'
+2025-06-25 19:52:38.842 +03:00 [INF] Sending file. Request path: '/css/vendor.css'. Physical path: 'A:\Git\Weav-App\wwwroot\css\vendor.css'
+2025-06-25 19:52:38.842 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'A:\Git\Weav-App\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-06-25 19:52:38.842 +03:00 [INF] Sending file. Request path: '/css/normalize.css'. Physical path: 'A:\Git\Weav-App\wwwroot\css\normalize.css'
+2025-06-25 19:52:38.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/product-thumb-1.png - 200 232604 image/png 9.7633ms
+2025-06-25 19:52:38.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/css/style.css?v=zj49xgnmzcGQ5jW-KCh2qKv1lcKniMAueSi83bvZRGM - 200 17859 text/css 14.533ms
+2025-06-25 19:52:38.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/css/vendor.css?v=BKIW2OcPE231O7e-4lwBMzm_VuNMOjDuVcdCOPX80VM - 200 31551 text/css 11.0858ms
+2025-06-25 19:52:38.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/css/bootstrap.min.css - 200 232808 text/css 19.9644ms
+2025-06-25 19:52:38.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/logo.png - 200 6116 image/png 10.1634ms
+2025-06-25 19:52:38.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/css/normalize.css?v=Djkm6FyGgvLiSeX8OymBbRzXrEbeLCtD-56svFyVkLM - 200 6488 text/css 10.6788ms
+2025-06-25 19:52:38.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/lib/jquery/dist/jquery.min.js - null null
+2025-06-25 19:52:38.844 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'A:\Git\Weav-App\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-06-25 19:52:38.844 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/lib/jquery/dist/jquery.min.js - 200 87535 text/javascript 1.0706ms
+2025-06-25 19:52:38.864 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/product-thumb-2.png - null null
+2025-06-25 19:52:38.866 +03:00 [INF] Sending file. Request path: '/images/product-thumb-2.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\product-thumb-2.png'
+2025-06-25 19:52:38.866 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/product-thumb-2.png - 200 225939 image/png 1.4837ms
+2025-06-25 19:52:38.868 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/icon-vegetables-broccoli.png - null null
+2025-06-25 19:52:38.868 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-25 19:52:38.868 +03:00 [INF] Sending file. Request path: '/images/icon-vegetables-broccoli.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\icon-vegetables-broccoli.png'
+2025-06-25 19:52:38.868 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/icon-vegetables-broccoli.png - 200 1973 image/png 0.4791ms
+2025-06-25 19:52:38.868 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'A:\Git\Weav-App\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-06-25 19:52:38.868 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80727 text/javascript 0.5212ms
+2025-06-25 19:52:38.872 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/js/site.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U - null null
+2025-06-25 19:52:38.872 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'A:\Git\Weav-App\wwwroot\js\site.js'
+2025-06-25 19:52:38.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/js/site.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U - 200 3 text/javascript 0.2533ms
+2025-06-25 19:52:38.873 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/js/jquery-1.11.0.min.js - null null
+2025-06-25 19:52:38.874 +03:00 [INF] Sending file. Request path: '/js/jquery-1.11.0.min.js'. Physical path: 'A:\Git\Weav-App\wwwroot\js\jquery-1.11.0.min.js'
+2025-06-25 19:52:38.874 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/js/jquery-1.11.0.min.js - 200 96383 text/javascript 0.4191ms
+2025-06-25 19:52:38.882 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/js/plugins.js - null null
+2025-06-25 19:52:38.882 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/icon-bread-baguette.png - null null
+2025-06-25 19:52:38.882 +03:00 [INF] Sending file. Request path: '/js/plugins.js'. Physical path: 'A:\Git\Weav-App\wwwroot\js\plugins.js'
+2025-06-25 19:52:38.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/js/plugins.js - 200 39878 text/javascript 0.7316ms
+2025-06-25 19:52:38.883 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/js/script.js - null null
+2025-06-25 19:52:38.883 +03:00 [INF] Sending file. Request path: '/images/icon-bread-baguette.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\icon-bread-baguette.png'
+2025-06-25 19:52:38.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/icon-bread-baguette.png - 200 1603 image/png 0.5461ms
+2025-06-25 19:52:38.883 +03:00 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'A:\Git\Weav-App\wwwroot\js\script.js'
+2025-06-25 19:52:38.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/js/script.js - 200 3384 text/javascript 0.6766ms
+2025-06-25 19:52:38.884 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/icon-soft-drinks-bottle.png - null null
+2025-06-25 19:52:38.885 +03:00 [INF] Sending file. Request path: '/images/icon-soft-drinks-bottle.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\icon-soft-drinks-bottle.png'
+2025-06-25 19:52:38.885 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/icon-soft-drinks-bottle.png - 200 741 image/png 0.2687ms
+2025-06-25 19:52:38.885 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/icon-wine-glass-bottle.png - null null
+2025-06-25 19:52:38.885 +03:00 [INF] Sending file. Request path: '/images/icon-wine-glass-bottle.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\icon-wine-glass-bottle.png'
+2025-06-25 19:52:38.885 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/icon-wine-glass-bottle.png - 200 849 image/png 0.2375ms
+2025-06-25 19:52:38.887 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/icon-animal-products-drumsticks.png - null null
+2025-06-25 19:52:38.887 +03:00 [INF] Sending file. Request path: '/images/icon-animal-products-drumsticks.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\icon-animal-products-drumsticks.png'
+2025-06-25 19:52:38.887 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/icon-animal-products-drumsticks.png - 200 1392 image/png 0.2479ms
+2025-06-25 19:52:38.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/icon-bread-herb-flour.png - null null
+2025-06-25 19:52:38.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/product-thumb-11.jpg - null null
+2025-06-25 19:52:38.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/product-thumb-12.jpg - null null
+2025-06-25 19:52:38.892 +03:00 [INF] Sending file. Request path: '/images/icon-bread-herb-flour.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\icon-bread-herb-flour.png'
+2025-06-25 19:52:38.892 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/icon-bread-herb-flour.png - 200 1176 image/png 0.472ms
+2025-06-25 19:52:38.893 +03:00 [INF] Sending file. Request path: '/images/product-thumb-11.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\product-thumb-11.jpg'
+2025-06-25 19:52:38.893 +03:00 [INF] Sending file. Request path: '/images/product-thumb-12.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\product-thumb-12.jpg'
+2025-06-25 19:52:38.893 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/product-thumb-11.jpg - 200 27933 image/jpeg 0.4215ms
+2025-06-25 19:52:38.893 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/product-thumb-12.jpg - 200 69281 image/jpeg 0.3325ms
+2025-06-25 19:52:38.895 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/product-thumb-13.jpg - null null
+2025-06-25 19:52:38.895 +03:00 [INF] Sending file. Request path: '/images/product-thumb-13.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\product-thumb-13.jpg'
+2025-06-25 19:52:38.895 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/product-thumb-13.jpg - 200 27208 image/jpeg 0.2709ms
+2025-06-25 19:52:38.895 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/product-thumb-14.jpg - null null
+2025-06-25 19:52:38.896 +03:00 [INF] Sending file. Request path: '/images/product-thumb-14.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\product-thumb-14.jpg'
+2025-06-25 19:52:38.896 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/product-thumb-14.jpg - 200 32471 image/jpeg 0.4304ms
+2025-06-25 19:52:38.897 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-bananas.png - null null
+2025-06-25 19:52:38.897 +03:00 [INF] Sending file. Request path: '/images/thumb-bananas.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-bananas.png'
+2025-06-25 19:52:38.897 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-bananas.png - 200 34139 image/png 0.2844ms
+2025-06-25 19:52:38.901 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-biscuits.png - null null
+2025-06-25 19:52:38.901 +03:00 [INF] Sending file. Request path: '/images/thumb-biscuits.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-biscuits.png'
+2025-06-25 19:52:38.901 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-biscuits.png - 200 35342 image/png 0.3381ms
+2025-06-25 19:52:38.902 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-cucumber.png - null null
+2025-06-25 19:52:38.902 +03:00 [INF] Sending file. Request path: '/images/thumb-cucumber.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-cucumber.png'
+2025-06-25 19:52:38.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-cucumber.png - 200 43124 image/png 0.3392ms
+2025-06-25 19:52:38.902 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-milk.png - null null
+2025-06-25 19:52:38.902 +03:00 [INF] Sending file. Request path: '/images/thumb-milk.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-milk.png'
+2025-06-25 19:52:38.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-milk.png - 200 34726 image/png 0.2579ms
+2025-06-25 19:52:38.905 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-orange-juice.png - null null
+2025-06-25 19:52:38.905 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-raspberries.png - null null
+2025-06-25 19:52:38.905 +03:00 [INF] Sending file. Request path: '/images/thumb-orange-juice.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-orange-juice.png'
+2025-06-25 19:52:38.905 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-orange-juice.png - 200 24141 image/png 0.3757ms
+2025-06-25 19:52:38.905 +03:00 [INF] Sending file. Request path: '/images/thumb-raspberries.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-raspberries.png'
+2025-06-25 19:52:38.905 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-raspberries.png - 200 46695 image/png 0.3394ms
+2025-06-25 19:52:38.909 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-tomatoes.png - null null
+2025-06-25 19:52:38.909 +03:00 [INF] Sending file. Request path: '/images/thumb-tomatoes.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-tomatoes.png'
+2025-06-25 19:52:38.909 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-tomatoes.png - 200 45456 image/png 0.415ms
+2025-06-25 19:52:38.910 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/thumb-tomatoketchup.png - null null
+2025-06-25 19:52:38.911 +03:00 [INF] Sending file. Request path: '/images/thumb-tomatoketchup.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\thumb-tomatoketchup.png'
+2025-06-25 19:52:38.911 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/thumb-tomatoketchup.png - 200 37335 image/png 0.4573ms
+2025-06-25 19:52:38.915 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/post-thumb-1.jpg - null null
+2025-06-25 19:52:38.916 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/post-thumb-2.jpg - null null
+2025-06-25 19:52:38.916 +03:00 [INF] Sending file. Request path: '/images/post-thumb-1.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\post-thumb-1.jpg'
+2025-06-25 19:52:38.917 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/post-thumb-3.jpg - null null
+2025-06-25 19:52:38.917 +03:00 [INF] Sending file. Request path: '/images/post-thumb-2.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\post-thumb-2.jpg'
+2025-06-25 19:52:38.917 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/post-thumb-1.jpg - 200 176519 image/jpeg 1.2604ms
+2025-06-25 19:52:38.917 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/post-thumb-2.jpg - 200 133164 image/jpeg 0.8912ms
+2025-06-25 19:52:38.917 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/phone.png - null null
+2025-06-25 19:52:38.917 +03:00 [INF] Sending file. Request path: '/images/post-thumb-3.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\post-thumb-3.jpg'
+2025-06-25 19:52:38.917 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/post-thumb-3.jpg - 200 97359 image/jpeg 0.8319ms
+2025-06-25 19:52:38.918 +03:00 [INF] Sending file. Request path: '/images/phone.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\phone.png'
+2025-06-25 19:52:38.918 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/phone.png - 200 162997 image/png 0.7785ms
+2025-06-25 19:52:38.924 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/app-store.jpg - null null
+2025-06-25 19:52:38.924 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/google-play.jpg - null null
+2025-06-25 19:52:38.925 +03:00 [INF] Sending file. Request path: '/images/google-play.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\google-play.jpg'
+2025-06-25 19:52:38.925 +03:00 [INF] Sending file. Request path: '/images/app-store.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\app-store.jpg'
+2025-06-25 19:52:38.925 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/google-play.jpg - 200 9694 image/jpeg 0.4318ms
+2025-06-25 19:52:38.925 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/app-store.jpg - 200 7937 image/jpeg 0.6393ms
+2025-06-25 19:52:39.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/background-pattern.jpg - null null
+2025-06-25 19:52:39.106 +03:00 [INF] The file /images/background-pattern.jpg was not modified
+2025-06-25 19:52:39.106 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/ad-image-1.png - null null
+2025-06-25 19:52:39.106 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/background-pattern.jpg - 304 null image/jpeg 1.7349ms
+2025-06-25 19:52:39.106 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/ad-image-2.png - null null
+2025-06-25 19:52:39.106 +03:00 [INF] The file /images/ad-image-1.png was not modified
+2025-06-25 19:52:39.106 +03:00 [INF] The file /images/ad-image-2.png was not modified
+2025-06-25 19:52:39.106 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/ad-image-2.png - 304 null image/png 0.1211ms
+2025-06-25 19:52:39.106 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/ad-image-1.png - 304 null image/png 0.2333ms
+2025-06-25 19:52:39.141 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/ad-image-3.png - null null
+2025-06-25 19:52:39.141 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/ad-image-4.png - null null
+2025-06-25 19:52:39.141 +03:00 [INF] The file /images/ad-image-3.png was not modified
+2025-06-25 19:52:39.141 +03:00 [INF] The file /images/ad-image-4.png was not modified
+2025-06-25 19:52:39.141 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/ad-image-3.png - 304 null image/png 0.3889ms
+2025-06-25 19:52:39.141 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/ad-image-4.png - 304 null image/png 0.1326ms
+2025-06-25 19:52:39.141 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/bg-leaves-img-pattern.png - null null
+2025-06-25 19:52:39.141 +03:00 [INF] The file /images/bg-leaves-img-pattern.png was not modified
+2025-06-25 19:52:39.141 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/bg-leaves-img-pattern.png - 304 null image/png 0.196ms
+2025-06-25 19:53:02.993 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-06-25 19:53:03.006 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-06-25 19:53:03.007 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-06-25 19:53:03.193 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-06-25 19:53:03.193 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0955ms.
+2025-06-25 19:53:03.194 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-06-25 19:53:03.217 +03:00 [INF] Fetching pending orders...
+2025-06-25 19:53:04.103 +03:00 [INF] Fetched 1 pending orders.
+2025-06-25 19:53:04.113 +03:00 [INF] Executed ViewResult - view Dashboard executed in 919.9825ms.
+2025-06-25 19:53:04.113 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 1105.9635ms
+2025-06-25 19:53:04.113 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-06-25 19:53:04.114 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 1120.1729ms
+2025-06-25 19:53:04.141 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/style.css?v=t8MuRMgis_Q6Wm9tODF6cvFEidwjubxuOisjsVW6NKw - null null
+2025-06-25 19:53:04.142 +03:00 [INF] Sending file. Request path: '/Admin/style.css'. Physical path: 'A:\Git\Weav-App\wwwroot\Admin\style.css'
+2025-06-25 19:53:04.142 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/style.css?v=t8MuRMgis_Q6Wm9tODF6cvFEidwjubxuOisjsVW6NKw - 200 16643 text/css 0.9337ms
+2025-06-25 19:53:04.145 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-06-25 19:53:04.150 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 5.9403ms
+2025-06-25 19:53:04.151 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-06-25 19:53:06.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-06-25 19:53:06.657 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-06-25 19:53:06.664 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-06-25 19:53:06.671 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-06-25 19:53:07.262 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 590.9826ms.
+2025-06-25 19:53:07.264 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-06-25 19:53:07.273 +03:00 [INF] Fetching pending orders...
+2025-06-25 19:53:07.368 +03:00 [INF] Fetched 1 pending orders.
+2025-06-25 19:53:07.369 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 106.1054ms.
+2025-06-25 19:53:07.370 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 705.8033ms
+2025-06-25 19:53:07.370 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-06-25 19:53:07.370 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 714.4328ms
+2025-06-25 19:53:07.400 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/greek-yogurt.jpg - null null
+2025-06-25 19:53:07.400 +03:00 [INF] Sending file. Request path: '/images/greek-yogurt.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\greek-yogurt.jpg'
+2025-06-25 19:53:07.400 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/greek-yogurt.jpg - 200 10614 image/jpeg 0.7122ms
+2025-06-25 19:53:07.409 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/olive-oil.jpg - null null
+2025-06-25 19:53:07.410 +03:00 [INF] Sending file. Request path: '/images/olive-oil.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\olive-oil.jpg'
+2025-06-25 19:53:07.410 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/olive-oil.jpg - 200 162550 image/jpeg 1.3828ms
+2025-06-25 19:53:07.412 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/tomato-ketchup.jpg - null null
+2025-06-25 19:53:07.413 +03:00 [INF] Sending file. Request path: '/images/tomato-ketchup.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\tomato-ketchup.jpg'
+2025-06-25 19:53:07.413 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/tomato-ketchup.jpg - 200 116275 image/jpeg 0.9364ms
+2025-06-25 19:53:07.415 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/corn-flakes.jpg - null null
+2025-06-25 19:53:07.416 +03:00 [INF] Sending file. Request path: '/images/corn-flakes.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\corn-flakes.jpg'
+2025-06-25 19:53:07.417 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/corn-flakes.jpg - 200 15391 image/jpeg 1.0117ms
+2025-06-25 19:53:07.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-06-25 19:53:07.419 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6543ms
+2025-06-25 19:53:07.419 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-06-25 19:53:07.419 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/chocolatechocolate-chip-cookies.jpg - null null
+2025-06-25 19:53:07.420 +03:00 [INF] Sending file. Request path: '/images/chocolatechocolate-chip-cookies.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\chocolatechocolate-chip-cookies.jpg'
+2025-06-25 19:53:07.420 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/chocolatechocolate-chip-cookies.jpg - 200 200638 image/jpeg 1.2678ms
+2025-06-25 19:53:07.420 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/salted-butter.jpg - null null
+2025-06-25 19:53:07.420 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/lemonade.jpg - null null
+2025-06-25 19:53:07.421 +03:00 [INF] Sending file. Request path: '/images/salted-butter.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\salted-butter.jpg'
+2025-06-25 19:53:07.421 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/salted-butter.jpg - 200 7436 image/jpeg 0.5865ms
+2025-06-25 19:53:07.421 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/black-tea.jpg - null null
+2025-06-25 19:53:07.421 +03:00 [INF] Sending file. Request path: '/images/lemonade.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\lemonade.jpg'
+2025-06-25 19:53:07.421 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/lemonade.jpg - 200 132706 image/jpeg 0.6869ms
+2025-06-25 19:53:07.421 +03:00 [INF] Sending file. Request path: '/images/black-tea.jpg'. Physical path: 'A:\Git\Weav-App\wwwroot\images\black-tea.jpg'
+2025-06-25 19:53:07.421 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/black-tea.jpg - 200 6444 image/jpeg 0.4426ms
+2025-06-25 19:53:07.442 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/green-grapes.png - null null
+2025-06-25 19:53:07.442 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/bananas.png - null null
+2025-06-25 19:53:07.443 +03:00 [INF] Sending file. Request path: '/images/green-grapes.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\green-grapes.png'
+2025-06-25 19:53:07.443 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/green-grapes.png - 200 61862 image/png 0.8145ms
+2025-06-25 19:53:07.443 +03:00 [INF] Sending file. Request path: '/images/bananas.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\bananas.png'
+2025-06-25 19:53:07.443 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/bananas.png - 200 224639 image/png 1.2779ms
+2025-06-25 19:53:16.856 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - null null
+2025-06-25 19:53:16.858 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-06-25 19:53:16.862 +03:00 [INF] Route matched with {action = "OrderPage", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPage(System.String, System.Nullable`1[OrderStatus], Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-06-25 19:53:16.869 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.OrderPage (Weav-App) - Validation state: "Valid"
+2025-06-25 19:53:16.871 +03:00 [INF] Fetching all orders...
+2025-06-25 19:53:17.058 +03:00 [INF] Fetched 2 orders.
+2025-06-25 19:53:17.059 +03:00 [INF] Fetching all orders...
+2025-06-25 19:53:17.154 +03:00 [INF] Fetched 2 orders.
+2025-06-25 19:53:17.154 +03:00 [INF] Fetching pending orders...
+2025-06-25 19:53:17.237 +03:00 [INF] Fetched 1 pending orders.
+2025-06-25 19:53:17.238 +03:00 [INF] Fetching shipped orders for today...
+2025-06-25 19:53:17.329 +03:00 [INF] Fetched 0 shipped today orders.
+2025-06-25 19:53:17.330 +03:00 [INF] Calculating today's revenue...
+2025-06-25 19:53:17.412 +03:00 [INF] Today's revenue: $0.0
+2025-06-25 19:53:17.515 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.OrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 646.5121ms.
+2025-06-25 19:53:17.516 +03:00 [INF] Executing ViewResult, running view OrderPage.
+2025-06-25 19:53:17.527 +03:00 [INF] Fetching pending orders...
+2025-06-25 19:53:17.728 +03:00 [INF] Fetched 1 pending orders.
+2025-06-25 19:53:17.729 +03:00 [INF] Executed ViewResult - view OrderPage executed in 213.2727ms.
+2025-06-25 19:53:17.729 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.OrderPage (Weav-App) in 866.405ms
+2025-06-25 19:53:17.729 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-06-25 19:53:17.729 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - 200 null text/html; charset=utf-8 872.5875ms
+2025-06-25 19:53:17.756 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-06-25 19:53:17.757 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6725ms
+2025-06-25 19:53:17.757 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-06-25 19:53:20.356 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-06-25 19:53:20.356 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-06-25 19:53:20.356 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-06-25 19:53:20.357 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-06-25 19:53:20.714 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 357.411ms.
+2025-06-25 19:53:20.715 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-06-25 19:53:20.716 +03:00 [INF] Fetching pending orders...
+2025-06-25 19:53:20.802 +03:00 [INF] Fetched 1 pending orders.
+2025-06-25 19:53:20.802 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 87.6692ms.
+2025-06-25 19:53:20.802 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 445.9215ms
+2025-06-25 19:53:20.802 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-06-25 19:53:20.802 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 446.7392ms
+2025-06-25 19:53:20.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-06-25 19:53:20.831 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.5157ms
+2025-06-25 19:53:20.831 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-06-25 19:55:06.995 +03:00 [INF] Application is shutting down...

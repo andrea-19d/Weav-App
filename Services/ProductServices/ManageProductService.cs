@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using FluentAssertions;
+using Microsoft.AspNetCore.Mvc;
 using Supabase;
 using Weav_App.DTOs.Entities.Products;
 using Weav_App.Models;
@@ -22,6 +24,7 @@ public class ManageProductService : IProductServices
         _supabase = supabase;
     }
 
+    //TODO: To remove this asd check what is the problem here 
     public async Task<ServiceResult<List<ProductDto>>> GetAllProducts()
     {
         var result = await _supabase
@@ -37,6 +40,42 @@ public class ManageProductService : IProductServices
         {
             Success = true,
             Data = dtoList
+        };
+    }
+
+    public async Task<ErrorModel> UpdateProduct(ProductDto product)
+    {
+        var result = await _repository.UpdateProductAsync(_mapper.Map<ProductDbTable>(product));
+
+        return new ErrorModel()
+        {
+            Message = result.Message,
+            Status = result.Status,
+        };
+    }
+
+    public async Task<ServiceResult<ProductDto>> GetProductByIdAsync(int id)
+    {
+        var result = await _repository.GetProductByIdAsync(id);
+        var dto = _mapper.Map<ProductDto>(result);
+
+        return new ServiceResult<ProductDto>()
+        {
+            ErrorMessage = "Product was found",
+            Success = true,
+            Data = dto
+        };
+    }
+    
+    public async Task<ErrorModel> DeleteProduct(int id)
+    {
+        Console.WriteLine($"delete product id: {id}");
+        
+        var deletedProducts = await _repository.DeleteProduct(id);
+        return new ErrorModel()
+        {
+            Message = deletedProducts.Message,
+            Status = deletedProducts.Status,
         };
     }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mov1Bo8nyWYC+PhJS5XLdiisVx195XpCdF3BguyfbZE=",
+  "Hash": "v1gnZiiSyL3bgDB729sCFH0x09ydKJ73f43rKf4LlC8=",
   "Source": "Weav-App",
   "BasePath": "_content/Weav-App",
   "Mode": "Default",
@@ -248,12 +248,12 @@
       "OriginalItemSpec": "A:\\Git\\Weav-App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-ngo5ua7tf1.gz",
+      "Identity": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-b6stdeprvl.gz",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
       "ContentRoot": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Weav-App",
-      "RelativePath": "Admin/script#[.{fingerprint=ngo5ua7tf1}]?.js.gz",
+      "RelativePath": "Admin/script#[.{fingerprint=b6stdeprvl}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -262,8 +262,8 @@
       "RelatedAsset": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b85sshymhz",
-      "Integrity": "hdaCt+jGm7jocW/Csw1B4xECd2J+Bglt5/nRTWblNXE=",
+      "Fingerprint": "3sww3rj4tw",
+      "Integrity": "88xnv57j2DB0LSLl2JO7s2T/iFnzFbh8gF9pR1cKT9o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js"
@@ -1086,6 +1086,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "A:\\Git\\Weav-App\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\jcv9oxzlh9-kyduijaxig.gz",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/printer_icon_vectorized#[.{fingerprint=kyduijaxig}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\printer_icon_vectorized.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xq0j6nh26j",
+      "Integrity": "d2PVAU6xesPUXfftIx4SimdDdevx4uKtd6BJVAyU604=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\printer_icon_vectorized.svg"
     },
     {
       "Identity": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\jny4j4ojiy-6znn7ve9x9.gz",
@@ -2138,6 +2159,216 @@
       "OriginalItemSpec": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Weav-App.bundle.scp.css"
     },
     {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\categories.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/categories#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7mywwshfp1",
+      "Integrity": "P1dY1SiuWPURooYw+TygPidBlkOLxAzQ4GhJz4SX+OU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\categories.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\clipboard.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/clipboard#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oofdf53akz",
+      "Integrity": "qON6FaWWh49L3juaR/LPIvnHZJR6HN1kF/cVENbo4Sg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\clipboard.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\deactivate.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/deactivate#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dekl2b0wwi",
+      "Integrity": "haiXXb8Ll8EsphpApLXaIxqicj/7v5bHQn5SJouxqBg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\deactivate.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\image 4.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/image 4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j3avj8pbms",
+      "Integrity": "36ctYnSxC7tOozZZ/plmYYNaXjS2NQodRd1/HAA+rQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\image 4.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\low-price.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/low-price#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hbtuuh0gel",
+      "Integrity": "7bFRBO0IdmYQUrwm0/ec2MDPG+8y6Y+cyulwcejrtPg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\low-price.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\order-delivery.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/order-delivery#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lod9jb7m2j",
+      "Integrity": "hZxzBli+ucI9Zvx7+89bdIFQHFgbooUYqp7Q+wm3C3k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\order-delivery.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\printer_icon_vectorized.svg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/printer_icon_vectorized#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kyduijaxig",
+      "Integrity": "1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\printer_icon_vectorized.svg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\revenue-growth.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/revenue-growth#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6fmk21eu7b",
+      "Integrity": "fguyJlvJdWTwvPIGcOSw3qmnlu/xiwx9/ZCr9V3H6Qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\revenue-growth.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\tracking.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/tracking#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "krwivn3b88",
+      "Integrity": "YKHuIRZWpHUMhsk88E2alg7CAyLMVz95s5ABEXyFE/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\tracking.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\view.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "Admin/icons/view#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kxohmsvc02",
+      "Integrity": "iLFPC0w2F163EWDYqOhCia4Esj2RCdUdjS1VDI0X8Io=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\icons\\view.png"
+    },
+    {
       "Identity": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
@@ -2152,8 +2383,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ngo5ua7tf1",
-      "Integrity": "FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E=",
+      "Fingerprint": "b6stdeprvl",
+      "Integrity": "HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\script.js"
@@ -5918,6 +6149,69 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\81U9oYQJ68L._AC_UF894,1000_QL80__dd9fb650-b294-4b4b-8243-9a5da9374ff4.jpg"
     },
     {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/brown-bread_1900be71-20c6-41bc-b91f-8330111fca12#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cq7mtw3mhl",
+      "Integrity": "XMKYcF82iQ7heBp0xlBR2RVwCy17dCLE122mHap/tkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xi68ywsh15",
+      "Integrity": "CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xi68ywsh15",
+      "Integrity": "CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg"
+    },
+    {
       "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\download_011167ac-dfcd-4ac8-b72e-d7f89a580f66.jpg",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
@@ -6002,6 +6296,69 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\download_8839c14e-785c-42af-8469-50217509a7de.jpg"
     },
     {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uou15f8j8q",
+      "Integrity": "Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uou15f8j8q",
+      "Integrity": "Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uou15f8j8q",
+      "Integrity": "Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png"
+    },
+    {
       "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg",
       "SourceId": "Weav-App",
       "SourceType": "Discovered",
@@ -6021,6 +6378,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nf2ynj5ue9",
+      "Integrity": "LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nf2ynj5ue9",
+      "Integrity": "LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nf2ynj5ue9",
+      "Integrity": "LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nf2ynj5ue9",
+      "Integrity": "LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/istockphoto-499721531-612x612#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nf2ynj5ue9",
+      "Integrity": "LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\istockphoto-499721531-612x612.jpg"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ecak4ue4re",
+      "Integrity": "Xg0T05e71N5UGlIi0OEryseQNPJa4c9ah+Yiuax+0Zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg"
     },
     {
       "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\passionfruit-exoticfruitscouk-270048_0ad44c46-e348-4ef9-9530-ad85e68b0990.jpg",
@@ -6063,6 +6546,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\Pitaya_a177b180-83b7-40b4-b127-59e94ad5338d.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "88a8hr9wa5",
+      "Integrity": "yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png"
+    },
+    {
+      "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png",
+      "SourceId": "Weav-App",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Git\\Weav-App\\wwwroot\\",
+      "BasePath": "_content/Weav-App",
+      "RelativePath": "images/products/whole-milk_f070babb-e4a3-4349-a038-673ea7974d95#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "88a8hr9wa5",
+      "Integrity": "yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png"
     },
     {
       "Identity": "A:\\Git\\Weav-App\\wwwroot\\images\\reviewer-1.jpg",
@@ -8356,13 +8881,505 @@
   ],
   "Endpoints": [
     {
-      "Route": "Admin/script.js",
-      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-ngo5ua7tf1.gz",
+      "Route": "Admin/icons/categories.7mywwshfp1.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\categories.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1dY1SiuWPURooYw+TygPidBlkOLxAzQ4GhJz4SX+OU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:00:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mywwshfp1"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/categories.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P1dY1SiuWPURooYw+TygPidBlkOLxAzQ4GhJz4SX+OU="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/categories.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\categories.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1dY1SiuWPURooYw+TygPidBlkOLxAzQ4GhJz4SX+OU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:00:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P1dY1SiuWPURooYw+TygPidBlkOLxAzQ4GhJz4SX+OU="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/clipboard.oofdf53akz.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\clipboard.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qON6FaWWh49L3juaR/LPIvnHZJR6HN1kF/cVENbo4Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 16:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oofdf53akz"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/clipboard.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qON6FaWWh49L3juaR/LPIvnHZJR6HN1kF/cVENbo4Sg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/clipboard.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\clipboard.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qON6FaWWh49L3juaR/LPIvnHZJR6HN1kF/cVENbo4Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 16:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qON6FaWWh49L3juaR/LPIvnHZJR6HN1kF/cVENbo4Sg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/deactivate.dekl2b0wwi.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\deactivate.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"haiXXb8Ll8EsphpApLXaIxqicj/7v5bHQn5SJouxqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dekl2b0wwi"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/deactivate.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-haiXXb8Ll8EsphpApLXaIxqicj/7v5bHQn5SJouxqBg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/deactivate.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\deactivate.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"haiXXb8Ll8EsphpApLXaIxqicj/7v5bHQn5SJouxqBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-haiXXb8Ll8EsphpApLXaIxqicj/7v5bHQn5SJouxqBg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/image 4.j3avj8pbms.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\image 4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36ctYnSxC7tOozZZ/plmYYNaXjS2NQodRd1/HAA+rQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 12:55:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3avj8pbms"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/image 4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-36ctYnSxC7tOozZZ/plmYYNaXjS2NQodRd1/HAA+rQM="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/image 4.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\image 4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36ctYnSxC7tOozZZ/plmYYNaXjS2NQodRd1/HAA+rQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 12:55:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-36ctYnSxC7tOozZZ/plmYYNaXjS2NQodRd1/HAA+rQM="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/low-price.hbtuuh0gel.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\low-price.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10082"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7bFRBO0IdmYQUrwm0/ec2MDPG+8y6Y+cyulwcejrtPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:02:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hbtuuh0gel"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/low-price.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7bFRBO0IdmYQUrwm0/ec2MDPG+8y6Y+cyulwcejrtPg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/low-price.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\low-price.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10082"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7bFRBO0IdmYQUrwm0/ec2MDPG+8y6Y+cyulwcejrtPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:02:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7bFRBO0IdmYQUrwm0/ec2MDPG+8y6Y+cyulwcejrtPg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/order-delivery.lod9jb7m2j.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\order-delivery.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hZxzBli+ucI9Zvx7+89bdIFQHFgbooUYqp7Q+wm3C3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 16:54:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lod9jb7m2j"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/order-delivery.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hZxzBli+ucI9Zvx7+89bdIFQHFgbooUYqp7Q+wm3C3k="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/order-delivery.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\order-delivery.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hZxzBli+ucI9Zvx7+89bdIFQHFgbooUYqp7Q+wm3C3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 16:54:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hZxzBli+ucI9Zvx7+89bdIFQHFgbooUYqp7Q+wm3C3k="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/printer_icon_vectorized.kyduijaxig.svg",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\jcv9oxzlh9-kyduijaxig.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000388048118"
+          "Quality": "0.000245941958"
         }
       ],
       "ResponseHeaders": [
@@ -8372,15 +9389,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2576"
+          "Value": "4065"
         },
         {
           "Name": "ETag",
-          "Value": "\"hdaCt+jGm7jocW/Csw1B4xECd2J+Bglt5/nRTWblNXE=\""
+          "Value": "\"d2PVAU6xesPUXfftIx4SimdDdevx4uKtd6BJVAyU604=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 21:28:05 GMT"
+          "Value": "Fri, 27 Jun 2025 17:23:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyduijaxig"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/printer_icon_vectorized.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/printer_icon_vectorized.kyduijaxig.svg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\printer_icon_vectorized.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:23:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyduijaxig"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/printer_icon_vectorized.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/printer_icon_vectorized.kyduijaxig.svg.gz",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\jcv9oxzlh9-kyduijaxig.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d2PVAU6xesPUXfftIx4SimdDdevx4uKtd6BJVAyU604=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:23:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyduijaxig"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/printer_icon_vectorized.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d2PVAU6xesPUXfftIx4SimdDdevx4uKtd6BJVAyU604="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/printer_icon_vectorized.svg",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\jcv9oxzlh9-kyduijaxig.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000245941958"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4065"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d2PVAU6xesPUXfftIx4SimdDdevx4uKtd6BJVAyU604=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:23:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8396,22 +9574,413 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E=\""
+          "Value": "W/\"1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E="
+          "Value": "sha256-1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE="
         }
       ]
     },
     {
-      "Route": "Admin/script.js",
+      "Route": "Admin/icons/printer_icon_vectorized.svg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\printer_icon_vectorized.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:23:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/printer_icon_vectorized.svg.gz",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\jcv9oxzlh9-kyduijaxig.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d2PVAU6xesPUXfftIx4SimdDdevx4uKtd6BJVAyU604=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:23:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d2PVAU6xesPUXfftIx4SimdDdevx4uKtd6BJVAyU604="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/revenue-growth.6fmk21eu7b.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\revenue-growth.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fguyJlvJdWTwvPIGcOSw3qmnlu/xiwx9/ZCr9V3H6Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:01:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6fmk21eu7b"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/revenue-growth.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fguyJlvJdWTwvPIGcOSw3qmnlu/xiwx9/ZCr9V3H6Qg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/revenue-growth.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\revenue-growth.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fguyJlvJdWTwvPIGcOSw3qmnlu/xiwx9/ZCr9V3H6Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:01:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fguyJlvJdWTwvPIGcOSw3qmnlu/xiwx9/ZCr9V3H6Qg="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/tracking.krwivn3b88.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\tracking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YKHuIRZWpHUMhsk88E2alg7CAyLMVz95s5ABEXyFE/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "krwivn3b88"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/tracking.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YKHuIRZWpHUMhsk88E2alg7CAyLMVz95s5ABEXyFE/A="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/tracking.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\tracking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YKHuIRZWpHUMhsk88E2alg7CAyLMVz95s5ABEXyFE/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 17:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YKHuIRZWpHUMhsk88E2alg7CAyLMVz95s5ABEXyFE/A="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/view.kxohmsvc02.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\view.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iLFPC0w2F163EWDYqOhCia4Esj2RCdUdjS1VDI0X8Io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 12:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kxohmsvc02"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/icons/view.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iLFPC0w2F163EWDYqOhCia4Esj2RCdUdjS1VDI0X8Io="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/icons/view.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\view.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iLFPC0w2F163EWDYqOhCia4Esj2RCdUdjS1VDI0X8Io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 12:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iLFPC0w2F163EWDYqOhCia4Esj2RCdUdjS1VDI0X8Io="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.b6stdeprvl.js",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-b6stdeprvl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000388198758"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2575"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88xnv57j2DB0LSLl2JO7s2T/iFnzFbh8gF9pR1cKT9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 09:44:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b6stdeprvl"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.b6stdeprvl.js",
       "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8421,7 +9990,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9315"
+          "Value": "9319"
         },
         {
           "Name": "Content-Type",
@@ -8429,121 +9998,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E=\""
+          "Value": "\"HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 21:28:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/script.js.gz",
-      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-ngo5ua7tf1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2576"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hdaCt+jGm7jocW/Csw1B4xECd2J+Bglt5/nRTWblNXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 21:28:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hdaCt+jGm7jocW/Csw1B4xECd2J+Bglt5/nRTWblNXE="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/script.ngo5ua7tf1.js",
-      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-ngo5ua7tf1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000388048118"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2576"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hdaCt+jGm7jocW/Csw1B4xECd2J+Bglt5/nRTWblNXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 21:28:05 GMT"
+          "Value": "Mon, 30 Jun 2025 09:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ngo5ua7tf1"
+          "Value": "b6stdeprvl"
         },
         {
           "Name": "label",
@@ -8551,13 +10020,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E="
+          "Value": "sha256-HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo="
         }
       ]
     },
     {
-      "Route": "Admin/script.ngo5ua7tf1.js",
-      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
+      "Route": "Admin/script.b6stdeprvl.js.gz",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-b6stdeprvl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8566,7 +10035,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9315"
+          "Value": "2575"
         },
         {
           "Name": "Content-Type",
@@ -8574,56 +10043,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E=\""
+          "Value": "\"88xnv57j2DB0LSLl2JO7s2T/iFnzFbh8gF9pR1cKT9o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 21:28:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ngo5ua7tf1"
-        },
-        {
-          "Name": "label",
-          "Value": "Admin/script.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/script.ngo5ua7tf1.js.gz",
-      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-ngo5ua7tf1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2576"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hdaCt+jGm7jocW/Csw1B4xECd2J+Bglt5/nRTWblNXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 21:28:05 GMT"
+          "Value": "Mon, 30 Jun 2025 09:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8641,7 +10065,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ngo5ua7tf1"
+          "Value": "b6stdeprvl"
         },
         {
           "Name": "label",
@@ -8649,7 +10073,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hdaCt+jGm7jocW/Csw1B4xECd2J+Bglt5/nRTWblNXE="
+          "Value": "sha256-88xnv57j2DB0LSLl2JO7s2T/iFnzFbh8gF9pR1cKT9o="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.js",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-b6stdeprvl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000388198758"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2575"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88xnv57j2DB0LSLl2JO7s2T/iFnzFbh8gF9pR1cKT9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 09:44:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.js",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 09:44:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/script.js.gz",
+      "AssetFile": "A:\\Git\\Weav-App\\obj\\Debug\\net9.0\\compressed\\3jec9hjl06-b6stdeprvl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88xnv57j2DB0LSLl2JO7s2T/iFnzFbh8gF9pR1cKT9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 09:44:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-88xnv57j2DB0LSLl2JO7s2T/iFnzFbh8gF9pR1cKT9o="
         }
       ]
     },
@@ -29596,6 +31157,252 @@
       ]
     },
     {
+      "Route": "images/products/brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.cq7mtw3mhl.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XMKYcF82iQ7heBp0xlBR2RVwCy17dCLE122mHap/tkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:54:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cq7mtw3mhl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMKYcF82iQ7heBp0xlBR2RVwCy17dCLE122mHap/tkY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XMKYcF82iQ7heBp0xlBR2RVwCy17dCLE122mHap/tkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:54:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMKYcF82iQ7heBp0xlBR2RVwCy17dCLE122mHap/tkY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 00:00:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.xi68ywsh15.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 00:00:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xi68ywsh15"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.xi68ywsh15.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xi68ywsh15"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE="
+        }
+      ]
+    },
+    {
       "Route": "images/products/download_011167ac-dfcd-4ac8-b72e-d7f89a580f66.jpg",
       "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\download_011167ac-dfcd-4ac8-b72e-d7f89a580f66.jpg",
       "Selectors": [],
@@ -29924,6 +31731,252 @@
       ]
     },
     {
+      "Route": "images/products/green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:41:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.uou15f8j8q.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:41:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uou15f8j8q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:09:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.uou15f8j8q.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:09:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uou15f8j8q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:07:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.uou15f8j8q.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:07:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uou15f8j8q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU="
+        }
+      ]
+    },
+    {
       "Route": "images/products/images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.4piepryhoh.jpg",
       "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg",
       "Selectors": [],
@@ -30002,6 +32055,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-2ES3HbRUZDuhUUw7xrVbnbBP4Rrkmy5LP4r0WwqjpTo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 22:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.nf2ynj5ue9.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 22:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nf2ynj5ue9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:39:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.nf2ynj5ue9.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:39:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nf2ynj5ue9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:58:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.nf2ynj5ue9.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:58:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nf2ynj5ue9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:19:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.nf2ynj5ue9.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:19:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nf2ynj5ue9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 21:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/istockphoto-499721531-612x612.nf2ynj5ue9.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 21:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nf2ynj5ue9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/istockphoto-499721531-612x612.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.ecak4ue4re.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xg0T05e71N5UGlIi0OEryseQNPJa4c9ah+Yiuax+0Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 22:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ecak4ue4re"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xg0T05e71N5UGlIi0OEryseQNPJa4c9ah+Yiuax+0Zk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xg0T05e71N5UGlIi0OEryseQNPJa4c9ah+Yiuax+0Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 22:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xg0T05e71N5UGlIi0OEryseQNPJa4c9ah+Yiuax+0Zk="
         }
       ]
     },
@@ -30166,6 +32711,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-43NtL4AP1/vM1qbtaeDVoO0OlW7ywfG5K+QhO2uMr48="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.88a8hr9wa5.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:10:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88a8hr9wa5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:10:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.88a8hr9wa5.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:50:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88a8hr9wa5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png",
+      "AssetFile": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 23:50:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0="
         }
       ]
     },

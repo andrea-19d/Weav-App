@@ -1,0 +1,105 @@
+﻿<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body trip-details">
+                <p>
+                    <strong hidden="hidden">ID:</strong> <span id="modal-product-id" hidden="hidden"></span>
+                </p>
+
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="#productName"></use>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Name:</div> 
+                        <div id="modal-product-name" class="info-value"></div>
+                    </div>
+                </div>
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <use xlink:href="#brandLabel"></use>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Brand:</div> 
+                        <div id="modal-product-brand" class="info-value"></div>
+                    </div>
+                </div>
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <img src="/Admin/icons/categories.png" alt="Categories Icon" style="width: 32px; height: 32px;" />
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Category:</div> 
+                        <div id="modal-product-category" class="info-value"></div>
+                    </div>
+                </div>
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <use xlink:href="#price"></use>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Price:</div> 
+                        <div id="modal-product-price" class="info-value"></div> <!-- ✅ ADD THIS ID -->
+                    </div>
+                </div>
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <use xlink:href="#stockIcon"></use>
+                        </svg> 
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Stock:</div> 
+                        <div id="modal-product-stock" class="info-value"></div>
+                    </div>
+                </div>
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <use xlink:href="#descriptionIcon"></use>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Description:</div> 
+                        <div id="modal-product-description" class="info-value"></div>
+                    </div>
+                </div>
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <use xlink:href="#expiryDateIcon"></use>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Expiry Date:</div> 
+                        <div id="modal-product-expiry-date" class="info-value"></div>
+                    </div>
+                </div>
+                <div class="trip-info-row">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <use xlink:href="#barcodeIcon"></use>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <div class="info-label">Barcode:</div> 
+                        <div id="modal-product-barcode" class="info-value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
