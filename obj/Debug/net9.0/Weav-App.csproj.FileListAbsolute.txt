@@ -815,7 +815,6 @@ A:\Git\Weav-App\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CommunicationUti
 A:\Git\Weav-App\bin\Debug\net9.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 A:\Git\Weav-App\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 A:\Git\Weav-App\obj\Debug\net9.0\compressed\rrjrx6yelk-jlrsdzji2a.gz
-A:\Git\Weav-App\obj\Debug\net9.0\compressed\3jec9hjl06-ngo5ua7tf1.gz
 A:\Git\Weav-App\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
 A:\Git\Weav-App\bin\Debug\net9.0\Scrutor.dll
 A:\Git\Weav-App\bin\Debug\net9.0\Serilog.dll
@@ -827,3 +826,5 @@ A:\Git\Weav-App\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
 A:\Git\Weav-App\bin\Debug\net9.0\Serilog.Sinks.Console.dll
 A:\Git\Weav-App\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
 A:\Git\Weav-App\bin\Debug\net9.0\Serilog.Sinks.File.dll
+A:\Git\Weav-App\obj\Debug\net9.0\compressed\jcv9oxzlh9-kyduijaxig.gz
+A:\Git\Weav-App\obj\Debug\net9.0\compressed\3jec9hjl06-b6stdeprvl.gz

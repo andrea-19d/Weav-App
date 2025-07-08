@@ -14,4 +14,8 @@ public interface IProductServices
     Task<ServiceResult<List<ProductDto>>> GetInactiveStokData();
     
     Task<ServiceResult<List<ProductDto>>> SearchProductsByCategory(string categoryName);
+    Task<ErrorModel> DeleteProduct(int id);
+    Task<ServiceResult<ProductDto>> GetProductByIdAsync(int id);
+    Task<ErrorModel> UpdateProduct(ProductDto product);
+
 }

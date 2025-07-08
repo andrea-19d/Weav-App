@@ -1,4 +1,5 @@
-﻿using Supabase.Postgrest;
+﻿using NUnit.Framework;
+using Supabase.Postgrest;
 using Weav_App.DTOs.Entities.Orders;
 using Weav_App.Models;
 using Weav_App.Repositories.Interface;
@@ -13,6 +14,28 @@ public class OrderRepository : IOrderRepository
     public OrderRepository(Client supabase)
     {
         _supabase = supabase;
+    }
+
+    public async Task<ErrorModel> DeleteOrder(string id)
+    {
+        try
+        {
+            await _supabase.From<OrdersDbTable>().Where(x => x.PurchaseOrder == id).Delete();
+
+            return new ErrorModel()
+            {
+                Message = "Order deleted",
+                Status = true
+            };
+        }
+        catch (Exception e)
+        {
+            return new ErrorModel()
+            {
+                Message = e.Message,
+                Status = false
+            };
+        }
     }
     
     public async Task<List<OrdersDbTable>> GetAllOrdersAsync()
@@ -74,18 +97,11 @@ public class OrderRepository : IOrderRepository
     
     public async Task<ErrorModel> ConfirmOrderById(int id)
     {
-        // var record = new OrdersDbTable
-        // {
-        //     OrderId = id,
-        //     Status = OrderStatus.Confirmed 
-        // };
-
         var updateResult = await _supabase
             .From<OrdersDbTable>()
             .Where(x => x.OrderId == id)
             .Set(x => x.StatusValue, (short)OrderStatus.Confirmed) 
             .Update(new QueryOptions { Returning = QueryOptions.ReturnType.Representation });
-
 
         if (updateResult.Models.Any())
         {

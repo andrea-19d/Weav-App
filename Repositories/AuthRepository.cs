@@ -42,6 +42,10 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
 
         try
         {
+            if (level == UserLevel.Admin)
+            {
+                // await _supabase.AdminAuth()
+            }
             await _supabase.From<UserDbTable>().Insert(userEntity);
             return (true, null);
         }

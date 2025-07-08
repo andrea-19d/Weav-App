@@ -26,15 +26,19 @@
 <body>
 <div class="container-fluid">
     <div class="row">
+        @* @await Component.InvokeAsync("Header") *@
         @Html.Partial("~/Views/Admin/_Header.cshtml")
         @Html.Partial("~/Views/Admin/_Sidebar.cshtml")
+        
+        @* @await Component.InvokeAsync("") *@
+        @Html.Partial("~/Views/Admin/AdminSvgComponents.cshtml")
         <div class="col-md-9 col-lg-10">
             <div class="main-content p-4 fade-in">
                 @await Component.InvokeAsync("QuickActions")
                 @RenderBody()
             </div>
         </div>
-        
+
     </div>
 </div>
 

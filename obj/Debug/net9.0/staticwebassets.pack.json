@@ -5,6 +5,46 @@
       "PackagePath": "staticwebassets\\Weav-App.zvm2juqxo1.bundle.scp.css"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\categories.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\categories.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\clipboard.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\clipboard.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\deactivate.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\deactivate.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\image 4.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\image 4.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\low-price.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\low-price.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\order-delivery.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\order-delivery.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\printer_icon_vectorized.svg",
+      "PackagePath": "staticwebassets\\Admin\\icons\\printer_icon_vectorized.svg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\revenue-growth.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\revenue-growth.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\tracking.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\tracking.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\view.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\view.png"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
       "PackagePath": "staticwebassets\\Admin\\script.js"
     },
@@ -729,6 +769,18 @@
       "PackagePath": "staticwebassets\\images\\products\\Pitaya_a177b180-83b7-40b4-b127-59e94ad5338d.png"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\download_011167ac-dfcd-4ac8-b72e-d7f89a580f66.jpg",
       "PackagePath": "staticwebassets\\images\\products\\download_011167ac-dfcd-4ac8-b72e-d7f89a580f66.jpg"
     },
@@ -745,12 +797,56 @@
       "PackagePath": "staticwebassets\\images\\products\\download_8839c14e-785c-42af-8469-50217509a7de.jpg"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png",
+      "PackagePath": "staticwebassets\\images\\products\\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png",
+      "PackagePath": "staticwebassets\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png",
+      "PackagePath": "staticwebassets\\images\\products\\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg",
       "PackagePath": "staticwebassets\\images\\products\\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\istockphoto-499721531-612x612.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\passionfruit-exoticfruitscouk-270048_0ad44c46-e348-4ef9-9530-ad85e68b0990.jpg",
       "PackagePath": "staticwebassets\\images\\products\\passionfruit-exoticfruitscouk-270048_0ad44c46-e348-4ef9-9530-ad85e68b0990.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png",
+      "PackagePath": "staticwebassets\\images\\products\\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png",
+      "PackagePath": "staticwebassets\\images\\products\\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\reviewer-1.jpg",

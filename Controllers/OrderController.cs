@@ -14,8 +14,6 @@ public class OrderController : Controller
         _orderService = orderService;
     }
     
-    
-    
     [HttpPost]
     public async Task<IActionResult> ConfirmOrder(int orderId)
     {
@@ -53,6 +51,23 @@ public class OrderController : Controller
 
         return View(viewModel);
     }
-    
+
+    [HttpPost]
+    public async Task<IActionResult> DeleteOrder(string id)
+    {
+        var result = await _orderService.DeleteOrderByPo(id);
+        var updatedOrders = await _orderService.GetAllPendingOrders();
+        Console.WriteLine($"this is the id: {id}");
+        
+        if (!result.Status)
+        {
+            TempData["ErrorMessage"] = result.Message;
+            return RedirectToAction("OrderPage", "Admin");
+            
+        }
+        TempData["SuccessMessage"] = result.Message;
+        return RedirectToAction("OrderPage", "Admin");
+
+    }
    
 }

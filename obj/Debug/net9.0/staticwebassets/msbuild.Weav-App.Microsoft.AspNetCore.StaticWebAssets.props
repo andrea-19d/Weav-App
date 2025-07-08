@@ -1,5 +1,185 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\categories.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/categories.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7mywwshfp1</Fingerprint>
+      <Integrity>P1dY1SiuWPURooYw+TygPidBlkOLxAzQ4GhJz4SX+OU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\categories.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\clipboard.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/clipboard.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oofdf53akz</Fingerprint>
+      <Integrity>qON6FaWWh49L3juaR/LPIvnHZJR6HN1kF/cVENbo4Sg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\clipboard.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\deactivate.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/deactivate.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dekl2b0wwi</Fingerprint>
+      <Integrity>haiXXb8Ll8EsphpApLXaIxqicj/7v5bHQn5SJouxqBg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\deactivate.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\image 4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/image 4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j3avj8pbms</Fingerprint>
+      <Integrity>36ctYnSxC7tOozZZ/plmYYNaXjS2NQodRd1/HAA+rQM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\image 4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\low-price.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/low-price.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hbtuuh0gel</Fingerprint>
+      <Integrity>7bFRBO0IdmYQUrwm0/ec2MDPG+8y6Y+cyulwcejrtPg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\low-price.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\order-delivery.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/order-delivery.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lod9jb7m2j</Fingerprint>
+      <Integrity>hZxzBli+ucI9Zvx7+89bdIFQHFgbooUYqp7Q+wm3C3k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\order-delivery.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\printer_icon_vectorized.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/printer_icon_vectorized.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kyduijaxig</Fingerprint>
+      <Integrity>1P9TD0N+NXLoEQ8LcK7UuU0P55Mr1WKRgWiqRKth8AE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\printer_icon_vectorized.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\revenue-growth.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/revenue-growth.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6fmk21eu7b</Fingerprint>
+      <Integrity>fguyJlvJdWTwvPIGcOSw3qmnlu/xiwx9/ZCr9V3H6Qg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\revenue-growth.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\tracking.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/tracking.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>krwivn3b88</Fingerprint>
+      <Integrity>YKHuIRZWpHUMhsk88E2alg7CAyLMVz95s5ABEXyFE/A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\tracking.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\view.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>Admin/icons/view.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kxohmsvc02</Fingerprint>
+      <Integrity>iLFPC0w2F163EWDYqOhCia4Esj2RCdUdjS1VDI0X8Io=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\icons\view.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\script.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Weav-App</SourceId>
@@ -12,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ngo5ua7tf1</Fingerprint>
-      <Integrity>FwEZWA1RyC1UKumW/pVLne3HXrTQMimVIp21oHhFg0E=</Integrity>
+      <Fingerprint>b6stdeprvl</Fingerprint>
+      <Integrity>HVeM1ZrRg5eawikE/8ANvF8ptzOtq8mSnO6b/CK6xfo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\script.js'))</OriginalItemSpec>
@@ -3222,6 +3402,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\81U9oYQJ68L._AC_UF894,1000_QL80__dd9fb650-b294-4b4b-8243-9a5da9374ff4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cq7mtw3mhl</Fingerprint>
+      <Integrity>XMKYcF82iQ7heBp0xlBR2RVwCy17dCLE122mHap/tkY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\brown-bread_1900be71-20c6-41bc-b91f-8330111fca12.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xi68ywsh15</Fingerprint>
+      <Integrity>CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xi68ywsh15</Fingerprint>
+      <Integrity>CbVul5rSSk8TnK1VOnqYeinqcW2AJp/4HPdhmTymsNE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\download_011167ac-dfcd-4ac8-b72e-d7f89a580f66.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Weav-App</SourceId>
@@ -3294,6 +3528,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\download_8839c14e-785c-42af-8469-50217509a7de.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uou15f8j8q</Fingerprint>
+      <Integrity>Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\green-grapes_7a124c9b-a17f-47f8-b3bc-4493dd454407.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uou15f8j8q</Fingerprint>
+      <Integrity>Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uou15f8j8q</Fingerprint>
+      <Integrity>Yq0n3JE7SC2wKL1Li4ORFNms9NXngs+oHQimaiaOXHU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\green-grapes_c733919d-3b60-4370-a7bd-0ca8f4e33f95_55f6bfdf-5acc-43b7-8dc4-c28928a878bc.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Weav-App</SourceId>
@@ -3311,6 +3599,114 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\images_1f62b446-988d-4dbc-a4b3-dc2b471aac15.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/istockphoto-499721531-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nf2ynj5ue9</Fingerprint>
+      <Integrity>LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nf2ynj5ue9</Fingerprint>
+      <Integrity>LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_05e9e384-1fc3-4426-8b85-29598fcfec2c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nf2ynj5ue9</Fingerprint>
+      <Integrity>LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_58fb8022-881d-47ef-a8a5-5b7f1fb2b756.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nf2ynj5ue9</Fingerprint>
+      <Integrity>LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_8117a30f-f4b9-4ede-8bea-2b755c04df45.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nf2ynj5ue9</Fingerprint>
+      <Integrity>LUwXg+9iclL9dcwEk+H42qK18gh+BF0ZIUDKAETP8no=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ecak4ue4re</Fingerprint>
+      <Integrity>Xg0T05e71N5UGlIi0OEryseQNPJa4c9ah+Yiuax+0Zk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\passionfruit-exoticfruitscouk-270048_0ad44c46-e348-4ef9-9530-ad85e68b0990.jpg'))">
       <SourceType>Package</SourceType>
@@ -3347,6 +3743,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Pitaya_a177b180-83b7-40b4-b127-59e94ad5338d.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>88a8hr9wa5</Fingerprint>
+      <Integrity>yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\whole-milk_0cf6e638-3f16-4b16-bfd2-10bad6fee7be.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Weav-App</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Weav-App</BasePath>
+      <RelativePath>images/products/whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>88a8hr9wa5</Fingerprint>
+      <Integrity>yHLG4W4Rv7IvO50vpju1tgsxH+wSAmUV52l1iKdUQI0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\whole-milk_f070babb-e4a3-4349-a038-673ea7974d95.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Products_rows.sql'))">
       <SourceType>Package</SourceType>
