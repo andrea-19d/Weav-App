@@ -1,0 +1,409 @@
+2025-07-11 00:00:06.205 +03:00 [INF] Application is shutting down...
+2025-07-11 00:00:12.081 +03:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-11 00:00:12.166 +03:00 [INF] Now listening on: http://localhost:5083
+2025-07-11 00:00:12.167 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-11 00:00:12.167 +03:00 [INF] Hosting environment: Development
+2025-07-11 00:00:12.168 +03:00 [INF] Content root path: A:\Git\Weav-App
+2025-07-11 00:00:12.647 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/ - null null
+2025-07-11 00:00:12.651 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-11 00:00:12.676 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-11 00:00:12.685 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Weav_App.Controllers.HomeController (Weav-App).
+2025-07-11 00:00:12.691 +03:00 [INF] Executing action method Weav_App.Controllers.HomeController.Index (Weav-App) - Validation state: "Valid"
+2025-07-11 00:00:12.694 +03:00 [INF] Executed action method Weav_App.Controllers.HomeController.Index (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3135ms.
+2025-07-11 00:00:12.707 +03:00 [INF] Executing ViewResult, running view Index.
+2025-07-11 00:00:12.811 +03:00 [INF] Executed ViewResult - view Index executed in 107.0202ms.
+2025-07-11 00:00:12.813 +03:00 [INF] Executed action Weav_App.Controllers.HomeController.Index (Weav-App) in 128.1421ms
+2025-07-11 00:00:12.814 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-11 00:00:12.817 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/ - 200 null text/html; charset=utf-8 171.0403ms
+2025-07-11 00:00:17.207 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-11 00:00:17.216 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:00:17.218 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:00:17.319 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-11 00:00:17.320 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0998ms.
+2025-07-11 00:00:17.320 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-11 00:00:17.344 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:00:17.531 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:00:17.542 +03:00 [INF] Executed ViewResult - view Dashboard executed in 222.001ms.
+2025-07-11 00:00:17.542 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 324.0967ms
+2025-07-11 00:00:17.542 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:00:17.542 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 335.5622ms
+2025-07-11 00:00:17.579 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:00:17.585 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 6.2898ms
+2025-07-11 00:00:17.586 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:02:26.299 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-11 00:02:26.303 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:02:26.316 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:02:26.332 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-11 00:02:26.997 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 664.7869ms.
+2025-07-11 00:02:27.002 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-11 00:02:27.109 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:02:27.178 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:02:27.194 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 193.9302ms.
+2025-07-11 00:02:27.195 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 878.3573ms
+2025-07-11 00:02:27.195 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:02:27.195 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 896.1382ms
+2025-07-11 00:02:27.296 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:02:27.297 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.9022ms
+2025-07-11 00:02:27.297 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:02:38.967 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5083/Product/UpdateProduct - multipart/form-data; boundary=----WebKitFormBoundarywMY94VPtAjHqvr7T 1811
+2025-07-11 00:02:38.968 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.Filters.ProductController.UpdateProduct (Weav-App)'
+2025-07-11 00:02:38.975 +03:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Weav_App.DTOs.Entities.Products.ProductDto) on controller Weav_App.Controllers.Filters.ProductController (Weav-App).
+2025-07-11 00:02:38.994 +03:00 [INF] Executing action method Weav_App.Controllers.Filters.ProductController.UpdateProduct (Weav-App) - Validation state: "Invalid"
+2025-07-11 00:02:39.170 +03:00 [INF] Executed action method Weav_App.Controllers.Filters.ProductController.UpdateProduct (Weav-App), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 175.5356ms.
+2025-07-11 00:02:39.171 +03:00 [INF] Executing RedirectResult, redirecting to /Admin/ProductManagement.
+2025-07-11 00:02:39.171 +03:00 [INF] Executed action Weav_App.Controllers.Filters.ProductController.UpdateProduct (Weav-App) in 196.3264ms
+2025-07-11 00:02:39.171 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.Filters.ProductController.UpdateProduct (Weav-App)'
+2025-07-11 00:02:39.171 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5083/Product/UpdateProduct - 302 0 null 203.9148ms
+2025-07-11 00:02:39.176 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-11 00:02:39.178 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:02:39.178 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:02:39.185 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-11 00:02:39.481 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 295.6152ms.
+2025-07-11 00:02:39.481 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-11 00:02:39.483 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:02:39.551 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:02:39.552 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 71.3043ms.
+2025-07-11 00:02:39.552 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 373.988ms
+2025-07-11 00:02:39.552 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:02:39.552 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 376.4346ms
+2025-07-11 00:02:39.577 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:02:39.578 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6361ms
+2025-07-11 00:02:39.578 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:02:52.524 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - null null
+2025-07-11 00:02:52.524 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:02:52.529 +03:00 [INF] Route matched with {action = "OrderPage", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPage(System.String, System.Nullable`1[OrderStatus], Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:02:52.529 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.OrderPage (Weav-App) - Validation state: "Valid"
+2025-07-11 00:02:52.532 +03:00 [INF] Fetching all orders...
+2025-07-11 00:02:52.612 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:02:52.612 +03:00 [INF] Fetching all orders...
+2025-07-11 00:02:52.685 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:02:52.686 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:02:52.752 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:02:52.753 +03:00 [INF] Fetching shipped orders for today...
+2025-07-11 00:02:52.825 +03:00 [INF] Fetched 0 shipped today orders.
+2025-07-11 00:02:52.826 +03:00 [INF] Calculating today's revenue...
+2025-07-11 00:02:52.897 +03:00 [INF] Today's revenue: $0.0
+2025-07-11 00:02:52.986 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.OrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 456.3791ms.
+2025-07-11 00:02:52.986 +03:00 [INF] Executing ViewResult, running view OrderPage.
+2025-07-11 00:02:52.998 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:02:53.067 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:02:53.068 +03:00 [INF] Executed ViewResult - view OrderPage executed in 81.9893ms.
+2025-07-11 00:02:53.068 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.OrderPage (Weav-App) in 539.3246ms
+2025-07-11 00:02:53.068 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:02:53.068 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - 200 null text/html; charset=utf-8 544.4457ms
+2025-07-11 00:02:53.127 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:02:53.127 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.5238ms
+2025-07-11 00:02:53.127 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:03:09.859 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - null null
+2025-07-11 00:03:09.860 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:03:09.860 +03:00 [INF] Route matched with {action = "OrderPage", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPage(System.String, System.Nullable`1[OrderStatus], Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:03:09.861 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.OrderPage (Weav-App) - Validation state: "Valid"
+2025-07-11 00:03:09.861 +03:00 [INF] Fetching all orders...
+2025-07-11 00:03:09.942 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:03:09.943 +03:00 [INF] Fetching all orders...
+2025-07-11 00:03:10.074 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:03:10.074 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:10.152 +03:00 [INF] Fetched 1 pending orders.
+2025-07-11 00:03:10.152 +03:00 [INF] Fetching shipped orders for today...
+2025-07-11 00:03:10.230 +03:00 [INF] Fetched 0 shipped today orders.
+2025-07-11 00:03:10.230 +03:00 [INF] Calculating today's revenue...
+2025-07-11 00:03:10.323 +03:00 [INF] Today's revenue: $0.0
+2025-07-11 00:03:10.396 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.OrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 535.5937ms.
+2025-07-11 00:03:10.397 +03:00 [INF] Executing ViewResult, running view OrderPage.
+2025-07-11 00:03:10.398 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:10.486 +03:00 [INF] Fetched 1 pending orders.
+2025-07-11 00:03:10.487 +03:00 [INF] Executed ViewResult - view OrderPage executed in 90.26ms.
+2025-07-11 00:03:10.487 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.OrderPage (Weav-App) in 626.944ms
+2025-07-11 00:03:10.487 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:03:10.487 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - 200 null text/html; charset=utf-8 627.6524ms
+2025-07-11 00:03:10.513 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:03:10.513 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6898ms
+2025-07-11 00:03:10.514 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:03:10.547 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/favicon.ico - null null
+2025-07-11 00:03:10.568 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'A:\Git\Weav-App\wwwroot\favicon.ico'
+2025-07-11 00:03:10.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/favicon.ico - 200 5430 image/x-icon 21.2181ms
+2025-07-11 00:03:11.922 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Order/NewOrderPage - null null
+2025-07-11 00:03:11.922 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.OrderController.NewOrderPage (Weav-App)'
+2025-07-11 00:03:11.925 +03:00 [INF] Route matched with {action = "NewOrderPage", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] NewOrderPage() on controller Weav_App.Controllers.OrderController (Weav-App).
+2025-07-11 00:03:11.925 +03:00 [INF] Executing action method Weav_App.Controllers.OrderController.NewOrderPage (Weav-App) - Validation state: "Valid"
+2025-07-11 00:03:11.926 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:11.999 +03:00 [INF] Fetched 1 pending orders.
+2025-07-11 00:03:12.000 +03:00 [INF] Executed action method Weav_App.Controllers.OrderController.NewOrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 74.3155ms.
+2025-07-11 00:03:12.004 +03:00 [INF] Executing ViewResult, running view NewOrderPage.
+2025-07-11 00:03:12.010 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:12.080 +03:00 [INF] Fetched 1 pending orders.
+2025-07-11 00:03:12.081 +03:00 [INF] Executed ViewResult - view NewOrderPage executed in 81.7398ms.
+2025-07-11 00:03:12.082 +03:00 [INF] Executed action Weav_App.Controllers.OrderController.NewOrderPage (Weav-App) in 156.7792ms
+2025-07-11 00:03:12.082 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.OrderController.NewOrderPage (Weav-App)'
+2025-07-11 00:03:12.082 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Order/NewOrderPage - 200 null text/html; charset=utf-8 159.9076ms
+2025-07-11 00:03:12.110 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Order/Admin/script.js - null null
+2025-07-11 00:03:12.111 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Order/Admin/script.js - 404 0 null 1.3808ms
+2025-07-11 00:03:12.111 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Order/Admin/script.js, Response status code: 404
+2025-07-11 00:03:14.294 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5083/Order/ConfirmOrder - application/x-www-form-urlencoded 235
+2025-07-11 00:03:14.295 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.OrderController.ConfirmOrder (Weav-App)'
+2025-07-11 00:03:14.298 +03:00 [INF] Route matched with {action = "ConfirmOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConfirmOrder(Int32) on controller Weav_App.Controllers.OrderController (Weav-App).
+2025-07-11 00:03:14.300 +03:00 [INF] Executing action method Weav_App.Controllers.OrderController.ConfirmOrder (Weav-App) - Validation state: "Valid"
+2025-07-11 00:03:14.301 +03:00 [INF] Attempting to change status for Order ID: 2
+2025-07-11 00:03:14.377 +03:00 [INF] Order 2 status updated successfully.
+2025-07-11 00:03:14.377 +03:00 [INF] Executed action method Weav_App.Controllers.OrderController.ConfirmOrder (Weav-App), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 77.1785ms.
+2025-07-11 00:03:14.377 +03:00 [INF] Executing RedirectResult, redirecting to /Order/NewOrderPage.
+2025-07-11 00:03:14.377 +03:00 [INF] Executed action Weav_App.Controllers.OrderController.ConfirmOrder (Weav-App) in 78.9861ms
+2025-07-11 00:03:14.377 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.OrderController.ConfirmOrder (Weav-App)'
+2025-07-11 00:03:14.377 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5083/Order/ConfirmOrder - 302 0 null 83.1295ms
+2025-07-11 00:03:14.382 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Order/NewOrderPage - null null
+2025-07-11 00:03:14.383 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.OrderController.NewOrderPage (Weav-App)'
+2025-07-11 00:03:14.383 +03:00 [INF] Route matched with {action = "NewOrderPage", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] NewOrderPage() on controller Weav_App.Controllers.OrderController (Weav-App).
+2025-07-11 00:03:14.383 +03:00 [INF] Executing action method Weav_App.Controllers.OrderController.NewOrderPage (Weav-App) - Validation state: "Valid"
+2025-07-11 00:03:14.383 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:14.462 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:03:14.462 +03:00 [INF] Executed action method Weav_App.Controllers.OrderController.NewOrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 78.9011ms.
+2025-07-11 00:03:14.462 +03:00 [INF] Executing ViewResult, running view NewOrderPage.
+2025-07-11 00:03:14.463 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:14.532 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:03:14.533 +03:00 [INF] Executed ViewResult - view NewOrderPage executed in 70.7661ms.
+2025-07-11 00:03:14.533 +03:00 [INF] Executed action Weav_App.Controllers.OrderController.NewOrderPage (Weav-App) in 150.0502ms
+2025-07-11 00:03:14.533 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.OrderController.NewOrderPage (Weav-App)'
+2025-07-11 00:03:14.533 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Order/NewOrderPage - 200 null text/html; charset=utf-8 150.5432ms
+2025-07-11 00:03:14.556 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Order/Admin/script.js - null null
+2025-07-11 00:03:14.558 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Order/Admin/script.js - 404 0 null 1.3417ms
+2025-07-11 00:03:14.558 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Order/Admin/script.js, Response status code: 404
+2025-07-11 00:03:16.306 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - null null
+2025-07-11 00:03:16.307 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:03:16.307 +03:00 [INF] Route matched with {action = "OrderPage", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPage(System.String, System.Nullable`1[OrderStatus], Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:03:16.307 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.OrderPage (Weav-App) - Validation state: "Valid"
+2025-07-11 00:03:16.307 +03:00 [INF] Fetching all orders...
+2025-07-11 00:03:16.381 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:03:16.381 +03:00 [INF] Fetching all orders...
+2025-07-11 00:03:16.451 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:03:16.451 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:16.526 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:03:16.526 +03:00 [INF] Fetching shipped orders for today...
+2025-07-11 00:03:16.598 +03:00 [INF] Fetched 0 shipped today orders.
+2025-07-11 00:03:16.599 +03:00 [INF] Calculating today's revenue...
+2025-07-11 00:03:16.670 +03:00 [INF] Today's revenue: $0.0
+2025-07-11 00:03:16.784 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.OrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 476.389ms.
+2025-07-11 00:03:16.784 +03:00 [INF] Executing ViewResult, running view OrderPage.
+2025-07-11 00:03:16.785 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:03:16.852 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:03:16.853 +03:00 [INF] Executed ViewResult - view OrderPage executed in 68.6986ms.
+2025-07-11 00:03:16.853 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.OrderPage (Weav-App) in 546.0172ms
+2025-07-11 00:03:16.853 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:03:16.853 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - 200 null text/html; charset=utf-8 546.7564ms
+2025-07-11 00:03:16.886 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:03:16.886 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.5848ms
+2025-07-11 00:03:16.886 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:04:21.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-11 00:04:21.201 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:04:21.201 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:04:21.202 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-11 00:04:21.696 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 493.8628ms.
+2025-07-11 00:04:21.696 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-11 00:04:21.698 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:04:21.768 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:04:21.769 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 72.6937ms.
+2025-07-11 00:04:21.769 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 567.4392ms
+2025-07-11 00:04:21.769 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:04:21.769 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 568.3725ms
+2025-07-11 00:04:21.823 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:04:21.824 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.4946ms
+2025-07-11 00:04:21.824 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:04:44.484 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - null null
+2025-07-11 00:04:44.484 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:04:44.485 +03:00 [INF] Route matched with {action = "OrderPage", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPage(System.String, System.Nullable`1[OrderStatus], Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:04:44.486 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.OrderPage (Weav-App) - Validation state: "Valid"
+2025-07-11 00:04:44.486 +03:00 [INF] Fetching all orders...
+2025-07-11 00:04:44.557 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:04:44.557 +03:00 [INF] Fetching all orders...
+2025-07-11 00:04:44.624 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:04:44.624 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:04:44.691 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:04:44.692 +03:00 [INF] Fetching shipped orders for today...
+2025-07-11 00:04:44.755 +03:00 [INF] Fetched 0 shipped today orders.
+2025-07-11 00:04:44.755 +03:00 [INF] Calculating today's revenue...
+2025-07-11 00:04:44.821 +03:00 [INF] Today's revenue: $0.0
+2025-07-11 00:04:44.891 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.OrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 404.958ms.
+2025-07-11 00:04:44.891 +03:00 [INF] Executing ViewResult, running view OrderPage.
+2025-07-11 00:04:44.892 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:04:44.958 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:04:44.959 +03:00 [INF] Executed ViewResult - view OrderPage executed in 68.1932ms.
+2025-07-11 00:04:44.959 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.OrderPage (Weav-App) in 474.4958ms
+2025-07-11 00:04:44.959 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:04:44.959 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - 200 null text/html; charset=utf-8 475.2003ms
+2025-07-11 00:04:44.987 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:04:44.988 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.4798ms
+2025-07-11 00:04:44.988 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:04:48.139 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-11 00:04:48.139 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:04:48.139 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:04:48.140 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-11 00:04:48.140 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0169ms.
+2025-07-11 00:04:48.140 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-11 00:04:48.140 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:04:48.213 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:04:48.214 +03:00 [INF] Executed ViewResult - view Dashboard executed in 73.8212ms.
+2025-07-11 00:04:48.214 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 74.4938ms
+2025-07-11 00:04:48.214 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:04:48.214 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 75.5002ms
+2025-07-11 00:04:48.240 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:04:48.240 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6581ms
+2025-07-11 00:04:48.240 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:06:24.584 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/ - null null
+2025-07-11 00:06:24.584 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-11 00:06:24.584 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Weav_App.Controllers.HomeController (Weav-App).
+2025-07-11 00:06:24.585 +03:00 [INF] Executing action method Weav_App.Controllers.HomeController.Index (Weav-App) - Validation state: "Valid"
+2025-07-11 00:06:24.585 +03:00 [INF] Executed action method Weav_App.Controllers.HomeController.Index (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.017ms.
+2025-07-11 00:06:24.585 +03:00 [INF] Executing ViewResult, running view Index.
+2025-07-11 00:06:24.587 +03:00 [INF] Executed ViewResult - view Index executed in 2.2588ms.
+2025-07-11 00:06:24.587 +03:00 [INF] Executed action Weav_App.Controllers.HomeController.Index (Weav-App) in 2.7766ms
+2025-07-11 00:06:24.587 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-11 00:06:24.587 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/ - 200 null text/html; charset=utf-8 3.5606ms
+2025-07-11 00:06:27.230 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5083/Login/Logout - application/x-www-form-urlencoded 225
+2025-07-11 00:06:27.231 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.LoginController.Logout (Weav-App)'
+2025-07-11 00:06:27.235 +03:00 [INF] Route matched with {action = "Logout", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller Weav_App.Controllers.LoginController (Weav-App).
+2025-07-11 00:06:27.235 +03:00 [INF] Executing action method Weav_App.Controllers.LoginController.Logout (Weav-App) - Validation state: "Valid"
+2025-07-11 00:06:27.238 +03:00 [INF] AuthenticationScheme: Cookies signed out.
+2025-07-11 00:06:27.238 +03:00 [INF] Executed action method Weav_App.Controllers.LoginController.Logout (Weav-App), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 2.9305ms.
+2025-07-11 00:06:27.238 +03:00 [INF] Executing RedirectResult, redirecting to /Login/Login.
+2025-07-11 00:06:27.238 +03:00 [INF] Executed action Weav_App.Controllers.LoginController.Logout (Weav-App) in 3.6067ms
+2025-07-11 00:06:27.238 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.LoginController.Logout (Weav-App)'
+2025-07-11 00:06:27.239 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5083/Login/Logout - 302 0 null 8.6386ms
+2025-07-11 00:06:27.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Login/Login - null null
+2025-07-11 00:06:27.245 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.LoginController.Login (Weav-App)'
+2025-07-11 00:06:27.246 +03:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Weav_App.Controllers.LoginController (Weav-App).
+2025-07-11 00:06:27.246 +03:00 [INF] Executing action method Weav_App.Controllers.LoginController.Login (Weav-App) - Validation state: "Valid"
+2025-07-11 00:06:27.246 +03:00 [INF] Executed action method Weav_App.Controllers.LoginController.Login (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1942ms.
+2025-07-11 00:06:27.247 +03:00 [INF] Executing ViewResult, running view Login.
+2025-07-11 00:06:27.280 +03:00 [INF] Executed ViewResult - view Login executed in 34.0958ms.
+2025-07-11 00:06:27.280 +03:00 [INF] Executed action Weav_App.Controllers.LoginController.Login (Weav-App) in 34.6395ms
+2025-07-11 00:06:27.281 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.LoginController.Login (Weav-App)'
+2025-07-11 00:06:27.281 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Login/Login - 200 null text/html; charset=utf-8 36.8729ms
+2025-07-11 00:06:27.318 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Login/vendor/jquery/jquery.min.js - null null
+2025-07-11 00:06:27.319 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Login/vendor/jquery/jquery.min.js - 404 0 null 0.5816ms
+2025-07-11 00:06:27.319 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Login/js/main.js - null null
+2025-07-11 00:06:27.319 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Login/vendor/jquery/jquery.min.js, Response status code: 404
+2025-07-11 00:06:27.319 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Login/js/main.js - 404 0 null 0.2687ms
+2025-07-11 00:06:27.319 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Login/js/main.js, Response status code: 404
+2025-07-11 00:06:27.320 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Login/js/script.js - null null
+2025-07-11 00:06:27.320 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Login/js/script.js - 404 0 null 0.3092ms
+2025-07-11 00:06:27.320 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Login/js/script.js, Response status code: 404
+2025-07-11 00:06:37.246 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5083/Login/Login - application/x-www-form-urlencoded 247
+2025-07-11 00:06:37.247 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.LoginController.Login (Weav-App)'
+2025-07-11 00:06:37.250 +03:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Weav_App.Models.LogInUser) on controller Weav_App.Controllers.LoginController (Weav-App).
+2025-07-11 00:06:37.254 +03:00 [INF] Executing action method Weav_App.Controllers.LoginController.Login (Weav-App) - Validation state: "Valid"
+2025-07-11 00:06:37.687 +03:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-07-11 00:06:37.687 +03:00 [INF] Executed action method Weav_App.Controllers.LoginController.Login (Weav-App), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 432.521ms.
+2025-07-11 00:06:37.687 +03:00 [INF] Executing RedirectResult, redirecting to /Admin/Dashboard.
+2025-07-11 00:06:37.687 +03:00 [INF] Executed action Weav_App.Controllers.LoginController.Login (Weav-App) in 436.6734ms
+2025-07-11 00:06:37.687 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.LoginController.Login (Weav-App)'
+2025-07-11 00:06:37.687 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5083/Login/Login - 302 0 null 440.5335ms
+2025-07-11 00:06:37.692 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-11 00:06:37.692 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:06:37.692 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:06:37.693 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-11 00:06:37.693 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0171ms.
+2025-07-11 00:06:37.693 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-11 00:06:37.694 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:06:37.780 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:06:37.780 +03:00 [INF] Executed ViewResult - view Dashboard executed in 87.1415ms.
+2025-07-11 00:06:37.780 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 87.9133ms
+2025-07-11 00:06:37.780 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:06:37.780 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 88.4409ms
+2025-07-11 00:06:37.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:06:37.821 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6438ms
+2025-07-11 00:06:37.821 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:06:47.166 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/ - null null
+2025-07-11 00:06:47.166 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-11 00:06:47.167 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Weav_App.Controllers.HomeController (Weav-App).
+2025-07-11 00:06:47.167 +03:00 [INF] Executing action method Weav_App.Controllers.HomeController.Index (Weav-App) - Validation state: "Valid"
+2025-07-11 00:06:47.167 +03:00 [INF] Executed action method Weav_App.Controllers.HomeController.Index (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.013ms.
+2025-07-11 00:06:47.167 +03:00 [INF] Executing ViewResult, running view Index.
+2025-07-11 00:06:47.168 +03:00 [INF] Executed ViewResult - view Index executed in 1.3657ms.
+2025-07-11 00:06:47.168 +03:00 [INF] Executed action Weav_App.Controllers.HomeController.Index (Weav-App) in 1.7395ms
+2025-07-11 00:06:47.168 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-11 00:06:47.168 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/ - 200 null text/html; charset=utf-8 2.2556ms
+2025-07-11 00:08:19.504 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-11 00:08:19.504 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:08:19.505 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:08:19.505 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-11 00:08:19.505 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0156ms.
+2025-07-11 00:08:19.505 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-11 00:08:19.506 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:08:19.626 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:08:19.626 +03:00 [INF] Executed ViewResult - view Dashboard executed in 121.0074ms.
+2025-07-11 00:08:19.626 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 121.6223ms
+2025-07-11 00:08:19.626 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:08:19.626 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 122.6292ms
+2025-07-11 00:08:19.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:08:19.654 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6336ms
+2025-07-11 00:08:19.655 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:08:20.940 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-11 00:08:20.940 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:08:20.940 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:08:20.941 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-11 00:08:20.941 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0136ms.
+2025-07-11 00:08:20.941 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-11 00:08:20.941 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:08:21.182 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:08:21.183 +03:00 [INF] Executed ViewResult - view Dashboard executed in 241.6467ms.
+2025-07-11 00:08:21.183 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 242.1949ms
+2025-07-11 00:08:21.183 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:08:21.183 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 242.7785ms
+2025-07-11 00:08:21.209 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:08:21.209 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.4293ms
+2025-07-11 00:08:21.209 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:08:22.597 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-11 00:08:22.597 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:08:22.597 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:08:22.598 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-11 00:08:22.934 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 335.8762ms.
+2025-07-11 00:08:22.934 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-11 00:08:22.935 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:08:23.008 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:08:23.009 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 74.8232ms.
+2025-07-11 00:08:23.009 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 411.6092ms
+2025-07-11 00:08:23.009 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-11 00:08:23.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 412.1413ms
+2025-07-11 00:08:23.093 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:08:23.094 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.8144ms
+2025-07-11 00:08:23.094 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:08:26.502 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - null null
+2025-07-11 00:08:26.502 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:08:26.502 +03:00 [INF] Route matched with {action = "OrderPage", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPage(System.String, System.Nullable`1[OrderStatus], Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:08:26.503 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.OrderPage (Weav-App) - Validation state: "Valid"
+2025-07-11 00:08:26.503 +03:00 [INF] Fetching all orders...
+2025-07-11 00:08:26.588 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:08:26.588 +03:00 [INF] Fetching all orders...
+2025-07-11 00:08:26.662 +03:00 [INF] Fetched 1 orders.
+2025-07-11 00:08:26.662 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:08:26.747 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:08:26.747 +03:00 [INF] Fetching shipped orders for today...
+2025-07-11 00:08:26.815 +03:00 [INF] Fetched 0 shipped today orders.
+2025-07-11 00:08:26.815 +03:00 [INF] Calculating today's revenue...
+2025-07-11 00:08:26.908 +03:00 [INF] Today's revenue: $0.0
+2025-07-11 00:08:26.986 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.OrderPage (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 483.0765ms.
+2025-07-11 00:08:26.986 +03:00 [INF] Executing ViewResult, running view OrderPage.
+2025-07-11 00:08:26.987 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:08:27.057 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:08:27.058 +03:00 [INF] Executed ViewResult - view OrderPage executed in 71.9036ms.
+2025-07-11 00:08:27.058 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.OrderPage (Weav-App) in 556.0916ms
+2025-07-11 00:08:27.058 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.OrderPage (Weav-App)'
+2025-07-11 00:08:27.058 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/OrderPage - 200 null text/html; charset=utf-8 556.6524ms
+2025-07-11 00:08:27.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:08:27.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.5096ms
+2025-07-11 00:08:27.113 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:08:28.959 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-11 00:08:28.959 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:08:28.959 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-11 00:08:28.960 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-11 00:08:28.960 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0132ms.
+2025-07-11 00:08:28.960 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-11 00:08:28.960 +03:00 [INF] Fetching pending orders...
+2025-07-11 00:08:29.025 +03:00 [INF] Fetched 0 pending orders.
+2025-07-11 00:08:29.026 +03:00 [INF] Executed ViewResult - view Dashboard executed in 66.2628ms.
+2025-07-11 00:08:29.026 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 66.7851ms
+2025-07-11 00:08:29.026 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-11 00:08:29.026 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 67.2767ms
+2025-07-11 00:08:29.050 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-11 00:08:29.050 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.4704ms
+2025-07-11 00:08:29.050 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-11 00:09:07.732 +03:00 [INF] Application is shutting down...

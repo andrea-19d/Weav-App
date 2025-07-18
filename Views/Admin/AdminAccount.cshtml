@@ -1,4 +1,6 @@
-﻿@{
+﻿@using Weav_App.DTOs
+@model Weav_App.Models.ViewsModel.AdminAcountUserDataViewModel
+@{
     ViewData["Title"] = "Account Page";
     Layout = "Admin/_AdminLayout";
 }
@@ -18,16 +20,16 @@
                                 <input type="file" class="d-none" accept="image/*">
                             </div>
                         </div>
-                        <div class="profile-name">John Anderson</div>
-                        <div class="profile-role">Super Administrator</div>
+                        <div class="profile-name">@Model.UserAccount.UserName</div>
+                        <div class="profile-role">@Model.UserAccount.Level</div>
 
                         <div class="profile-stats">
                             <div class="stat-item">
-                                <span class="stat-number">1,284</span>
+                                <span class="stat-number">@Model.OrderData.TotalOrders</span>
                                 <span class="stat-label">Orders</span>
                             </div>
                             <div class="stat-item">
-                                <span class="stat-number">156</span>
+                                <span class="stat-number">@Model.ProductData.TotalProducts</span>
                                 <span class="stat-label">Products</span>
                             </div>
                             <div class="stat-item">
@@ -80,14 +82,13 @@
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="firstName" value="John"
-                                               required>
+                                        <input type="text" class="form-control" id="firstName" value="@Model.UserAccount.FirstName" required>
                                         <label for="firstName">First Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="lastName" value="Anderson"
+                                        <input type="text" class="form-control" id="lastName" value="@Model.UserAccount.LastName"
                                                required>
                                         <label for="lastName">Last Name</label>
                                     </div>
@@ -97,14 +98,14 @@
                                 <div class="col-md-6 mb-3">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="email"
-                                               value="john.anderson@foodmart.com" required>
+                                               value="@Model.UserAccount.Email" required>
                                         <label for="email">Email Address</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <div class="form-floating">
                                         <input type="tel" class="form-control" id="phone"
-                                               value="+1 (555) 123-4567">
+                                               value="@Model.UserAccount.PhoneNumber">
                                         <label for="phone">Phone Number</label>
                                     </div>
                                 </div>
@@ -138,7 +139,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">
+                            <button type="submit" class="btn btn-primary mb-lg-5">
                                 <iconify-icon icon="mdi:content-save" class="me-2"></iconify-icon>
                                 Save Changes
                             </button>
@@ -147,7 +148,7 @@
                 </div>
 
                 <!-- Security Settings -->
-                <div class="profile-card">
+                <div class="profile-card mb-lg-5">
                     <div class="form-section">
                         <h3 class="section-title">Security Settings</h3>
 
@@ -304,4 +305,3 @@
         </div>
     </div>
 </div>
-    

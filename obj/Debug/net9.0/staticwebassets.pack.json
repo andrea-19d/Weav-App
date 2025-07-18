@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Weav-App.zvm2juqxo1.bundle.scp.css"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\add.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\add.png"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\categories.png",
       "PackagePath": "staticwebassets\\Admin\\icons\\categories.png"
     },
@@ -33,6 +37,10 @@
       "PackagePath": "staticwebassets\\Admin\\icons\\printer_icon_vectorized.svg"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\rating.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\rating.png"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\revenue-growth.png",
       "PackagePath": "staticwebassets\\Admin\\icons\\revenue-growth.png"
     },
@@ -43,6 +51,10 @@
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\view.png",
       "PackagePath": "staticwebassets\\Admin\\icons\\view.png"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\icons\\vip-person.png",
+      "PackagePath": "staticwebassets\\Admin\\icons\\vip-person.png"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\Admin\\script.js",
@@ -777,6 +789,10 @@
       "PackagePath": "staticwebassets\\images\\products\\corn-flakes_05898add-4a68-4f26-8542-f2219e85ba76.jpg"
     },
     {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_37b7d2a6-2dc4-4857-bbb8-b22139ad5b88.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\corn-flakes_37b7d2a6-2dc4-4857-bbb8-b22139ad5b88.jpg"
+    },
+    {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg",
       "PackagePath": "staticwebassets\\images\\products\\corn-flakes_ac8314cf-f2c4-4302-9cfa-9ddf096a1438.jpg"
     },
@@ -831,6 +847,10 @@
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg",
       "PackagePath": "staticwebassets\\images\\products\\istockphoto-499721531-612x612_988bbcac-a9da-4950-b17c-041b7f03b7a8.jpg"
+    },
+    {
+      "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\istockphoto-499721531-612x612_e3ec03fa-22be-4732-af8d-422287b7b30a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\istockphoto-499721531-612x612_e3ec03fa-22be-4732-af8d-422287b7b30a.jpg"
     },
     {
       "Id": "A:\\Git\\Weav-App\\wwwroot\\images\\products\\lemonade_6ac647ba-cc77-46ba-ab96-ae3e9df1b926.jpg",

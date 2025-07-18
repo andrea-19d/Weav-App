@@ -8,7 +8,16 @@ namespace Weav_App.DTOs.Entities.User
     {
         [PrimaryKey("id", false)]
         public int UserId { get; set; }
-
+        
+        [Column("FirstName")]
+        public string FirstName { get; set; }
+        
+        [Column("LastName")]
+        public string LastName { get; set; }
+        
+        [Column("PhoneNumber")]
+        public string PhoneNumber { get; set; }
+        
         [Column("userName")]
         public string Username { get; set; }
 

@@ -6,13 +6,12 @@
 
 @Html.Partial("Components/Notifications/Notification")
 
-<!-- Main Content -->
 <!-- Stats Cards -->
 <div class="row mb-4">
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-products">
-                <img src="/Admin/icons/order-delivery.png" alt="Products Icon" style="width: 32px; height: 32px;"></img>
+                <img src="/Admin/icons/order-delivery.png" alt="Products Icon" style="width: 32px; height: 32px;"/>
             </div>
             <h6 class="text-muted mb-1">Total Orders</h6>
             <h3 class="mb-0">@(Model.Stats?.TotalOrders ?? 0)</h3>
@@ -21,7 +20,7 @@
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-categories">
-                <img src="/Admin/icons/clipboard.png" alt="Products Icon" style="width: 32px; height: 32px;"></img>
+                <img src="/Admin/icons/clipboard.png" alt="Products Icon" style="width: 32px; height: 32px;"/>
 
             </div>
             <h6 class="text-muted mb-1">Pending Orders</h6>
@@ -31,7 +30,7 @@
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-orders">
-                <img src="/Admin/icons/tracking.png" alt="Products Icon" style="width: 32px; height: 32px;"></img>
+                <img src="/Admin/icons/tracking.png" alt="Products Icon" style="width: 32px; height: 32px;"/>
 
             </div>
             <h6 class="text-muted mb-1">Delivered Today</h6>
@@ -41,199 +40,197 @@
     <div class="col-xl-3 col-md-6 mb-3">
         <div class="stats-card">
             <div class="stats-icon icon-revenue">
-                <img src="/Admin/icons/revenue-growth.png" alt="Products Icon" style="width: 32px; height: 32px;"></img>
+                <img src="/Admin/icons/revenue-growth.png" alt="Products Icon" style="width: 32px; height: 32px;"/>
             </div>
             <h6 class="text-muted mb-1">Today's Revenue</h6>
             <h3 class="mb-0">$@(Model.Stats?.TodayTotals ?? 0)</h3>
         </div>
     </div>
+</div>
 
-
-    <!-- Filter Bar -->
-    <form method="get" asp-controller="Admin" asp-action="OrderPage">
-        <div class="filter-bar">
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                    <div class="search-input">
-                        <iconify-icon icon="mdi:magnify"></iconify-icon>
-                        <input type="text" class="form-control" placeholder="Search orders..." id="searchInput">
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <select class="form-select" name="selectedStatus" onchange="this.form.submit()">
-                        <option value="">All Status</option>
-                        @foreach (var status in Model.Filter.Status)
-                        {
-                            <option value="@status">@status</option>
-                        }
-                    </select>
-                </div>
-
-
-                <div class="col-md-2">
-                    <select class="form-select" id="dateFilter">
-                        <option value="">All Time</option>
-                        <option value="today">Today</option>
-                        <option value="yesterday">Yesterday</option>
-                        <option value="week">This Week</option>
-                        <option value="month">This Month</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <select class="form-select" id="priorityFilter">
-                        <option value="">All Priority</option>
-                        <option value="high">High</option>
-                        <option value="medium">Medium</option>
-                        <option value="low">Low</option>
-                    </select>
-                </div>
-                <div class="col-md-2 text-end">
-                    <button class="btn btn-outline-primary">
-                        <iconify-icon icon="mdi:filter" class="me-1"></iconify-icon>
-                        More Filters
-                    </button>
+<!-- Filter Bar -->
+<form method="get" asp-controller="Admin" asp-action="OrderPage">
+    <div class="filter-bar mb-4">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <div class="search-input">
+                    <iconify-icon icon="mdi:magnify"></iconify-icon>
+                    <input type="text" class="form-control" placeholder="Search orders..." id="searchInput">
                 </div>
             </div>
-        </div>
-    </form>
-
-    <!-- Orders Table -->
-    <div class="product-card">
-        <div class="table-responsive">
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th scope="col">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="selectAll">
-                        </div>
-                    </th>
-                    <th scope="col">Order ID</th>
-                    <th scope="col">Customer</th>
-                    <th scope="col">Items</th>
-                    <th scope="col">Total</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Priority</th>
-                    <th scope="col">Actions</th>
-                </tr>
-                </thead>
-                <tbody id="ordersTableBody">
-                @if (Model?.Orders != null)
-                {
-                    @foreach (var order in Model.Orders)
+            <div class="col-md-2">
+                <select class="form-select" name="selectedStatus" onchange="this.form.submit()">
+                    <option value="">All Status</option>
+                    @foreach (var status in Model.Filter.Status)
                     {
-                        <tr>
-                            <td>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox">
+                        <option value="@status">@status</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <select class="form-select" id="dateFilter">
+                    <option value="">All Time</option>
+                    <option value="today">Today</option>
+                    <option value="yesterday">Yesterday</option>
+                    <option value="week">This Week</option>
+                    <option value="month">This Month</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="priorityFilter">
+                    <option value="">All Priority</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+            </div>
+            <div class="col-md-2 text-end">
+                <button class="btn btn-outline-primary">
+                    <iconify-icon icon="mdi:filter" class="me-1"></iconify-icon>
+                    More Filters
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<!-- Orders Table -->
+<div class="product-card">
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="selectAll">
+                    </div>
+                </th>
+                <th scope="col">Order ID</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Items</th>
+                <th scope="col">Total</th>
+                <th scope="col">Status</th>
+                <th scope="col">Date</th>
+                <th scope="col">Priority</th>
+                <th scope="col">Actions</th>
+            </tr>
+            </thead>
+            <tbody id="ordersTableBody">
+            @if (Model?.Orders != null)
+            {
+                @foreach (var order in Model.Orders.Take(10))
+                {
+                    <tr>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                            </div>
+                        </td>
+                        <td>
+                            <strong>@order.PurchaseOrder</strong>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                @* <div class="customer-avatar">@order.UserId</div> *@
+                                <!-- Replace with actual initials if available -->
+                                <div>
+                                    <h6 class="mb-0">@order.UserName.</h6>
+                                    <small class="text-muted">@order.Email</small>
+                                    <!-- Replace with real email if available -->
                                 </div>
-                            </td>
-                            <td>
-                                <strong>@order.PurchaseOrder</strong>
-                            </td>
-                            <td>
-                                <div class="customer-info">
-                                    <div class="customer-avatar">@order.UserId</div>
-                                    <!-- Replace with actual initials if available -->
-                                    <div>
-                                        <h6 class="mb-0">@order.UserName.</h6>
-                                        <small class="text-muted">@order.Email</small>
-                                        <!-- Replace with real email if available -->
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="order-items">
-                                    <!-- Optional: You can include item count if you link with OrderItemDTO -->
-                                    <small class="text-muted">Items info</small>
-                                </div>
-                            </td>
-                            <td class="order-total">$@order.TotalAmount</td>
-                            <td>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="order-items">
+                                <!-- Optional: You can include item count if you link with OrderItemDTO -->
+                                <small class="text-muted">Items info</small>
+                            </div>
+                        </td>
+                        <td class="order-total">$@order.TotalAmount</td>
+                        <td>
                                     <span class="status-badge status-@order.Status.ToString().ToLower()">
                                         @order.Status
                                     </span>
-                            </td>
-                            <td>
-                                <small>@order.OrderDate.ToString("MMM dd, yyyy")</small><br/>
-                                <small class="text-muted">@order.OrderDate.ToString("hh:mm tt")</small>
-                            </td>
-                            <td>
-                                <span class="status-badge priority-medium">Medium</span>
-                                <!-- Replace if you have real priority -->
-                            </td>
-                            <td>
-                                <button class="action-btn btn-view me-1" data-bs-toggle="modal"
-                                        data-bs-target="#orderDetailsModal">
-                                    <svg width="24" height="24" viewBox="0 0 24 24">
-                                        <use xlink:href="#eye"></use>
-                                    </svg>
-                                </button>
-                                <button class="action-btn btn-edit me-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24">
-                                        <use xlink:href="#edit"></use>
-                                    </svg>
-                                </button>
-                                <button class="action-btn btn-print me-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24">
-                                        <use xlink:href="#printer"></use>
-                                    </svg>
-                                </button>
+                        </td>
+                        <td>
+                            <small>@order.OrderDate.ToString("MMM dd, yyyy")</small><br/>
+                            <small class="text-muted">@order.OrderDate.ToString("hh:mm tt")</small>
+                        </td>
+                        <td>
+                            <span class="status-badge priority-medium">Medium</span>
+                            <!-- Replace if you have real priority -->
+                        </td>
+                        <td>
+                            <button class="action-btn btn-view me-1" data-bs-toggle="modal"
+                                    data-bs-target="#orderDetailsModal">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="#eye"></use>
+                                </svg>
+                            </button>
+                            <button class="action-btn btn-edit me-1">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="#edit"></use>
+                                </svg>
+                            </button>
+                            <button class="action-btn btn-print me-1">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="#printer"></use>
+                                </svg>
+                            </button>
 
-                                <form method="post" asp-controller="Order" asp-action="DeleteOrder"
-                                      asp-route-id="@order.PurchaseOrder" class="d-inline">
-                                    <button class="action-btn btn-delete" title="Delete"
-                                            onclick="return confirm('Are you sure?')">
-                                        <svg width="24" height="24" viewBox="0 0 24 24">
-                                            <use xlink:href="#trash"></use>
-                                        </svg>
-                                    </button>
-                                </form>
-                            </td>
-                        </tr>
-                    }
-                }
-                else
-                {
-                    <tr>
-                        <td colspan="10" class="text-center text-danger">
-                            No orders available.
+                            <form method="post" asp-controller="Order" asp-action="DeleteOrder"
+                                  asp-route-id="@order.PurchaseOrder" class="d-inline">
+                                <button class="action-btn btn-delete" title="Delete"
+                                        onclick="return confirm('Are you sure?')">
+                                    <svg width="24" height="24" viewBox="0 0 24 24">
+                                        <use xlink:href="#trash"></use>
+                                    </svg>
+                                </button>
+                            </form>
                         </td>
                     </tr>
                 }
-                </tbody>
+            }
+            else
+            {
+                <tr>
+                    <td colspan="10" class="text-center text-danger">
+                        No orders available.
+                    </td>
+                </tr>
+            }
+            </tbody>
 
-            </table>
-        </div>
-
-        <!-- Pagination -->
-        @if (Model?.Pagination?.TotalPages > 1)
-        {
-            <nav aria-label="Orders pagination" class="mt-4 p-3">
-                <ul class="pagination pagination-sm justify-content-center">
-
-                    <!-- Previous -->
-                    <li class="page-item @(Model.Pagination.CurrentPage == 1 ? "disabled" : "")">
-                        <a class="page-link" href="?page=@(Model.Pagination.CurrentPage - 1)">Previous</a>
-                    </li>
-
-                    <!-- Page numbers -->
-                    @for (int i = 1; i <= Model.Pagination.TotalPages; i++)
-                    {
-                        <li class="page-item @(Model.Pagination.CurrentPage == i ? "active" : "")">
-                            <a class="page-link" href="?page=@i">@i</a>
-                        </li>
-                    }
-
-                    <!-- Next -->
-                    <li class="page-item @(Model.Pagination.CurrentPage == Model.Pagination.TotalPages ? "disabled" : "")">
-                        <a class="page-link" href="?page=@(Model.Pagination.CurrentPage + 1)">Next</a>
-                    </li>
-                </ul>
-            </nav>
-        }
+        </table>
     </div>
+
+    <!-- Pagination -->
+    @if (Model?.Pagination?.TotalPages > 1)
+    {
+        <nav aria-label="Orders pagination" class="mt-4 p-3">
+            <ul class="pagination pagination-sm justify-content-center">
+
+                <!-- Previous -->
+                <li class="page-item @(Model.Pagination.CurrentPage == 1 ? "disabled" : "")">
+                    <a class="page-link" href="?page=@(Model.Pagination.CurrentPage - 1)">Previous</a>
+                </li>
+
+                <!-- Page numbers -->
+                @for (int i = 1; i <= Model.Pagination.TotalPages; i++)
+                {
+                    <li class="page-item @(Model.Pagination.CurrentPage == i ? "active" : "")">
+                        <a class="page-link" href="?page=@i">@i</a>
+                    </li>
+                }
+
+                <!-- Next -->
+                <li class="page-item @(Model.Pagination.CurrentPage == Model.Pagination.TotalPages ? "disabled" : "")">
+                    <a class="page-link" href="?page=@(Model.Pagination.CurrentPage + 1)">Next</a>
+                </li>
+            </ul>
+        </nav>
+    }
 </div>
 
 <!-- Order Details Modal -->

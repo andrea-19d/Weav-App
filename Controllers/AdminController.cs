@@ -6,6 +6,7 @@ using Weav_App.DTOs;
 using Weav_App.Helpers;
 using Weav_App.Models;
 using Weav_App.Models.ViewsModel;
+using Weav_App.Services.AdminService.Builder;
 using Weav_App.Services.Interface;
 
 namespace Weav_App.Controllers;
@@ -17,17 +18,20 @@ public class AdminController : Controller
     private readonly IAdminOrderPageService _adminOrderPageService;
     private readonly ICategoryServices _categoryServices;
     private readonly UsefulChecks _checks;
-    private readonly IAdminUserManagementPage _adminUserManagementPage;
+    private readonly IAdminUserManagementPageService _adminUserManagementPageService;
+    private readonly IAdminAccountPageBuilderService _builder;
 
 
     public AdminController(IAdminProductManagementPageService adminProductManagementPageService,
         ICategoryServices categoryServices, IAdminOrderPageService adminOrderPageService,
-        IAdminUserManagementPage adminUserManagementPage)
+        IAdminUserManagementPageService adminUserManagementPageService,
+        IAdminAccountPageBuilderService builder)
     {
         _categoryServices = categoryServices;
         _adminProductManagementPageService = adminProductManagementPageService;
         _adminOrderPageService = adminOrderPageService;
-        _adminUserManagementPage = adminUserManagementPage;
+        _adminUserManagementPageService = adminUserManagementPageService;
+        _builder = builder;
     }
 
     [HttpGet]
@@ -45,9 +49,12 @@ public class AdminController : Controller
             return View("Forms/AddAdmin", model);
         }
 
+        Console.WriteLine($"admin FN: {model.FirstName}");
+        Console.WriteLine($"admin FN: {model.LastName}");
+
         try
         {
-            var result = await _adminUserManagementPage.AddAdmin(model);
+            var result = await _adminUserManagementPageService.AddAdmin(model);
             if (result.Success == true && result.Data != null)
             {
                 TempData["SuccessMessage"] = result.ErrorMessage;
@@ -69,9 +76,13 @@ public class AdminController : Controller
         return View();
     }
 
-    public IActionResult AdminAccount()
+    //TODO: Create a builder for this 
+    [HttpGet]
+    public async Task<IActionResult> AdminAccount()
     {
-        return View();
+        var viewModel = await _builder.BuildAsync(User.Identity.Name); // sau alt email valid
+        
+        return View(viewModel);
     }
 
     [HttpGet]

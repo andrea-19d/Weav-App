@@ -34,30 +34,4 @@ public class UsefulChecks
         
         return result.Models.FirstOrDefault();
     }
-    
-    public bool ValidateModel(CreateProductModel model)
-    {
-
-        if (string.IsNullOrWhiteSpace(model.ProductName))
-            return false;
-
-        if (string.IsNullOrWhiteSpace(model.Brand))
-            return false;
-
-        if (string.IsNullOrWhiteSpace(model.SelectedCategory))
-            return false;
-
-        if (model.ProductPrice <= 0.0m)
-            return false;
-
-        if (model.Quantity < 0)
-            return false;
-
-        if (model.Categories == null || !model.Categories.Contains(model.SelectedCategory))
-            return false;
-
-        return true;
-    }
-
-
 }

@@ -46,6 +46,18 @@ namespace Weav_App.Helpers
                 .ForMember(dest => dest.Level, opt => opt.MapFrom(src => src.Level));
 
             CreateMap<RegisterUserModel, RegisterUserDto>();
+            CreateMap<UserDbTable, UserDbTable>()
+                .ForMember(dest => dest.UserId,opt => opt.Ignore())
+                .ForAllMembers(opts =>
+                    opts.Condition((src, dest, srcMember) => 
+                        srcMember != null && 
+                        !(srcMember is string str && string.IsNullOrWhiteSpace(str)) &&
+                        !(srcMember is int i && i == 0) &&
+                        !(srcMember is double d && d == 0.0) &&
+                        !(srcMember is DateTime dt && dt == default))
+                );
+            CreateMap<UserDbTable, UserAccountData>();
+            CreateMap<UserAccountData, UserDbTable>();
         }
     }
 }

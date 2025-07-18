@@ -1,6 +1,6 @@
 ﻿namespace Weav_App.Helpers;
 
-public class ImageHelper
+public static class ImageHelper
 {
     public static async Task<string?> SaveProductImageAsync(IFormFile file, string webRootPath)
     {

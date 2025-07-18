@@ -1,0 +1,515 @@
+2025-07-09 00:08:06.537 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:08:06.540 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:08:06.540 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:08:06.541 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:08:06.541 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0185ms.
+2025-07-09 00:08:06.572 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:08:06.573 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:08:06.989 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:08:06.991 +03:00 [INF] Executed ViewResult - view AdminAccount executed in 420.9745ms.
+2025-07-09 00:08:06.991 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 450.905ms
+2025-07-09 00:08:06.991 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:08:06.991 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 200 null text/html; charset=utf-8 454.4593ms
+2025-07-09 00:08:07.133 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:08:07.133 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.4588ms
+2025-07-09 00:08:07.133 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:08:51.651 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount? - null null
+2025-07-09 00:08:51.652 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:08:51.652 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:08:51.653 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:08:51.653 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0212ms.
+2025-07-09 00:08:51.653 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:08:51.654 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:08:51.856 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:08:51.856 +03:00 [INF] Executed ViewResult - view AdminAccount executed in 203.1541ms.
+2025-07-09 00:08:51.856 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 204.2613ms
+2025-07-09 00:08:51.856 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:08:51.856 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount? - 200 null text/html; charset=utf-8 205.0635ms
+2025-07-09 00:08:51.895 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:08:51.895 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6366ms
+2025-07-09 00:08:51.896 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:19:11.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount? - null null
+2025-07-09 00:19:11.029 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:11.031 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:19:11.031 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:19:11.031 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0144ms.
+2025-07-09 00:19:11.044 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:19:11.056 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 24.9704ms
+2025-07-09 00:19:11.056 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:11.056 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-07-09 00:19:11.065 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Views_Admin_AdminAccount+<ExecuteAsync>d__9#1' in assembly 'Weav-App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:19:11.070 +03:00 [ERR] Connection id "0HNDUB9Q7EQMJ", Request id "0HNDUB9Q7EQMJ:00000001": An unhandled exception was thrown by the application.
+2025-07-09 00:19:11.071 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount? - 500 0 null 43.9653ms
+2025-07-09 00:19:22.836 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount? - null null
+2025-07-09 00:19:22.840 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:22.840 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:19:22.841 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:19:22.842 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0247ms.
+2025-07-09 00:19:22.842 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:19:22.843 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 3.0375ms
+2025-07-09 00:19:22.843 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:22.843 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-07-09 00:19:22.845 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Views_Admin_AdminAccount+<ExecuteAsync>d__9#1' in assembly 'Weav-App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:19:22.845 +03:00 [ERR] Connection id "0HNDUB9Q7EQMJ", Request id "0HNDUB9Q7EQMJ:00000002": An unhandled exception was thrown by the application.
+2025-07-09 00:19:22.846 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount? - 500 0 null 9.7088ms
+2025-07-09 00:19:25.912 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:19:25.912 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:25.912 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:19:25.914 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:19:25.914 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0285ms.
+2025-07-09 00:19:25.925 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:19:25.927 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 14.8924ms
+2025-07-09 00:19:25.928 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:25.928 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-07-09 00:19:25.931 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Views_Admin_AdminAccount+<ExecuteAsync>d__9#1' in assembly 'Weav-App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:19:25.932 +03:00 [ERR] Connection id "0HNDUB9Q7EQMJ", Request id "0HNDUB9Q7EQMJ:00000003": An unhandled exception was thrown by the application.
+2025-07-09 00:19:25.959 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 500 0 null 47.6084ms
+2025-07-09 00:19:29.321 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/ - null null
+2025-07-09 00:19:29.321 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-09 00:19:29.323 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Weav_App.Controllers.HomeController (Weav-App).
+2025-07-09 00:19:29.324 +03:00 [INF] Executing action method Weav_App.Controllers.HomeController.Index (Weav-App) - Validation state: "Valid"
+2025-07-09 00:19:29.324 +03:00 [INF] Executed action method Weav_App.Controllers.HomeController.Index (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0142ms.
+2025-07-09 00:19:29.325 +03:00 [INF] Executing ViewResult, running view Index.
+2025-07-09 00:19:29.378 +03:00 [INF] Executed ViewResult - view Index executed in 53.9988ms.
+2025-07-09 00:19:29.378 +03:00 [INF] Executed action Weav_App.Controllers.HomeController.Index (Weav-App) in 54.4248ms
+2025-07-09 00:19:29.378 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-09 00:19:29.378 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/ - 200 null text/html; charset=utf-8 57.3081ms
+2025-07-09 00:19:29.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/favicon.ico - null null
+2025-07-09 00:19:29.845 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'A:\Git\Weav-App\wwwroot\favicon.ico'
+2025-07-09 00:19:29.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/favicon.ico - 200 5430 image/x-icon 2.0973ms
+2025-07-09 00:19:33.954 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-09 00:19:33.954 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-09 00:19:33.957 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:19:33.957 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-09 00:19:33.957 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.013ms.
+2025-07-09 00:19:33.958 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-09 00:19:33.971 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:19:34.322 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:19:34.327 +03:00 [INF] Executed ViewResult - view Dashboard executed in 369.6902ms.
+2025-07-09 00:19:34.327 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 370.4078ms
+2025-07-09 00:19:34.327 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-09 00:19:34.327 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 373.392ms
+2025-07-09 00:19:34.404 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:19:34.405 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.5052ms
+2025-07-09 00:19:34.405 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:19:36.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:19:36.077 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:36.077 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:19:36.078 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:19:36.078 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0168ms.
+2025-07-09 00:19:36.078 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:19:36.079 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 1.1254ms
+2025-07-09 00:19:36.079 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:19:36.079 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-07-09 00:19:36.081 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Views_Admin_AdminAccount+<ExecuteAsync>d__9#1' in assembly 'Weav-App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:19:36.082 +03:00 [ERR] Connection id "0HNDUB9Q7EQMJ", Request id "0HNDUB9Q7EQMJ:00000008": An unhandled exception was thrown by the application.
+2025-07-09 00:19:36.083 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 500 0 null 5.5914ms
+2025-07-09 00:19:40.889 +03:00 [INF] Application is shutting down...
+2025-07-09 00:19:54.191 +03:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-09 00:19:54.295 +03:00 [INF] Now listening on: http://localhost:5083
+2025-07-09 00:19:54.297 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-09 00:19:54.297 +03:00 [INF] Hosting environment: Development
+2025-07-09 00:19:54.297 +03:00 [INF] Content root path: A:\Git\Weav-App
+2025-07-09 00:19:54.529 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/ - null null
+2025-07-09 00:19:54.534 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-09 00:19:54.566 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-09 00:19:54.577 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Weav_App.Controllers.HomeController (Weav-App).
+2025-07-09 00:19:54.584 +03:00 [INF] Executing action method Weav_App.Controllers.HomeController.Index (Weav-App) - Validation state: "Valid"
+2025-07-09 00:19:54.587 +03:00 [INF] Executed action method Weav_App.Controllers.HomeController.Index (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2915ms.
+2025-07-09 00:19:54.603 +03:00 [INF] Executing ViewResult, running view Index.
+2025-07-09 00:19:54.734 +03:00 [INF] Executed ViewResult - view Index executed in 133.7749ms.
+2025-07-09 00:19:54.743 +03:00 [INF] Executed action Weav_App.Controllers.HomeController.Index (Weav-App) in 165.9373ms
+2025-07-09 00:19:54.744 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-09 00:19:54.749 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/ - 200 null text/html; charset=utf-8 222.3606ms
+2025-07-09 00:20:08.087 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-09 00:20:08.113 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-09 00:20:08.117 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:20:08.413 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-09 00:20:08.413 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2017ms.
+2025-07-09 00:20:08.415 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-09 00:20:08.500 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:20:08.768 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:20:08.797 +03:00 [INF] Executed ViewResult - view Dashboard executed in 384.0296ms.
+2025-07-09 00:20:08.798 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 680.5921ms
+2025-07-09 00:20:08.798 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-09 00:20:08.798 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 713.3062ms
+2025-07-09 00:20:08.850 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:20:08.860 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 10.0547ms
+2025-07-09 00:20:08.863 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:20:11.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-09 00:20:11.870 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:20:11.886 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:20:11.908 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-09 00:20:12.506 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 597.6198ms.
+2025-07-09 00:20:12.513 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-09 00:20:12.662 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:20:12.749 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:20:12.767 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 256.1167ms.
+2025-07-09 00:20:12.768 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 880.9396ms
+2025-07-09 00:20:12.768 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:20:12.768 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 900.6624ms
+2025-07-09 00:20:12.857 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:20:12.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 1.2913ms
+2025-07-09 00:20:12.858 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:20:13.495 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:20:13.499 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:20:13.501 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:20:13.518 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:20:13.518 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2388ms.
+2025-07-09 00:20:13.519 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:20:13.530 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 29.4254ms
+2025-07-09 00:20:13.531 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:20:13.532 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Views_Admin_AdminAccount.ExecuteAsync() in A:\Git\Weav-App\Views\Admin\AdminAccount.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:20:13.604 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 500 null text/html; charset=utf-8 108.5619ms
+2025-07-09 00:21:42.075 +03:00 [INF] Application is shutting down...
+2025-07-09 00:21:48.421 +03:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-09 00:21:48.519 +03:00 [INF] Now listening on: http://localhost:5083
+2025-07-09 00:21:48.521 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-09 00:21:48.521 +03:00 [INF] Hosting environment: Development
+2025-07-09 00:21:48.521 +03:00 [INF] Content root path: A:\Git\Weav-App
+2025-07-09 00:21:48.838 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/ - null null
+2025-07-09 00:21:48.847 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-09 00:21:48.877 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-09 00:21:48.887 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Weav_App.Controllers.HomeController (Weav-App).
+2025-07-09 00:21:48.893 +03:00 [INF] Executing action method Weav_App.Controllers.HomeController.Index (Weav-App) - Validation state: "Valid"
+2025-07-09 00:21:48.896 +03:00 [INF] Executed action method Weav_App.Controllers.HomeController.Index (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2682ms.
+2025-07-09 00:21:48.914 +03:00 [INF] Executing ViewResult, running view Index.
+2025-07-09 00:21:49.028 +03:00 [INF] Executed ViewResult - view Index executed in 120.9752ms.
+2025-07-09 00:21:49.035 +03:00 [INF] Executed action Weav_App.Controllers.HomeController.Index (Weav-App) in 146.9146ms
+2025-07-09 00:21:49.036 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.HomeController.Index (Weav-App)'
+2025-07-09 00:21:49.041 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/ - 200 null text/html; charset=utf-8 205.028ms
+2025-07-09 00:22:28.756 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - null null
+2025-07-09 00:22:28.787 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-09 00:22:28.791 +03:00 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:22:29.084 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.Dashboard (Weav-App) - Validation state: "Valid"
+2025-07-09 00:22:29.085 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.Dashboard (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1265ms.
+2025-07-09 00:22:29.086 +03:00 [INF] Executing ViewResult, running view Dashboard.
+2025-07-09 00:22:29.136 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:22:29.399 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:22:29.439 +03:00 [INF] Executed ViewResult - view Dashboard executed in 354.5072ms.
+2025-07-09 00:22:29.441 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.Dashboard (Weav-App) in 649.0918ms
+2025-07-09 00:22:29.441 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.Dashboard (Weav-App)'
+2025-07-09 00:22:29.442 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Dashboard - 200 null text/html; charset=utf-8 687.7979ms
+2025-07-09 00:22:29.499 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:22:29.512 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 12.6771ms
+2025-07-09 00:22:29.515 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:22:31.287 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-09 00:22:31.290 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:22:31.309 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:22:31.326 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-09 00:22:31.986 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 659.0824ms.
+2025-07-09 00:22:31.995 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-09 00:22:32.171 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:22:32.263 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:22:32.283 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 289.9571ms.
+2025-07-09 00:22:32.283 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 974.2943ms
+2025-07-09 00:22:32.283 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:22:32.283 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 996.3487ms
+2025-07-09 00:22:32.366 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:22:32.367 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 1.3134ms
+2025-07-09 00:22:32.368 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:22:33.576 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:22:33.580 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:22:33.583 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:22:33.601 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:22:33.602 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2367ms.
+2025-07-09 00:22:33.603 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:22:33.612 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 28.0761ms
+2025-07-09 00:22:33.612 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:22:33.613 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Views_Admin_AdminAccount.ExecuteAsync() in A:\Git\Weav-App\Views\Admin\AdminAccount.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:22:33.687 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 500 null text/html; charset=utf-8 110.8069ms
+2025-07-09 00:24:14.159 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:24:14.160 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:14.164 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:24:14.166 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:24:14.166 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0247ms.
+2025-07-09 00:24:14.176 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:24:14.188 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 22.9976ms
+2025-07-09 00:24:14.188 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:14.188 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-07-09 00:24:14.190 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Views_Admin_AdminAccount+<ExecuteAsync>d__9#1' in assembly 'Weav-App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.CreateCustomAttributeInstance(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:24:14.196 +03:00 [ERR] Connection id "0HNDUCLPFH35K", Request id "0HNDUCLPFH35K:00000001": An unhandled exception was thrown by the application.
+2025-07-09 00:24:14.198 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 500 0 null 38.1777ms
+2025-07-09 00:24:15.591 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-09 00:24:15.594 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:24:15.598 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:24:15.599 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-09 00:24:16.158 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 558.9091ms.
+2025-07-09 00:24:16.159 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-09 00:24:16.172 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:24:16.243 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:24:16.247 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 88.4378ms.
+2025-07-09 00:24:16.247 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 649.4579ms
+2025-07-09 00:24:16.247 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:24:16.247 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 655.8135ms
+2025-07-09 00:24:17.561 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:24:17.562 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:17.562 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:24:17.563 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:24:17.563 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0242ms.
+2025-07-09 00:24:17.563 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:24:17.564 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 2.0931ms
+2025-07-09 00:24:17.564 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:17.564 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-07-09 00:24:17.566 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Views_Admin_AdminAccount+<ExecuteAsync>d__9#1' in assembly 'Weav-App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.CreateCustomAttributeInstance(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:24:17.567 +03:00 [ERR] Connection id "0HNDUCLPFH35K", Request id "0HNDUCLPFH35K:00000003": An unhandled exception was thrown by the application.
+2025-07-09 00:24:17.568 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 500 0 null 7.0238ms
+2025-07-09 00:24:19.638 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-09 00:24:19.639 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:24:19.639 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:24:19.640 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-09 00:24:19.957 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 317.643ms.
+2025-07-09 00:24:19.958 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-09 00:24:19.963 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:24:20.037 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:24:20.038 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 80.4954ms.
+2025-07-09 00:24:20.038 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 399.2746ms
+2025-07-09 00:24:20.038 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:24:20.039 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 400.386ms
+2025-07-09 00:24:20.754 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - null null
+2025-07-09 00:24:20.755 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:24:20.755 +03:00 [INF] Route matched with {action = "ProductManagement", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductManagement(System.String, System.String, Int32, Int32) on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:24:20.756 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App) - Validation state: "Valid"
+2025-07-09 00:24:21.066 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.ProductManagement (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 310.5519ms.
+2025-07-09 00:24:21.067 +03:00 [INF] Executing ViewResult, running view ProductManagement.
+2025-07-09 00:24:21.068 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:24:21.134 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:24:21.135 +03:00 [INF] Executed ViewResult - view ProductManagement executed in 68.5786ms.
+2025-07-09 00:24:21.135 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.ProductManagement (Weav-App) in 380.2133ms
+2025-07-09 00:24:21.135 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.ProductManagement (Weav-App)'
+2025-07-09 00:24:21.135 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/ProductManagement - 200 null text/html; charset=utf-8 381.3605ms
+2025-07-09 00:24:21.167 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:24:21.168 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 0.6345ms
+2025-07-09 00:24:21.168 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:24:22.419 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:24:22.420 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:22.420 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:24:22.421 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:24:22.421 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0179ms.
+2025-07-09 00:24:22.421 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:24:22.422 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 1.2646ms
+2025-07-09 00:24:22.422 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:22.422 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+2025-07-09 00:24:22.423 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.TypeLoadException: Could not resolve type 'AspNetCoreGeneratedDocument.Views_Admin_AdminAccount+<ExecuteAsync>d__9#1' in assembly 'Weav-App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.TypeNameResolver.GetTypeFromDefaultAssemblies(String typeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.GetType(String escapedTypeName, ReadOnlySpan`1 nestedTypeNames, TypeName parsedName)
+   at System.Reflection.TypeNameResolver.Resolve(TypeName typeName)
+   at System.Reflection.TypeNameResolver.GetTypeHelper(Char* pTypeName, RuntimeAssembly requestingAssembly, Boolean throwOnError, Boolean requireAssemblyQualifiedName)
+   at System.Reflection.CustomAttribute.<CreateCustomAttributeInstance>g____PInvoke|30_0(QCallModule __pModule_native, ObjectHandleOnStack __type_native, ObjectHandleOnStack __pCtor_native, IntPtr* __ppBlob_native, IntPtr __pEndBlob_native, Int32* __pcNamedArgs_native, ObjectHandleOnStack __instance_native)
+   at System.Reflection.CustomAttribute.CreateCustomAttributeInstance(RuntimeModule module, RuntimeType type, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetMethodDisplayString(MethodBase method)
+   at Microsoft.Extensions.StackTrace.Sources.StackTraceHelper.GetFrames(Exception exception, AggregateException& error)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetStackFrames(Exception original)
+   at Microsoft.Extensions.StackTrace.Sources.ExceptionDetailsProvider.GetDetails(Exception exception)+MoveNext()
+   at Microsoft.AspNetCore.Diagnostics.RazorViews.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-09 00:24:22.423 +03:00 [ERR] Connection id "0HNDUCLPFH35K", Request id "0HNDUCLPFH35K:00000007": An unhandled exception was thrown by the application.
+2025-07-09 00:24:22.424 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 500 0 null 4.9218ms
+2025-07-09 00:24:39.622 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - null null
+2025-07-09 00:24:39.622 +03:00 [INF] Executing endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:39.624 +03:00 [INF] Route matched with {action = "AdminAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminAccount() on controller Weav_App.Controllers.AdminController (Weav-App).
+2025-07-09 00:24:39.625 +03:00 [INF] Executing action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App) - Validation state: "Valid"
+2025-07-09 00:24:39.625 +03:00 [INF] Executed action method Weav_App.Controllers.AdminController.AdminAccount (Weav-App), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0122ms.
+2025-07-09 00:24:39.626 +03:00 [INF] Executing ViewResult, running view AdminAccount.
+2025-07-09 00:24:39.649 +03:00 [INF] Fetching pending orders...
+2025-07-09 00:24:39.730 +03:00 [INF] Fetched 0 pending orders.
+2025-07-09 00:24:39.732 +03:00 [INF] Executed ViewResult - view AdminAccount executed in 107.2877ms.
+2025-07-09 00:24:39.732 +03:00 [INF] Executed action Weav_App.Controllers.AdminController.AdminAccount (Weav-App) in 108.275ms
+2025-07-09 00:24:39.732 +03:00 [INF] Executed endpoint 'Weav_App.Controllers.AdminController.AdminAccount (Weav-App)'
+2025-07-09 00:24:39.732 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/AdminAccount - 200 null text/html; charset=utf-8 110.7141ms
+2025-07-09 00:24:39.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-07-09 00:24:39.796 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/css/style.css?v=zj49xgnmzcGQ5jW-KCh2qKv1lcKniMAueSi83bvZRGM - null null
+2025-07-09 00:24:39.802 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/style.css?v=t8MuRMgis_Q6Wm9tODF6cvFEidwjubxuOisjsVW6NKw - null null
+2025-07-09 00:24:39.806 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'A:\Git\Weav-App\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-07-09 00:24:39.806 +03:00 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'A:\Git\Weav-App\wwwroot\css\style.css'
+2025-07-09 00:24:39.806 +03:00 [INF] Sending file. Request path: '/Admin/style.css'. Physical path: 'A:\Git\Weav-App\wwwroot\Admin\style.css'
+2025-07-09 00:24:39.806 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/css/bootstrap.min.css - 200 232808 text/css 14.047ms
+2025-07-09 00:24:39.806 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/style.css?v=t8MuRMgis_Q6Wm9tODF6cvFEidwjubxuOisjsVW6NKw - 200 16643 text/css 4.8451ms
+2025-07-09 00:24:39.806 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/css/style.css?v=zj49xgnmzcGQ5jW-KCh2qKv1lcKniMAueSi83bvZRGM - 200 17859 text/css 10.2883ms
+2025-07-09 00:24:39.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/images/logo.png - null null
+2025-07-09 00:24:39.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/lib/jquery/dist/jquery.min.js - null null
+2025-07-09 00:24:39.808 +03:00 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'A:\Git\Weav-App\wwwroot\images\logo.png'
+2025-07-09 00:24:39.808 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/images/logo.png - 200 6116 image/png 0.6709ms
+2025-07-09 00:24:39.808 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'A:\Git\Weav-App\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-07-09 00:24:39.808 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/lib/jquery/dist/jquery.min.js - 200 87535 text/javascript 0.704ms
+2025-07-09 00:24:39.845 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-07-09 00:24:39.846 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'A:\Git\Weav-App\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-07-09 00:24:39.846 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80727 text/javascript 0.9624ms
+2025-07-09 00:24:39.848 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - null null
+2025-07-09 00:24:39.859 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/Admin/Admin/script.js - 404 0 null 11.1569ms
+2025-07-09 00:24:39.859 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5083/Admin/Admin/script.js, Response status code: 404
+2025-07-09 00:24:40.002 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5083/favicon.ico - null null
+2025-07-09 00:24:40.003 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'A:\Git\Weav-App\wwwroot\favicon.ico'
+2025-07-09 00:24:40.003 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5083/favicon.ico - 200 5430 image/x-icon 0.9268ms
+2025-07-09 00:52:55.830 +03:00 [INF] Application is shutting down...

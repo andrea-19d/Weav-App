@@ -2,6 +2,6 @@
 
 public  class GeneralPageViewModel
 {
- 
-    public PaginationData Pagination { get; set; } 
+
+    public PaginationData Pagination { get; set; } = new();
 }

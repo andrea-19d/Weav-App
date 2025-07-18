@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Weav_App.Helpers;
 
-public class NanoidGenerator
+public static class NanoidGenerator
 {
     private const string Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
     private static readonly RandomNumberGenerator _rng = RandomNumberGenerator.Create();
