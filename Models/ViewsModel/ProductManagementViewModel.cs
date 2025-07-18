@@ -6,5 +6,5 @@ public class ProductManagementViewModel : GeneralPageViewModel
 {
     public List<ProductDto>? Products { get; set; } = new();
     public ProductFilterModel Filter { get; set; } = new();
-    public ProductStats Stats { get; set; }   
+    public ProductStats Stats { get; set; } = new();
 }

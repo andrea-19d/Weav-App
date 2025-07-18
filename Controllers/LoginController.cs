@@ -40,6 +40,11 @@ public class LoginController : Controller
         }
 
         var loginDto = _mapper.Map<LoginUserDto>(model);
+        if (model.Level.Equals("Admin"))
+        {
+            
+        }
+        
         var user = await _authService.LoginUser(loginDto, loginDto.Password);
 
         if (user.succes == null)

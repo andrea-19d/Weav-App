@@ -42,10 +42,6 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
 
         try
         {
-            if (level == UserLevel.Admin)
-            {
-                // await _supabase.AdminAuth()
-            }
             await _supabase.From<UserDbTable>().Insert(userEntity);
             return (true, null);
         }
@@ -55,6 +51,7 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
         }
     }
 
+    //TODO: Authentification for the admin with the supabase things 
     public async Task<(bool succes, UserLevel level)> LoginUserAsync(LoginUserDto loginUserDto, string password)
     {
         var result = await _supabase
@@ -74,6 +71,17 @@ public class AuthRepository :  PasswordHasher<string>, IAuthRepository
             return (false, UserLevel.Guest);
 
         user.LastLogin = DateTime.UtcNow;
+        Console.WriteLine(user.Username);
+
+        try
+        {
+            await _supabase.From<UserDbTable>().Update(user);
+            Console.WriteLine(user.LastLogin);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
         
         Console.WriteLine($"LoginUserAsync: {user.Level}");
         return (true, user.Level);

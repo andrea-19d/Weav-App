@@ -3,6 +3,7 @@ using Weav_App.Models;
 using Weav_App.Repositories;
 using Weav_App.Repositories.Interface;
 using Weav_App.Services.AdminService;
+using Weav_App.Services.AdminService.Builder;
 using Weav_App.Services.General.InsertStrategies;
 using Weav_App.Services.Interface;
 using Weav_App.Services.OrderServices;
@@ -21,8 +22,11 @@ public static class StartupHelper
         
         //Admin
         services.AddScoped<IAdminProductManagementPageService, AdminProductManagementPageService>();
+        services.AddScoped<IAdminAccountPageService, AdminAccountPageServiceService>();
         services.AddScoped<IAdminOrderPageService, AdminOrdersPageService>();
-        services.AddScoped<IAdminUserManagementPage, AdminUserManagementPage>();
+        services.AddScoped<IAdminUserManagementPageService, AdminUserManagementPageServiceService>();
+        services.AddScoped<IAdminAccountRepository, AdminAccountRepository>();
+        services.AddScoped<IAdminAccountPageBuilderService, AdminAccountPageBuilderService>();  
         
         //User
         services.AddScoped<IUserRepository, UserRepository>();

@@ -3,7 +3,7 @@ using Weav_App.Services.General;
 
 namespace Weav_App.Services.Interface;
 
-public interface IAdminUserManagementPage
+public interface IAdminUserManagementPageService
 {
     Task<ServiceResult<RegisterUserModel>> AddAdmin(RegisterUserModel model);
 }

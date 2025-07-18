@@ -11,7 +11,6 @@ public class ProductRepository : IProductRepository
     private readonly Client _supabase;  
     private readonly IMapper _mapper;
     private readonly UsefulChecks _checks;
-    private readonly NanoidGenerator _nanoidGenerator;
     
     public ProductRepository(Client supabase, IMapper mapper, UsefulChecks checks)
     {
@@ -64,6 +63,7 @@ public class ProductRepository : IProductRepository
     public async Task<ErrorModel> UpdateProductAsync(ProductDbTable product)
     {
         var existingProduct = await GetProductByIdAsync(product.ProductId);
+        
         if (existingProduct == null)
         {
             return new ErrorModel()

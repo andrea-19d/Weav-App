@@ -38,6 +38,8 @@ public class OrderRepository : IOrderRepository
         }
     }
     
+    //TODO: crete order function
+    
     public async Task<List<OrdersDbTable>> GetAllOrdersAsync()
     {
         var orders = await _supabase.From<OrdersDbTable>().Get();

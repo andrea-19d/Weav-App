@@ -6,11 +6,11 @@ using Weav_App.Services.Interface;
 
 namespace Weav_App.Services.AdminService;
 
-public class AdminUserManagementPage : IAdminUserManagementPage
+public class AdminUserManagementPageServiceService : IAdminUserManagementPageService
 {
     private readonly IStrategy<RegisterUserModel> _insertProductStrategy;
 
-    public AdminUserManagementPage(IStrategy<RegisterUserModel> insertProductStrategy)
+    public AdminUserManagementPageServiceService(IStrategy<RegisterUserModel> insertProductStrategy)
     {
         _insertProductStrategy = insertProductStrategy;
     }
